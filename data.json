@@ -1,0 +1,32 @@
+[
+    {
+        "channel": 2,
+        "weekday": "Sun",
+        "start": "19:00",
+        "end": "20:00",
+        "duration": 50,
+        "title": "El Faro",
+        "resource": "https:\/\/localhost\/tv\/sample-1.mp4",
+        "last_seen_episode": 0
+    },
+    {
+        "channel": 9,
+        "weekday": "Fri",
+        "start": "21:00",
+        "end": "22:00",
+        "duration": 50,
+        "title": "BJ",
+        "resource": "https:\/\/localhost\/tv\/BJ - s03e12.mp4",
+        "last_seen_episode": 2
+    },
+    {
+        "channel": 9,
+        "weekday": "Tue",
+        "start": "20:00",
+        "end": "21:00",
+        "duration": 50,
+        "title": "El Conejo",
+        "resource": "https:\/\/localhost\/tv\/mi_video.mp4",
+        "last_seen_episode": 2
+    }
+]
