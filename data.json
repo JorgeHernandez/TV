@@ -11,9 +11,9 @@
     },
     {
         "channel": 9,
-        "weekday": "Fri",
-        "start": "21:00",
-        "end": "22:00",
+        "weekday": "Sat",
+        "start": "22:00",
+        "end": "23:00",
         "duration": 50,
         "title": "BJ",
         "resource": "https:\/\/localhost\/tv\/BJs03e12.mp4",

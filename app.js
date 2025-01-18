@@ -3,9 +3,6 @@ Mejoras:
 -si la hora actual es la hora de inicio, cortar loop señal de ajuste y arrancar el primer programa del 9
 -si la hora actual es inicio menos 30 min, cortar loop ruido y poner señal de ajuste
 -añadir publi (pre roll y post roll) hasta completar el horario, basado en la duracion
--saltar al minuto actual del show
-    -si es antes de ppio de transmision y despues de fin, mostrar ruido
-    -mostrar señal de ajuste 30 min antes de inicio de transmision
 -PASAR AL PROGRAMA SIGUIENTE: Al finalizar un programa (o el ruido o la señal de ajuste), debe iniciar el siguiente 
 -incrementar el ultimo episodio en el json
 -añadir varios episodios de un mismo show, con numero de orden
@@ -16,6 +13,11 @@ Mejoras:
 -2 json: 1984 y 1985
 -quitar debugs y titulos
 -ver si es posible integrar con youtube otros shows que no estan bajados
+
+    -saltar al minuto actual del show
+    -si es antes de ppio de transmision y despues de fin, mostrar ruido
+    -mostrar señal de ajuste 30 min antes de inicio de transmision
+
 */
 
 
@@ -77,7 +79,7 @@ console.log("Cargando video desde:", currentProgram.resource);
 
 
             //Fix me
-            videoPlayer.muted = true; // Mutear para que se permita arrancar sin que el usuario toque
+            //videoPlayer.muted = true; // Mutear para que se permita arrancar sin que el usuario toque
             videoPlayer.play();//Iniciar la reproducción
 
             //Incrementar el último episodio visto
@@ -123,7 +125,7 @@ console.log("Mostrando ruido...");
         document.getElementById('video-source').src = "noise.mp4";
         videoPlayer.load();
         videoPlayer.loop = true; // Habilitar el bucle
-        videoPlayer.muted = true; // Mutear para que se permita arrancar sin que el usuario toque
+        //videoPlayer.muted = true; // Mutear para que se permita arrancar sin que el usuario toque
         videoPlayer.play();//Iniciar la reproducción
     }
 
@@ -135,7 +137,7 @@ console.log("Cargando señal de ajuste...");
         document.getElementById('video-source').src = "signal.mp4";
         videoPlayer.load();
         videoPlayer.loop = true; // Habilitar el bucle
-        videoPlayer.muted = true; // Mutear para que se permita arrancar sin que el usuario toque
+        //videoPlayer.muted = true; // Mutear para que se permita arrancar sin que el usuario toque
         videoPlayer.play();//Iniciar la reproducción
     }
 
