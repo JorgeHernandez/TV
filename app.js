@@ -18,6 +18,9 @@ Mejoras:
     -si es antes de ppio de transmision y despues de fin, mostrar ruido
     -mostrar señal de ajuste 30 min antes de inicio de transmision
 
+BUGS
+si un show empieza a las 23:00 y termina a las 00:00 no lo encuentra: En el json las 0:00 deben indicarse como 24:00
+poner en fullscreen al empezar video.mozRequestFullScreen();
 */
 
 
@@ -45,20 +48,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const startTime = startHour * 60 + startMinute;
             const endTime = endHour * 60 + endMinute;
 
-console.dir(programs);
-console.dir(program.weekday.toLowerCase());
-console.dir(currentDayShort);
-console.dir('currentTimeInMinutes: ' + currentTimeInMinutes);
-console.dir('startTime: ' + startTime);
-console.dir('endTime: ' + endTime);
-
             return program.channel == channel &&
                    program.weekday.toLowerCase() === currentDayShort &&
                    currentTimeInMinutes >= startTime && currentTimeInMinutes < endTime;
         });
 
         if (currentProgram) {
-console.log("Cargando video desde:", currentProgram.resource);
             currentShowDiv.innerHTML = `<h2>Programa Actual: ${currentProgram.title}</h2>
                                         <p>Día: ${now.toLocaleString('en-US', { weekday: 'long' })} (${currentDayShort})</p>
                                         <p>Hora Actual: ${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}</p>`;
@@ -78,8 +73,6 @@ console.log("Cargando video desde:", currentProgram.resource);
             }
 
 
-            //Fix me
-            //videoPlayer.muted = true; // Mutear para que se permita arrancar sin que el usuario toque
             videoPlayer.play();//Iniciar la reproducción
 
             //Incrementar el último episodio visto
@@ -100,7 +93,7 @@ console.log("Cargando video desde:", currentProgram.resource);
         // Definir el canal por defecto como 9
 
         //Leer el json con la grilla de programas
-        fetch('data.json?q=qweeeqwr')
+        fetch('data.json?q=qweqwwqer')
             .then(response => response.json())
             .then(data => {
                 let programsList = '<h1>Programas de Televisión</h1><ul>';
@@ -125,7 +118,6 @@ console.log("Mostrando ruido...");
         document.getElementById('video-source').src = "noise.mp4";
         videoPlayer.load();
         videoPlayer.loop = true; // Habilitar el bucle
-        //videoPlayer.muted = true; // Mutear para que se permita arrancar sin que el usuario toque
         videoPlayer.play();//Iniciar la reproducción
     }
 
@@ -137,7 +129,6 @@ console.log("Cargando señal de ajuste...");
         document.getElementById('video-source').src = "signal.mp4";
         videoPlayer.load();
         videoPlayer.loop = true; // Habilitar el bucle
-        //videoPlayer.muted = true; // Mutear para que se permita arrancar sin que el usuario toque
         videoPlayer.play();//Iniciar la reproducción
     }
 
@@ -161,6 +152,9 @@ console.log("Cargando señal de ajuste...");
 
                 // Si encontramos el recurso, incrementamos last_seen_episode
                 if (recurso) {
+                    //cargar postroll tanda publicitaria
+                    loadPostRoll(recurso);
+
                     recurso.last_seen_episode += 1;
                     console.log(`Nuevo valor de last_seen_episode para el recurso ${resource}:`, recurso.last_seen_episode);
 
@@ -189,12 +183,50 @@ console.log("Cargando señal de ajuste...");
             .catch(error => {
                 console.error('Error al cargar el JSON:', error);
             });
+
     }
 
 
+    //al finalizar un video, mostrar publicidad hasta la hora de finalización del show
+    function loadPostRoll(recurso){
 
+        //Calcular tiempo disponible para publicidad
+        let showEndsAt = recurso.end.split(':')[1];
+        showEndsAt = (showEndsAt === '00') ? 60 : showEndsAt;
+        const availableTime = (showEndsAt - recurso.duration)*60;//en segundos
+        console.log(recurso.end+' '+recurso.duration+' '+availableTime);
+        
+        //buscar una tanda mayor al tiempo disponible, saltar a duracionTanda - tiempoDisponible y play
+        //o iniciar una tanda mayor a duración y con un eventlistener, al llegar a disponible + 1 segundo, cargar el siguiente programa
+        //debería tener tandas de duracion standard (los shows son de 45 o 50 minutos para un slot de 60)
+        //hay que cuidar que no llame al onVideoEnded() (con un flag o cortando ANTES que termine la tanda)
+        //la tanda debería tener un blanco al final de 5 segundos
 
+        const postRoll = 'tanda.mp4';//FIX ME
+        document.getElementById('video-source').src = postRoll;
+        videoPlayer.load();
+        videoPlayer.play();//Iniciar la reproducción
 
+        // Escuchar el evento timeupdate durante el postroll
+        let alreadyJumped = false;
+        videoPlayer.addEventListener('timeupdate', function() {
+            // Verificar si se alcanza el fin del availableTime 
+            if (videoPlayer.currentTime > availableTime) {
+                if(!alreadyJumped){
+                    alreadyJumped = true;// Marcar que ya se ha saltado
+                    nextShow();
+                }
+                // Remover el listener para que no se llame múltiples veces
+                videoPlayer.removeEventListener('timeupdate', arguments.callee);
+            }
+        });
+    }
+
+    //Cargar siguiente programa en el mismo canal
+    function nextShow(){
+        console.log('buscar siguiente show si no terminó la programación');
+        loadContent();
+    }
 
     // Obtener la hora actual del sistema
     const now = new Date();
