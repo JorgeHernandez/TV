@@ -11,13 +11,13 @@
     },
     {
         "channel": 9,
-        "weekday": "Sun",
-        "start": "12:00",
-        "end": "13:00",
+        "weekday": "Sat",
+        "start": "20:00",
+        "end": "21:00",
         "duration": 50,
         "title": "Las aventuras de BJ",
         "resource": "https:\/\/localhost\/tv\/BJs03e12.mp4",
-        "last_seen_episode": 20
+        "last_seen_episode": 22
     },
     {
         "channel": 7,

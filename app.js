@@ -17,22 +17,27 @@ Mejoras:
     -saltar al minuto actual del show
     -si es antes de ppio de transmision y despues de fin, mostrar ruido
     -mostrar señal de ajuste 30 min antes de inicio de transmision
+-mover la configuración a otro archivo
+-Crear varios json: 1976, 1984, 1985, 1986
 
 BUGS
 si un show empieza a las 23:00 y termina a las 00:00 no lo encuentra: En el json las 0:00 deben indicarse como 24:00
 poner en fullscreen al empezar video.mozRequestFullScreen();
 */
 
+//Cargar la configuración
+import config from './config.js';
 
 document.addEventListener('DOMContentLoaded', function() {
+
     const content = document.getElementById('content');
     const videoPlayer = document.getElementById('video-player');
     const currentShowDiv = document.getElementById('current-show');
 
     // Configuración por defecto
     
-    const transmissionStart = "10:00";
-    const transmissionEnd = "01:00";
+    //const transmissionStart = "10:00";
+    //const transmissionEnd = "01:00";
 
     // Función para cargar el programa actual
     function loadCurrentShow(programs, channel) {
@@ -89,11 +94,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    function loadContent(channel = 9) {
-        // Definir el canal por defecto como 9
+    function loadContent(channel = config.defaultChannel) {
 
         //Leer el json con la grilla de programas
-        fetch('data.json?q=qweqwwqer')
+        fetch(config.yearProgramList)
             .then(response => response.json())
             .then(data => {
                 let programsList = '<h1>Programas de Televisión</h1><ul>';
@@ -139,7 +143,7 @@ console.log("Cargando señal de ajuste...");
 
 
         // Leer el JSON con la grilla de programas para actualizar last_seen_episode
-        fetch('data.json?q=xxyy111')
+        fetch(config.yearProgramList)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Error al cargar el archivo JSON');
@@ -235,7 +239,7 @@ console.log("Cargando señal de ajuste...");
     const currentTime = `${currentHour.toString().padStart(2, '0')}:${currentMinute.toString().padStart(2, '0')}`; // Formato HH:MM
 
     // Calcular la hora que representa 30 minutos antes de transmissionStart
-    const [startHour, startMinute] = transmissionStart.split(':').map(Number);
+    const [startHour, startMinute] = config.transmissionStart.split(':').map(Number);
 
 
     // Calcular los minutos totales y restar 30
@@ -256,11 +260,11 @@ console.log("Cargando señal de ajuste...");
 
 
     // Comparar las horas
-    if (currentTime > thirtyMinutesBeforeStart && currentTime < transmissionStart) {
+    if (currentTime > thirtyMinutesBeforeStart && currentTime < config.transmissionStart) {
         loadAdjustSignal(); // Llama a esta función si es al menos 30 minutos antes de transmissionStart
-    } else if ((currentTime < transmissionStart && currentTime > transmissionEnd) || 
-               (currentTime < transmissionStart && currentTime >= "00:00") || 
-               (currentTime < "01:00" && currentTime >= transmissionEnd)) {
+    } else if ((currentTime < config.transmissionStart && currentTime > config.transmissionEnd) || 
+               (currentTime < config.transmissionStart && currentTime >= "00:00") || 
+               (currentTime < "01:00" && currentTime >= config.transmissionEnd)) {
         loadNoise(); // Llama a esta función despues del fin de transmision y hasta 30 minutos antes del inicio
     } else {
         // Cargar contenido inicial
