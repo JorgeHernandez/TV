@@ -1,23 +1,33 @@
 [
     {
         "channel": 9,
-        "weekday": "Sat",
-        "start": "21:00",
-        "end": "22:00",
+        "weekday": "Sun",
+        "start": "20:00",
+        "end": "21:00",
         "duration": 46,
         "title": "Sheriff Lobo",
         "resource": "https:\/\/localhost\/tv\/SheriffLobo.mp4",
-        "last_seen_episode": 2
+        "last_seen_episode": 10
     },
     {
         "channel": 9,
-        "weekday": "Sat",
-        "start": "20:00",
-        "end": "21:00",
-        "duration": 50,
+        "weekday": "Sun",
+        "start": "21:00",
+        "end": "22:00",
+        "duration": 49,
         "title": "Las aventuras de BJ",
         "resource": "https:\/\/localhost\/tv\/BJs03e12.mp4",
         "last_seen_episode": 23
+    },
+    {
+        "channel": 9,
+        "weekday": "Sun",
+        "start": "22:00",
+        "end": "23:00",
+        "duration": 53,
+        "title": "Airwolf",
+        "resource": "https:\/\/localhost\/tv\/Airwolf.mp4",
+        "last_seen_episode": 0
     },
     {
         "channel": 7,
