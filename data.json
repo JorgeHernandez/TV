@@ -4,10 +4,10 @@
         "weekday": "Sat",
         "start": "21:00",
         "end": "22:00",
-        "duration": 50,
+        "duration": 46,
         "title": "Sheriff Lobo",
         "resource": "https:\/\/localhost\/tv\/SheriffLobo.mp4",
-        "last_seen_episode": 1
+        "last_seen_episode": 2
     },
     {
         "channel": 9,
@@ -17,7 +17,7 @@
         "duration": 50,
         "title": "Las aventuras de BJ",
         "resource": "https:\/\/localhost\/tv\/BJs03e12.mp4",
-        "last_seen_episode": 22
+        "last_seen_episode": 23
     },
     {
         "channel": 7,
