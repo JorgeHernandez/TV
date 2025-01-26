@@ -40,12 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const videoPlayer = document.getElementById('video-player');
     const currentShowDiv = document.getElementById('current-show');
 
-    // Configuración por defecto
-    
-    //const transmissionStart = "10:00";
-    //const transmissionEnd = "01:00";
-
-    // Función para cargar el programa actual
+    // Función para cargar el programa actual de un canal
     function loadCurrentShow(programs, channel) {
         const now = new Date();
         const currentDayShort = now.toLocaleString('en-US', { weekday: 'short' }).toLowerCase(); // 'Mon', 'Tue', etc.
@@ -76,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const startTimeInMinutes = startHour * 60 + startMinute;
             const minutesSinceStart = currentTimeInMinutes - startTimeInMinutes; // Minutos desde el inicio del programa
 
-            // Asegúrate de que no sea negativo
+            // Asegurarse de que no sea negativo
             if (minutesSinceStart > 0) {
                 videoPlayer.currentTime = minutesSinceStart * 60; // Establecer el tiempo actual del video en segundos
             } else {
@@ -101,7 +96,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function loadContent(channel = config.defaultChannel) {
-
         //Leer el json con la grilla de programas
         fetch(config.yearProgramList)
             .then(response => response.json())
@@ -121,8 +115,6 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
 
-
-
     // Función para verificar la hora y controlar la reproducción de ruido y señal de ajuste
     // El ruido (noise.mp4) se reproduce en loop desde config.transmissionEnd hasta 30 min antes de config.transmissionStart
     // La señal de ajuste (signal.mp4) se reproduce desde 30 min antes de config.transmissionStart hasta config.transmissionStart
@@ -132,27 +124,27 @@ document.addEventListener('DOMContentLoaded', function() {
         const currentMinutes = now.getMinutes();
         const currentTime = `${String(currentHour).padStart(2, '0')}:${String(currentMinutes).padStart(2, '0')}`;
 
-        // Calcular la hora de inicio y la hora de ajuste
+        // Calcular la hora de inicio del ruido y la hora de inicio de señal de ajuste
         const [startHour, startMinute] = config.transmissionStart.split(':').map(Number);
         const transmissionStartTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), startHour, startMinute);
         const adjustmentTime = new Date(transmissionStartTime.getTime() - 30 * 60 * 1000); // 30 minutos antes
         const [endHour, endMinute] = config.transmissionEnd.split(':').map(Number);
         const transmissionEndTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), endHour, endMinute);
 
-        // Comparar con la hora de ajuste y de inicio
+        // Comparar la hora actual con la hora de inicio de señal de ajuste y de inicio de programación
         if (now >= adjustmentTime && now < transmissionStartTime) {
-            // Llamar a la función que muestra la señal de ajuste
+            // 30 min antes de empezar la transmisión, llamar a la función que muestra la señal de ajuste
             loadAdjustSignal();
         } else if(now >= transmissionEndTime){
-            //llamar a la funcion que muestra solo ruido
+            //sino, si la transmisión del día ya termino, llamar a la funcion que muestra solo ruido
             loadNoise();
         } else if (now >= transmissionStartTime) {
-            // Detener la reproducción del video original
+            // Si ya empezó la trasnmisión diaria, detener la reproducción de la señal de ajuste y buscar el primer programa
             videoPlayer.pause();
             videoPlayer.currentTime = 0; // Reiniciar el video si es necesario
             loadContent(config.defaultChannel); // Llamar a la función para cargar el contenido (primer programa del dia)
         } else {
-            alert('algo fallo');//fix me!
+alert('algo fallo');//fix me!
         }
 
         // Calcular el tiempo hasta el próximo minuto
@@ -276,12 +268,7 @@ console.log("Cargando señal de ajuste...");
                     nextShow();
                 }
                 // Remover el listener para que no se llame múltiples veces
-                videoPlayer.removeEventListener('timeupdate', onTimeUpdate);//FIX ME
-                /*
-                Al acceder a arguments.callee, que está prohibido en el modo estricto de JavaScript. 
-                En el modo estricto, no puedes acceder a la función que está siendo ejecutada a través de arguments.callee.
-                Para solucionar este problema, puedes usar una función nombrada en lugar de una función anónima.
-                */
+                videoPlayer.removeEventListener('timeupdate', onTimeUpdate);
             }
         }
 
