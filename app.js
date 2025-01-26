@@ -2,29 +2,33 @@
 Mejoras:
 -si la hora actual es la hora de inicio, cortar loop señal de ajuste y arrancar el primer programa del 9
 -si la hora actual es inicio menos 30 min, cortar loop ruido y poner señal de ajuste
--añadir publi (pre roll y post roll) hasta completar el horario, basado en la duracion
--PASAR AL PROGRAMA SIGUIENTE: Al finalizar un programa (o el ruido o la señal de ajuste), debe iniciar el siguiente 
--incrementar el ultimo episodio en el json
 -añadir varios episodios de un mismo show, con numero de orden
 -si solo hay un archivo para un show, mostrar siempre el mismo episodio
 -maximizar la pantalla
--autoplay y volumen
--cargar el json con info verdadera (hemeroteca)
--2 json: 1984 y 1985
--quitar debugs y titulos
 -si no hay siguiente episodio, volver al primero y resetear el json
 -si el show indicado en el json no tiene resource, poner un video generico por la duracion (No video available)
+-si entra a la hora de la publi, saltar tambien al minuto actual (si 21:52 y duracion 50, ir al minuto 2 de la publi, o restarle 2 minutos)
 -ver si es posible integrar con youtube otros shows que no estan bajados
 
+-quitar debugs y titulos 
+-cargar el json con info verdadera (hemeroteca)
+-normalizar todos los contenidos: showTitle/s01e01.mp4
+-ver si es posible iniciar la reproducción con volumen
+
+Implementadas:
     -saltar al minuto actual del show
     -si es antes de ppio de transmision y despues de fin, mostrar ruido
+    -incrementar el ultimo episodio en el json
     -mostrar señal de ajuste 30 min antes de inicio de transmision
--mover la configuración a otro archivo
--Crear varios json: 1976, 1984, 1985, 1986
+    -mover la configuración a otro archivo
+    -añadir publi (post roll) hasta completar el horario, basado en la duracion
+    -PASAR AL PROGRAMA SIGUIENTE: Al finalizar un programa (o el ruido o la señal de ajuste), debe iniciar el siguiente 
+    -Crear varios json: 1984, 1985, 1986
 
 BUGS
-si un show empieza a las 23:00 y termina a las 00:00 no lo encuentra: En el json las 0:00 deben indicarse como 24:00
-poner en fullscreen al empezar video.mozRequestFullScreen();
+-si un show empieza a las 23:00 y termina a las 00:00 no lo encuentra: En el json las 0:00 deben indicarse como 24:00
+-poner en fullscreen al empezar video.mozRequestFullScreen();
+-si la duración del video es 50:42 la reproducción termina a los 50:00
 */
 
 //Cargar la configuración
@@ -136,17 +140,19 @@ document.addEventListener('DOMContentLoaded', function() {
         const transmissionEndTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), endHour, endMinute);
 
         // Comparar con la hora de ajuste y de inicio
-        if(now >= transmissionEndTime){
-            //llamar a la funcion que muestra solo ruido
-            loadNoise();
-        }else if (now >= adjustmentTime && now < transmissionStartTime) {
+        if (now >= adjustmentTime && now < transmissionStartTime) {
             // Llamar a la función que muestra la señal de ajuste
             loadAdjustSignal();
+        } else if(now >= transmissionEndTime){
+            //llamar a la funcion que muestra solo ruido
+            loadNoise();
         } else if (now >= transmissionStartTime) {
             // Detener la reproducción del video original
             videoPlayer.pause();
             videoPlayer.currentTime = 0; // Reiniciar el video si es necesario
             loadContent(config.defaultChannel); // Llamar a la función para cargar el contenido (primer programa del dia)
+        } else {
+            alert('algo fallo');//fix me!
         }
 
         // Calcular el tiempo hasta el próximo minuto
