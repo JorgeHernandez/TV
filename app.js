@@ -24,6 +24,7 @@ Implementadas:
     -añadir publi (post roll) hasta completar el horario, basado en la duracion
     -PASAR AL PROGRAMA SIGUIENTE: Al finalizar un programa (o el ruido o la señal de ajuste), debe iniciar el siguiente 
     -Crear varios json: 1984, 1985, 1986
+    -cambio de canales
 
 BUGS
 -si un show empieza a las 23:00 y termina a las 00:00 no lo encuentra: En el json las 0:00 deben indicarse como 24:00
@@ -330,16 +331,13 @@ console.log("Cargando señal de ajuste...");
 
         // Verificar si se presiona 2, 7 o 9
         if (keyPressed === '2' || keyPressed === '7' || keyPressed === '9') {
-    alert(`Tecla presionada: ${keyPressed}`);
             loadContent(keyPressed);
         }
         // Verificar si se presiona un segundo keypress mientras se espera
         else if (waitingForSecondKey) {
             if (keyPressed === '1') {
-    alert('Tecla presionada: 11');
                 loadContent(11);
             } else if (keyPressed === '3') {
-    alert('Tecla presionada: 13');
                 loadContent(13);
             }
             waitingForSecondKey = false; // Reiniciar el estado de espera
