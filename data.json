@@ -5,6 +5,7 @@
         "start": "15:00",
         "end": "16:00",
         "duration": 46,
+        "publicity": 14,
         "title": "Sheriff Lobo",
         "resource": "https:\/\/localhost\/tv\/SheriffLobo.mp4",
         "last_seen_episode": 21
@@ -12,9 +13,10 @@
     {
         "channel": 9,
         "weekday": "Sat",
-        "start": "15:00",
-        "end": "16:00",
+        "start": "900",
+        "end": "960",
         "duration": 49,
+        "publicity": 11,
         "title": "Las aventuras de BJ",
         "resource": "https:\/\/localhost\/tv\/BJs03e12.mp4",
         "last_seen_episode": 26
@@ -25,19 +27,10 @@
         "start": "15:00",
         "end": "16:00",
         "duration": 53,
+        "publicity": 7,
         "title": "Gavilan",
         "resource": "https:\/\/localhost\/tv\/Gavilan.mp4",
         "last_seen_episode": 0
-    },
-    {
-        "channel": 7,
-        "weekday": "Tue",
-        "start": "23:00",
-        "end": "24:00",
-        "duration": 50,
-        "title": "El Conejo",
-        "resource": "https:\/\/localhost\/tv\/mi_video.mp4",
-        "last_seen_episode": 2
     },
     {
         "channel": 9,
@@ -45,6 +38,7 @@
         "start": "1:00",
         "end": "9:30",
         "duration": 510,
+        "publicity": 0,
         "title": "Noise - transmission ended",
         "resource": "https:\/\/localhost\/tv\/noise.mp4",
         "last_seen_episode": 2
@@ -55,6 +49,7 @@
         "start": "9:30",
         "end": "10:00",
         "duration": 30,
+        "publicity": 0,
         "title": "Adjustment signal",
         "resource": "https:\/\/localhost\/tv\/signal.mp4",
         "last_seen_episode": 2
