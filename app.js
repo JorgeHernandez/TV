@@ -31,8 +31,12 @@ BUGS
 -si la duración del video es 50:42 la reproducción termina a los 50:00
 */
 
+/* Ctrl + Shift + R to avoid cache */
+
 //Cargar la configuración
 import config from './config.js';
+//formato video mp4
+//duracion en minutos totales (1 hora 30 minutos = 90)
 
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -78,7 +82,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 videoPlayer.currentTime = 0; // Si el programa no ha comenzado, comienza desde el principio
             }
 
-
             videoPlayer.play();//Iniciar la reproducción
 
             //Incrementar el último episodio visto
@@ -113,73 +116,6 @@ document.addEventListener('DOMContentLoaded', function() {
             .catch(error => {
                 console.error('Error al cargar el JSON:', error);
             });
-    }
-
-    // Función para verificar la hora y controlar la reproducción de ruido y señal de ajuste
-    // El ruido (noise.mp4) se reproduce en loop desde config.transmissionEnd hasta 30 min antes de config.transmissionStart
-    // La señal de ajuste (signal.mp4) se reproduce desde 30 min antes de config.transmissionStart hasta config.transmissionStart
-    function checkTimeAndControlVideo() {
-        const now = new Date();
-        const currentHour = now.getHours();
-        const currentMinutes = now.getMinutes();
-        const currentTime = `${String(currentHour).padStart(2, '0')}:${String(currentMinutes).padStart(2, '0')}`;
-
-        // Calcular la hora de inicio del ruido y la hora de inicio de señal de ajuste
-        const [startHour, startMinute] = config.transmissionStart.split(':').map(Number);
-        const transmissionStartTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), startHour, startMinute);
-        const adjustmentTime = new Date(transmissionStartTime.getTime() - 30 * 60 * 1000); // 30 minutos antes
-        const [endHour, endMinute] = config.transmissionEnd.split(':').map(Number);
-        const transmissionEndTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), endHour, endMinute);
-
-        // Comparar la hora actual con la hora de inicio de señal de ajuste y de inicio de programación
-        if (now >= adjustmentTime && now < transmissionStartTime) {
-            // 30 min antes de empezar la transmisión, llamar a la función que muestra la señal de ajuste
-            loadAdjustSignal();
-        } else if(now >= transmissionEndTime){
-            //sino, si la transmisión del día ya termino, llamar a la funcion que muestra solo ruido
-            loadNoise();
-        } else if (now >= transmissionStartTime) {
-            // Si ya empezó la trasnmisión diaria, detener la reproducción de la señal de ajuste y buscar el primer programa
-            videoPlayer.pause();
-            videoPlayer.currentTime = 0; // Reiniciar el video si es necesario
-            loadContent(config.defaultChannel); // Llamar a la función para cargar el contenido (primer programa del dia)
-        } else {
-alert('algo fallo');//fix me!
-        }
-
-        // Calcular el tiempo hasta el próximo minuto
-        const nextMinute = new Date(now.getTime() + (60 - now.getSeconds()) * 1000);
-        const timeout = nextMinute.getTime() - now.getTime();
-
-        // Programar la próxima verificación
-        setTimeout(checkTimeAndControlVideo, timeout);
-    }
-
-    //si no hay nada en el aire, mostrar ruido
-    function loadNoise(){
-console.log("Mostrando ruido...");
-        document.getElementById('video-source').src = "adjustSignal.mp4";
-        document.getElementById('video-source').src = "noise.mp4";
-        videoPlayer.load();
-        videoPlayer.loop = true; // Habilitar el bucle
-        videoPlayer.play();//Iniciar la reproducción
-
-        //Verificar si finalizó la transmisión y hay que mostrar ruido, hasta la hora de señal de ajuste
-        checkTimeAndControlVideo();
-    }
-
-
-    //30 minutos antes del inicio de transmision, mostrar la señal de ajuste
-    //por defecto, es de un único canal
-    function loadAdjustSignal() {
-console.log("Cargando señal de ajuste...");
-        document.getElementById('video-source').src = "signal.mp4";
-        videoPlayer.load();
-        videoPlayer.loop = true; // Habilitar el bucle
-        videoPlayer.play();//Iniciar la reproducción
-
-        //Verificar si llega la hora de iniciar el primer programa del día
-        checkTimeAndControlVideo();
     }
 
     function onVideoEnded(resource) {
@@ -236,7 +172,6 @@ console.log("Cargando señal de ajuste...");
 
     }
 
-
     //al finalizar un video, mostrar publicidad hasta la hora de finalización del show
     function loadPostRoll(recurso){
 
@@ -281,45 +216,8 @@ console.log("Cargando señal de ajuste...");
         loadContent();
     }
 
-    // Obtener la hora actual del sistema
-    const now = new Date();
-    const currentHour = now.getHours();
-    const currentMinute = now.getMinutes();
-    const currentTime = `${currentHour.toString().padStart(2, '0')}:${currentMinute.toString().padStart(2, '0')}`; // Formato HH:MM
 
-    // Calcular la hora que representa 30 minutos antes de transmissionStart
-    const [startHour, startMinute] = config.transmissionStart.split(':').map(Number);
-
-
-    // Calcular los minutos totales y restar 30
-    let totalMinutes = startHour * 60 + startMinute - 30;
-
-    // Manejar el caso de minutos negativos
-    if (totalMinutes < 0) {
-        totalMinutes += 24 * 60; // Sumar 24 horas en minutos
-    }
-
-    // Calcular la nueva hora y minutos
-    const newHour = Math.floor(totalMinutes / 60) % 24; // Asegurarse de que esté en formato 24 horas
-    const newMinute = totalMinutes % 60;
-
-    // Formatear la salida en "hh:mm"
-    const thirtyMinutesBeforeStart = `${newHour.toString().padStart(2, '0')}:${newMinute.toString().padStart(2, '0')}`;
-
-
-
-    // Comparar las horas
-    if (currentTime > thirtyMinutesBeforeStart && currentTime < config.transmissionStart) {
-        loadAdjustSignal(); // Llama a esta función si es al menos 30 minutos antes de transmissionStart
-    } else if ((currentTime < config.transmissionStart && currentTime > config.transmissionEnd) || 
-               (currentTime < config.transmissionStart && currentTime >= "00:00") || 
-               (currentTime < "01:00" && currentTime >= config.transmissionEnd)) {
-        loadNoise(); // Llama a esta función despues del fin de transmision y hasta 30 minutos antes del inicio
-    } else {
-        // Cargar contenido inicial
-        loadContent();        
-    }
-
+    loadContent();
 
 //************Eventos*****************************//
 
@@ -330,16 +228,13 @@ console.log("Cargando señal de ajuste...");
 
         // Verificar si se presiona 2, 7 o 9
         if (keyPressed === '2' || keyPressed === '7' || keyPressed === '9') {
-    alert(`Tecla presionada: ${keyPressed}`);
             loadContent(keyPressed);
         }
         // Verificar si se presiona un segundo keypress mientras se espera
         else if (waitingForSecondKey) {
             if (keyPressed === '1') {
-    alert('Tecla presionada: 11');
                 loadContent(11);
             } else if (keyPressed === '3') {
-    alert('Tecla presionada: 13');
                 loadContent(13);
             }
             waitingForSecondKey = false; // Reiniciar el estado de espera

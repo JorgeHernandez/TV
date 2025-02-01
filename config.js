@@ -1,6 +1,4 @@
 const config = {
-    transmissionStart: "10:00",
-    transmissionEnd: "01:00",
     defaultChannel: 9,
     yearProgramList: "data.json"
 };
