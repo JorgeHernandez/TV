@@ -12,7 +12,7 @@
     },
     {
         "channel": 9,
-        "weekday": "Sat",
+        "weekday": "Thu",
         "start": "900",
         "end": "960",
         "duration": 49,
@@ -30,7 +30,7 @@
         "publicity": 7,
         "title": "Gavilan",
         "resource": "https:\/\/localhost\/tv\/Gavilan.mp4",
-        "last_seen_episode": 0
+        "last_seen_episode": 30
     },
     {
         "channel": 9,

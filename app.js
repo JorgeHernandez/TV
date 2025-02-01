@@ -24,6 +24,7 @@ Implementadas:
     -añadir publi (post roll) hasta completar el horario, basado en la duracion
     -PASAR AL PROGRAMA SIGUIENTE: Al finalizar un programa (o el ruido o la señal de ajuste), debe iniciar el siguiente 
     -Crear varios json: 1984, 1985, 1986
+    -cambio de canales
 
 BUGS
 -si un show empieza a las 23:00 y termina a las 00:00 no lo encuentra: En el json las 0:00 deben indicarse como 24:00
