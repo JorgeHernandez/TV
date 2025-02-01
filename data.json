@@ -2,8 +2,8 @@
     {
         "channel": 7,
         "weekday": "Sat",
-        "start": "15:00",
-        "end": "16:00",
+        "start": "900",
+        "end": "960",
         "duration": 46,
         "publicity": 14,
         "title": "Sheriff Lobo",
@@ -19,13 +19,13 @@
         "publicity": 11,
         "title": "Las aventuras de BJ",
         "resource": "https:\/\/localhost\/tv\/BJs03e12.mp4",
-        "last_seen_episode": 26
+        "last_seen_episode": 27
     },
     {
         "channel": 11,
         "weekday": "Sat",
-        "start": "15:00",
-        "end": "16:00",
+        "start": "900",
+        "end": "960",
         "duration": 53,
         "publicity": 7,
         "title": "Gavilan",
@@ -35,8 +35,8 @@
     {
         "channel": 9,
         "weekday": "Sat",
-        "start": "1:00",
-        "end": "9:30",
+        "start": "0",
+        "end": "510",
         "duration": 510,
         "publicity": 0,
         "title": "Noise - transmission ended",
@@ -46,8 +46,8 @@
     {
         "channel": 9,
         "weekday": "Sat",
-        "start": "9:30",
-        "end": "10:00",
+        "start": "510",
+        "end": "540",
         "duration": 30,
         "publicity": 0,
         "title": "Adjustment signal",

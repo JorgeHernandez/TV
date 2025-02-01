@@ -37,12 +37,14 @@ BUGS
 import config from './config.js';
 //formato video mp4
 //duracion en minutos totales (1 hora 30 minutos = 90)
+//start y end en minutos transcurridos del dia (10:00 = 600; 11:30 = 690)
 
 document.addEventListener('DOMContentLoaded', function() {
 
     const content = document.getElementById('content');
     const videoPlayer = document.getElementById('video-player');
     const currentShowDiv = document.getElementById('current-show');
+    var currentChannel = config.defaultChannel;
 
     // Función para cargar el programa actual de un canal
     function loadCurrentShow(programs, channel) {
@@ -52,15 +54,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Buscar el programa correspondiente
         const currentProgram = programs.find(program => {
-            // Obtener las horas de inicio y fin del programa
-            const [startHour, startMinute] = program.start.split(':').map(Number);
-            const [endHour, endMinute] = program.end.split(':').map(Number);
-            const startTime = startHour * 60 + startMinute;
-            const endTime = endHour * 60 + endMinute;
-
             return program.channel == channel &&
                    program.weekday.toLowerCase() === currentDayShort &&
-                   currentTimeInMinutes >= startTime && currentTimeInMinutes < endTime;
+                   currentTimeInMinutes >= program.start && currentTimeInMinutes < program.end;
         });
 
         if (currentProgram) {
@@ -71,9 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
             videoPlayer.load(); // Cargar el nuevo video
 
             // Calcular el tiempo que debe avanzar el video
-            const [startHour, startMinute] = currentProgram.start.split(':').map(Number);
-            const startTimeInMinutes = startHour * 60 + startMinute;
-            const minutesSinceStart = currentTimeInMinutes - startTimeInMinutes; // Minutos desde el inicio del programa
+            const minutesSinceStart = currentTimeInMinutes - currentProgram.start; // Minutos desde el inicio del programa
 
             // Asegurarse de que no sea negativo
             if (minutesSinceStart > 0) {
@@ -98,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    function loadContent(channel = config.defaultChannel) {
+    function loadContent(channel = currentChannel) {
         //Leer el json con la grilla de programas
         fetch(config.yearProgramList)
             .then(response => response.json())
@@ -175,49 +169,44 @@ document.addEventListener('DOMContentLoaded', function() {
     //al finalizar un video, mostrar publicidad hasta la hora de finalización del show
     function loadPostRoll(recurso){
 
-        //Calcular tiempo disponible para publicidad
-        let showEndsAt = recurso.end.split(':')[1];
-        showEndsAt = (showEndsAt === '00') ? 60 : showEndsAt;
-        const availableTime = (showEndsAt - recurso.duration)*60;//en segundos
-        console.log(recurso.end+' '+recurso.duration+' '+availableTime);
-        
-        //buscar una tanda mayor al tiempo disponible, saltar a duracionTanda - tiempoDisponible y play
-        //o iniciar una tanda mayor a duración y con un eventlistener, al llegar a disponible + 1 segundo, cargar el siguiente programa
-        //debería tener tandas de duracion standard (los shows son de 45 o 50 minutos para un slot de 60)
-        //hay que cuidar que no llame al onVideoEnded() (con un flag o cortando ANTES que termine la tanda)
-        //la tanda debería tener un blanco al final de 5 segundos
+        //fuera de transmision no hay publicidad (publicity = 0 en json)
+        if(recurso.publicity !== 0){
+            //Calcular tiempo disponible para publicidad
+            const availableTime = recurso.publicity*60;//en segundos
+            
+            //buscar una tanda mayor al tiempo disponible, saltar a duracionTanda - tiempoDisponible y play
+            //o iniciar una tanda mayor a duración y con un eventlistener, al llegar a disponible + 1 segundo, cargar el siguiente programa
+            //debería tener tandas de duracion standard (los shows son de 45 o 50 minutos para un slot de 60)
+            //hay que cuidar que no llame al onVideoEnded() (con un flag o cortando ANTES que termine la tanda)
+            //la tanda debería tener un blanco al final de 5 segundos
 
-        const postRoll = 'tanda.mp4';//FIX ME
-        document.getElementById('video-source').src = postRoll;
-        videoPlayer.load();
-        videoPlayer.play();//Iniciar la reproducción
+            const postRoll = 'tanda.mp4';//FIX ME
+            document.getElementById('video-source').src = postRoll;
+            videoPlayer.load();
+            videoPlayer.play();//Iniciar la reproducción
 
-        // Escuchar el evento timeupdate durante el postroll
-        let alreadyJumped = false;
+            // Escuchar el evento timeupdate durante el postroll
+            let alreadyJumped = false;
 
-        function onTimeUpdate() {
-            // Verificar si se alcanza el fin del availableTime 
-            if (videoPlayer.currentTime > availableTime) {
-                if(!alreadyJumped){
-                    alreadyJumped = true;// Marcar que ya se ha saltado
-                    nextShow();
+            function onTimeUpdate() {
+                // Verificar si se alcanza el fin del availableTime 
+                if (videoPlayer.currentTime > availableTime) {
+                    if(!alreadyJumped){
+                        alreadyJumped = true;// Marcar que ya se ha saltado
+                        //Cargar siguiente programa en el mismo canal
+                        loadContent(currentChannel);//FIX ME: esto carga para el default channel, no el canal actual
+                    }
+                    // Remover el listener para que no se llame múltiples veces
+                    videoPlayer.removeEventListener('timeupdate', onTimeUpdate);
                 }
-                // Remover el listener para que no se llame múltiples veces
-                videoPlayer.removeEventListener('timeupdate', onTimeUpdate);
             }
+
+            videoPlayer.addEventListener('timeupdate', onTimeUpdate);
         }
-
-        videoPlayer.addEventListener('timeupdate', onTimeUpdate);
-    }
-
-    //Cargar siguiente programa en el mismo canal
-    function nextShow(){
-        console.log('buscar siguiente show si no terminó la programación');
-        loadContent();
     }
 
 
-    loadContent();
+    loadContent(currentChannel);
 
 //************Eventos*****************************//
 
@@ -228,13 +217,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Verificar si se presiona 2, 7 o 9
         if (keyPressed === '2' || keyPressed === '7' || keyPressed === '9') {
+            currentChannel = keyPressed;
             loadContent(keyPressed);
         }
         // Verificar si se presiona un segundo keypress mientras se espera
         else if (waitingForSecondKey) {
             if (keyPressed === '1') {
+                currentChannel = 11;
                 loadContent(11);
             } else if (keyPressed === '3') {
+                currentChannel = 13;
                 loadContent(13);
             }
             waitingForSecondKey = false; // Reiniciar el estado de espera
