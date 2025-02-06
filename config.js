@@ -1,6 +1,8 @@
 const config = {
     defaultChannel: 9,
-    yearProgramList: "data.json"
+    yearProgramList: "data.json",
+    noise: "https:\/\/localhost\/tv\/noise2.mp4",
+    signal: "https:\/\/localhost\/tv\/signal2.mp4"    
 };
 
 // Exportar el objeto de configuración

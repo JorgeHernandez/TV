@@ -1,22 +1,28 @@
 /*
 Mejoras:
--si la hora actual es la hora de inicio, cortar loop señal de ajuste y arrancar el primer programa del 9
--si la hora actual es inicio menos 30 min, cortar loop ruido y poner señal de ajuste
--añadir varios episodios de un mismo show, con numero de orden
 -si solo hay un archivo para un show, mostrar siempre el mismo episodio
+-hacer aleatoria la tanda publicitaria, ver que no se repita. Varias tandas para cada canal/año, todas de 20'
 -maximizar la pantalla
--si no hay siguiente episodio, volver al primero y resetear el json
+-si el programa es diario, en lugar del dia de la semana, usar un array ['Mon','Tue','Wed'...]
+-si no hay siguiente episodio, volver al primero y resetear el json. Esto podria ser agregando una key total_episodes al json
 -si el show indicado en el json no tiene resource, poner un video generico por la duracion (No video available)
--si entra a la hora de la publi, saltar tambien al minuto actual (si 21:52 y duracion 50, ir al minuto 2 de la publi, o restarle 2 minutos)
--ver si es posible integrar con youtube otros shows que no estan bajados
-
--quitar debugs y titulos 
+-si el resource es de youtube, crear el iframe on the fly, reproducir y con la api de yt detectar el final de la repr para la publicidad
+-symbolic link para acceder al hd externo
+-formar el src del video con el show mas el episodio: SheriffLobo_ + 04 = SheriffLobo_04.mp4
+-probar los mkv y los avi
 -cargar el json con info verdadera (hemeroteca)
+-añadir varios episodios de un mismo show, con numero de orden
+-en el caso de los ciclos de cine, ver de poner un array de resources
+-si el programa hay que componerlo (funcion privada: intro, noticiero, pelicula, charla, corto, cierre), ver de ingresar varios segmentos
+-Añadir Locomotion / MTV la 1996
+
+-quitar debugs y titulos html
 -normalizar todos los contenidos: showTitle/s01e01.mp4
 -ver si es posible iniciar la reproducción con volumen
 
 Implementadas:
     -saltar al minuto actual del show
+    -si entra a la hora de la publi, saltar tambien al minuto actual (si 21:52 y duracion 50, ir al minuto 2 de la publi, o restarle 2 minutos)
     -si es antes de ppio de transmision y despues de fin, mostrar ruido
     -incrementar el ultimo episodio en el json
     -mostrar señal de ajuste 30 min antes de inicio de transmision
@@ -27,9 +33,11 @@ Implementadas:
     -cambio de canales
 
 BUGS
--si un show empieza a las 23:00 y termina a las 00:00 no lo encuentra: En el json las 0:00 deben indicarse como 24:00
+-ver si se acumulan addEventListener al finalizar el programa y la tanda
 -poner en fullscreen al empezar video.mozRequestFullScreen();
 -si la duración del video es 50:42 la reproducción termina a los 50:00
+-si lo que finaliza es una tanda, hace una peticion para intentar actualizar el episodio. 
+  al entrar en publi poner un flag, y al terminar una reprod si el flag en true, ivertir
 */
 
 /* Ctrl + Shift + R to avoid cache */
@@ -46,8 +54,29 @@ document.addEventListener('DOMContentLoaded', function() {
     const videoPlayer = document.getElementById('video-player');
     const currentShowDiv = document.getElementById('current-show');
     var currentChannel = config.defaultChannel;
+    var playingAds = false;//FIX ME: unused
 
-    // Función para cargar el programa actual de un canal
+    function loadContent(channel = currentChannel) {
+        //Leer el json con la grilla de programas
+        fetch(config.yearProgramList)
+            .then(response => response.json())
+            .then(data => {
+                let programsList = '<h1>Programas de Televisión</h1><ul>';
+                data.forEach(program => {
+                    programsList += `<li>${program.title} - Canal ${program.channel} - Dia ${program.weekday} - ${program.start} a ${program.end} - Duración ${program.duration})</li>`;
+                });
+                programsList += '</ul>';
+                content.innerHTML = programsList;
+
+                // Cargar el programa actual después de obtener la lista
+                loadCurrentShow(data, channel);
+            })
+            .catch(error => {
+                console.error('Error al cargar el JSON:', error);
+            });
+    }
+
+    // Cargar el programa actual de un canal
     function loadCurrentShow(programs, channel) {
         const now = new Date();
         const currentDayShort = now.toLocaleString('en-US', { weekday: 'short' }).toLowerCase(); // 'Mon', 'Tue', etc.
@@ -70,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Calcular el tiempo que debe avanzar el video
             const minutesSinceStart = currentTimeInMinutes - currentProgram.start; // Minutos desde el inicio del programa
 
-            // Asegurarse de que no sea negativo
+            // FIX ME: Asegurarse de que no sea negativo (si empezo 23:30 y termina 0:30 del dia siguiente)
             if (minutesSinceStart > 0) {
                 videoPlayer.currentTime = minutesSinceStart * 60; // Establecer el tiempo actual del video en segundos
             } else {
@@ -85,7 +114,11 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         } else {
             console.log("No hay programas en este momento.");
+            //poner un video genérico
             document.getElementById('video-source').src = "mi_video.mp4";
+            videoPlayer.load(); // Cargar el nuevo video
+            videoPlayer.play();//Iniciar la reproducción
+
             currentShowDiv.innerHTML = `<h2>No hay programas en este momento.</h2>
                                         <p>Canal: ${channel}</p>
                                         <p>Día: ${now.toLocaleString('en-US', { weekday: 'long' })} (${currentDayShort})</p>
@@ -93,33 +126,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    function loadContent(channel = currentChannel) {
-        //Leer el json con la grilla de programas
-        fetch(config.yearProgramList)
-            .then(response => response.json())
-            .then(data => {
-                let programsList = '<h1>Programas de Televisión</h1><ul>';
-                data.forEach(program => {
-                    programsList += `<li>${program.title} - Canal ${program.channel} - Dia ${program.weekday} - ${program.start} a ${program.end} - Duración ${program.duration})</li>`;
-                });
-                programsList += '</ul>';
-                content.innerHTML = programsList;
-
-                // Cargar el programa actual después de obtener la lista
-                loadCurrentShow(data, channel);
-            })
-            .catch(error => {
-                console.error('Error al cargar el JSON:', error);
-            });
-    }
-
     function onVideoEnded(resource) {
         console.log("El video ha terminado de reproducirse.");
         videoPlayer.currentTime = 0; // Reiniciar el tiempo de reproducción
         videoPlayer.pause(); // Pausar el video
 
-
         // Leer el JSON con la grilla de programas para actualizar last_seen_episode
+        // y luego reproducir la tanda publicitaria
         fetch(config.yearProgramList)
             .then(response => {
                 if (!response.ok) {
@@ -168,49 +181,37 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     //al finalizar un video, mostrar publicidad hasta la hora de finalización del show
+    //las tandas publicitarias son de 20 minutos
     function loadPostRoll(recurso){
 
+        
         //fuera de transmision no hay publicidad (publicity = 0 en json)
         if(recurso.publicity !== 0){
+            playingAds = true;
+
             //Calcular tiempo disponible para publicidad
             const availableTime = recurso.publicity*60;//en segundos
             
-            //buscar una tanda mayor al tiempo disponible, saltar a duracionTanda - tiempoDisponible y play
-            //o iniciar una tanda mayor a duración y con un eventlistener, al llegar a disponible + 1 segundo, cargar el siguiente programa
-            //debería tener tandas de duracion standard (los shows son de 45 o 50 minutos para un slot de 60)
-            //hay que cuidar que no llame al onVideoEnded() (con un flag o cortando ANTES que termine la tanda)
-            //la tanda debería tener un blanco al final de 5 segundos
-
             const postRoll = 'tanda.mp4';//FIX ME
             document.getElementById('video-source').src = postRoll;
             videoPlayer.load();
-            videoPlayer.play();//Iniciar la reproducción
 
-            // Escuchar el evento timeupdate durante el postroll
-            let alreadyJumped = false;
+            //saltar adelante para ajustar el tiempo de reproducción con el fin de show
+            videoPlayer.currentTime = 20*60 - availableTime;//todas las tandas son de 20 minutos
 
-            function onTimeUpdate() {
-                // Verificar si se alcanza el fin del availableTime 
-                if (videoPlayer.currentTime > availableTime) {
-                    if(!alreadyJumped){
-                        alreadyJumped = true;// Marcar que ya se ha saltado
-                        //Cargar siguiente programa en el mismo canal
-                        loadContent(currentChannel);//FIX ME: esto carga para el default channel, no el canal actual
-                    }
-                    // Remover el listener para que no se llame múltiples veces
-                    videoPlayer.removeEventListener('timeupdate', onTimeUpdate);
-                }
-            }
+            videoPlayer.play();//Iniciar la reproducción. Al finalizar el evento ended busca el siguiente programa
 
-            videoPlayer.addEventListener('timeupdate', onTimeUpdate);
+            videoPlayer.addEventListener('ended', function(){
+                playingAds = true;
+                loadContent(currentChannel);
+            });
+
         }
     }
-
 
     loadContent(currentChannel);
 
 //************Eventos*****************************//
-
     //Escuchar el cambio de canales. Los unicos validos son 2, 7, 9, 11 y 13
     let waitingForSecondKey = false;
     document.addEventListener('keydown', function(event) {
