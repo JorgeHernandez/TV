@@ -122,8 +122,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
             //Calcular tiempo disponible para publicidad
             const availableTime = recurso.publicity*60;//en segundos
-            
-            const postRoll = 'tanda.mp4';//FIX ME
+
+            // Generar un número aleatorio entre 1 y 9
+            const randomNumber = Math.floor(Math.random() * 9) + 1; // 1 a 9
+
+            // Construir el nombre del video de publicidad
+            const postRoll = `tanda_${currentChannel}_${config.year}_${randomNumber}.mp4`;
+
             document.getElementById('video-source').src = postRoll;
             videoPlayer.load();
 
