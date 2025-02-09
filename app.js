@@ -1,7 +1,6 @@
 /*
 Mejoras:
 -hacer aleatoria la tanda publicitaria, ver que no se repita. Varias tandas para cada canal/año, todas de 20': tanda_9_1984_1.mp4
--si el programa es diario, en lugar del dia de la semana, usar un array ['Mon','Tue','Wed'...]
 -maximizar la pantalla
 -si solo hay un archivo para un show, mostrar siempre el mismo episodio (total episodes: 1 => aunque sean 24 episodios, solo hay uno)
 -si no hay siguiente episodio, volver al primero y resetear el json. Esto podria ser agregando una key total_episodes al json
@@ -23,6 +22,7 @@ Mejoras:
 -ver si es posible iniciar la reproducción con volumen
 
 Implementadas:
+    -si el programa es diario, en lugar del dia de la semana, usar un array ['Mon','Tue','Wed'...]
     -saltar al minuto actual del show
     -si entra a la hora de la publi, saltar tambien al minuto actual (si 21:52 y duracion 50, ir al minuto 2 de la publi, o restarle 2 minutos)
     -si es antes de ppio de transmision y despues de fin, mostrar ruido
@@ -86,40 +86,38 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Buscar el programa correspondiente
         const currentProgram = programs.find(program => {
+            const start = parseInt(program.start, 10);
+            const end = parseInt(program.end, 10);
+            const weekdays = program.weekday.map(day => day.toLowerCase()); // Convertir a minúsculas para comparación
+
             return program.channel == channel &&
-                   program.weekday.toLowerCase() === currentDayShort &&
-                   currentTimeInMinutes >= program.start && currentTimeInMinutes < program.end;
+                   weekdays.includes(currentDayShort) && // Verificar si el día actual está en el array
+                   currentTimeInMinutes >= start && 
+                   currentTimeInMinutes < (end >= start ? end : 1440 + end); // Manejo de programas que cruzan medianoche
         });
+
 
         if (currentProgram) {
             currentShowDiv.innerHTML = `<h2>Programa Actual: ${currentProgram.title}</h2>
                                         <p>Día: ${now.toLocaleString('en-US', { weekday: 'long' })} (${currentDayShort})</p>
                                         <p>Hora Actual: ${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}</p>`;
             document.getElementById('video-source').src = currentProgram.resource;
-            videoPlayer.load(); // Cargar el nuevo video
+            videoPlayer.load();
 
-            // Calcular el tiempo que debe avanzar el video
-            const minutesSinceStart = currentTimeInMinutes - currentProgram.start; // Minutos desde el inicio del programa
+            const minutesSinceStart = currentTimeInMinutes >= start ? currentTimeInMinutes - start : (1440 - start + currentTimeInMinutes);
 
-            // FIX ME: Asegurarse de que no sea negativo (si empezo 23:30 y termina 0:30 del dia siguiente)
-            if (minutesSinceStart > 0) {
-                videoPlayer.currentTime = minutesSinceStart * 60; // Establecer el tiempo actual del video en segundos
-            } else {
-                videoPlayer.currentTime = 0; // Si el programa no ha comenzado, comienza desde el principio
-            }
+            videoPlayer.currentTime = minutesSinceStart > 0 ? minutesSinceStart * 60 : 0; // Establecer el tiempo actual del video en segundos
+            videoPlayer.play();
 
-            videoPlayer.play();//Iniciar la reproducción
-
-            //Incrementar el último episodio visto
+            // Incrementar el último episodio visto
             videoPlayer.addEventListener('ended', function(){
                 onVideoEnded(currentProgram.resource);
             });
         } else {
             console.log("No hay programas en este momento.");
-            //poner un video genérico
             document.getElementById('video-source').src = "mi_video.mp4";
-            videoPlayer.load(); // Cargar el nuevo video
-            videoPlayer.play();//Iniciar la reproducción
+            videoPlayer.load();
+            videoPlayer.play();
 
             currentShowDiv.innerHTML = `<h2>No hay programas en este momento.</h2>
                                         <p>Canal: ${channel}</p>
