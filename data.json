@@ -1,1 +1,159 @@
-null
+[
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 0,
+        "end": 60,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https:\/\/localhost\/tv\/noise2.mp4",
+        "last_seen_episode": 0,
+        "description": ""
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 60,
+        "end": 120,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https:\/\/localhost\/tv\/noise2.mp4",
+        "last_seen_episode": 0,
+        "description": ""
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 120,
+        "end": 130,
+        "duration": 10,
+        "publicity": 0,
+        "title": "Adjustment signal",
+        "resource": "https:\/\/localhost\/tv\/signal2.mp4",
+        "last_seen_episode": 0,
+        "description": ""
+    },
+    {
+        "channel": 7,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 600,
+        "end": 660,
+        "duration": 46,
+        "publicity": 14,
+        "title": "Sheriff Lobo",
+        "resource": "https:\/\/localhost\/tv\/SheriffLobo.mp4",
+        "total_episodes": 4,
+        "last_seen_episode": 1,
+        "description": "Serie con Claude Atkins"
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 660,
+        "end": 720,
+        "duration": 49,
+        "publicity": 11,
+        "title": "Las aventuras de BJ",
+        "resource": "https:\/\/localhost\/tv\/BJs03e12.mp4",
+        "total_episodes": 4,
+        "last_seen_episode": 7,
+        "description": "Serie con Greg Evigan"
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 720,
+        "end": 780,
+        "duration": 53,
+        "publicity": 7,
+        "title": "Gavilan",
+        "resource": "https:\/\/localhost\/tv\/Gavilan.mp4",
+        "total_episodes": 4,
+        "last_seen_episode": 2,
+        "description": "Serie con Robert Urich"
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sat",
+            "Sun"
+        ],
+        "start": 1320,
+        "end": 1380,
+        "duration": 49,
+        "publicity": 11,
+        "title": "Las aventuras de BJ",
+        "resource": "https:\/\/localhost\/tv\/BJs03e12.mp4",
+        "total_episodes": 4,
+        "last_seen_episode": 1,
+        "description": "Serie con Greg Evigan"
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sat",
+            "Sun"
+        ],
+        "start": 1380,
+        "end": 1440,
+        "duration": 49,
+        "publicity": 11,
+        "title": "Gavilan",
+        "resource": "https:\/\/localhost\/tv\/Gavilan.mp4",
+        "total_episodes": 4,
+        "last_seen_episode": 1,
+        "description": "Serie con Robert Urich"
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "start": 1200,
+        "end": 1260,
+        "duration": 49,
+        "publicity": 11,
+        "title": "Gavilan",
+        "resource": "https:\/\/localhost\/tv\/Gavilan.mp4",
+        "total_episodes": 4,
+        "last_seen_episode": 1,
+        "description": "Serie con Robert Urich"
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "start": 1140,
+        "end": 1200,
+        "duration": 49,
+        "publicity": 11,
+        "title": "Las aventuras de BJ",
+        "resource": "https:\/\/localhost\/tv\/BJs03e12.mp4",
+        "total_episodes": 4,
+        "last_seen_episode": 1,
+        "description": "Serie con Greg Evigan"
+    }
+]
