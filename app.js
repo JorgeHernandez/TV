@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const videoPlayer = document.getElementById('video-player');
     var currentChannel = config.defaultChannel;
 
+
     function loadContent(channel = currentChannel) {
         //Leer el json con la grilla de programas
         fetch(config.yearProgramList)
@@ -118,7 +119,6 @@ document.addEventListener('DOMContentLoaded', function() {
     function loadPostRoll(recurso){        
         //fuera de transmision no hay publicidad (publicity = 0 en json)
         if(recurso.publicity !== 0){
-            playingAds = true;
 
             //Calcular tiempo disponible para publicidad
             const availableTime = recurso.publicity*60;//en segundos
@@ -133,7 +133,6 @@ document.addEventListener('DOMContentLoaded', function() {
             videoPlayer.play();//Iniciar la reproducción. Al finalizar el evento ended busca el siguiente programa
 
             videoPlayer.addEventListener('ended', function(){
-                playingAds = true;
                 loadContent(currentChannel);
             });
 

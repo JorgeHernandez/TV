@@ -1,7 +1,9 @@
 [
     {
         "channel": 9,
-        "weekday": ["Sun"],
+        "weekday": [
+            "Sun"
+        ],
         "start": 0,
         "end": 60,
         "duration": 60,
@@ -13,7 +15,9 @@
     },
     {
         "channel": 9,
-        "weekday": ["Sun"],
+        "weekday": [
+            "Sun"
+        ],
         "start": 60,
         "end": 120,
         "duration": 60,
@@ -25,7 +29,9 @@
     },
     {
         "channel": 9,
-        "weekday": ["Sun"],
+        "weekday": [
+            "Sun"
+        ],
         "start": 120,
         "end": 130,
         "duration": 10,
@@ -37,7 +43,9 @@
     },
     {
         "channel": 7,
-        "weekday": ["Sun"],
+        "weekday": [
+            "Sun"
+        ],
         "start": 600,
         "end": 660,
         "duration": 46,
@@ -50,7 +58,9 @@
     },
     {
         "channel": 9,
-        "weekday": ["Sun"],
+        "weekday": [
+            "Sun"
+        ],
         "start": 660,
         "end": 720,
         "duration": 49,
@@ -58,12 +68,14 @@
         "title": "Las aventuras de BJ",
         "resource": "https:\/\/localhost\/tv\/BJs03e12.mp4",
         "total_episodes": 4,
-        "last_seen_episode": 4,
+        "last_seen_episode": 5,
         "description": "Serie con Greg Evigan"
     },
     {
         "channel": 11,
-        "weekday": ["Sun"],
+        "weekday": [
+            "Sun"
+        ],
         "start": 720,
         "end": 780,
         "duration": 53,
@@ -76,7 +88,10 @@
     },
     {
         "channel": 9,
-        "weekday": ["Sat","Sun"],
+        "weekday": [
+            "Sat",
+            "Sun"
+        ],
         "start": 1320,
         "end": 1380,
         "duration": 49,
@@ -89,7 +104,10 @@
     },
     {
         "channel": 9,
-        "weekday": ["Sat","Sun"],
+        "weekday": [
+            "Sat",
+            "Sun"
+        ],
         "start": 1380,
         "end": 1440,
         "duration": 49,
@@ -102,7 +120,13 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon","Tue","Wed","Thu","Fri"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
         "start": 1200,
         "end": 1260,
         "duration": 49,
@@ -115,7 +139,13 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon","Tue","Wed","Thu","Fri"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
         "start": 1140,
         "end": 1200,
         "duration": 49,
