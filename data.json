@@ -68,7 +68,7 @@
         "title": "Las aventuras de BJ",
         "resource": "https:\/\/localhost\/tv\/BJs03e12.mp4",
         "total_episodes": 4,
-        "last_seen_episode": 5,
+        "last_seen_episode": 7,
         "description": "Serie con Greg Evigan"
     },
     {
@@ -83,7 +83,7 @@
         "title": "Gavilan",
         "resource": "https:\/\/localhost\/tv\/Gavilan.mp4",
         "total_episodes": 4,
-        "last_seen_episode": 1,
+        "last_seen_episode": 2,
         "description": "Serie con Robert Urich"
     },
     {
