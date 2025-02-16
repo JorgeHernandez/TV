@@ -3,7 +3,6 @@
 ##Mejoras:##
 -si solo hay un archivo para un show, mostrar siempre el mismo episodio (total episodes: 1 => aunque sean 24 episodios, solo hay uno)
 -si no hay siguiente episodio, volver al primero y resetear el json. Esto podria ser agregando una key total_episodes al json
--si el show indicado en el json no tiene resource, poner un video generico por la duracion (No video available)
 -si el resource es de youtube, crear el iframe on the fly, reproducir y con la api de yt detectar el final de la repr para la publicidad
 
 -symbolic link para acceder al hd externo
@@ -21,6 +20,7 @@
 -ver si es posible iniciar la reproducción con volumen
 
 ##Implementadas:##
+    -si el show indicado en el json no tiene resource, poner un poster generico por la duracion (No video available)
     -hacer aleatoria la tanda publicitaria, ver que no se repita. Varias tandas para cada canal/año, todas de 20': tanda_9_1984_1.mp4
     -si el programa es diario, en lugar del dia de la semana, usar un array ['Mon','Tue','Wed'...]
     -saltar al minuto actual del show
