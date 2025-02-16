@@ -100,5 +100,20 @@
         "total_episodes": 2,
         "last_seen_episode": 1,
         "description": "Serie con Greg Evigan"
-    }    
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1320,
+        "end": 13800,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Golf en TV",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Programa sobre golf"
+    }
 ]
