@@ -139,11 +139,11 @@
         "start": 1388,
         "end": 1448,
         "duration": 60,
-        "publicity": 10,
-        "title": "BJ and the bear",
-        "resource": "https:\/\/localhost\/tv\/BJ",
-        "total_episodes": 10,
+        "publicity": 23,
+        "title": "Calabromas",
+        "resource": "https:\/\/localhost\/tv\/Calabromas",
+        "total_episodes": 3,
         "last_seen_episode": 1,
-        "description": "BJ and the bear"
+        "description": "Programa comico con Juan Carlos Calabro"
     }
 ]
