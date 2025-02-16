@@ -4,23 +4,8 @@
         "weekday": [
             "Sun"
         ],
-        "start": 0,
-        "end": 60,
-        "duration": 60,
-        "publicity": 0,
-        "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise2.mp4",
-        "total_episodes": 0,
-        "last_seen_episode": 0,
-        "description": ""
-    },
-    {
-        "channel": 9,
-        "weekday": [
-            "Sun"
-        ],
-        "start": 60,
-        "end": 120,
+        "start": 30,
+        "end": 90,
         "duration": 60,
         "publicity": 0,
         "title": "Noise - transmission ended",
@@ -143,7 +128,22 @@
         "title": "Calabromas",
         "resource": "https:\/\/localhost\/tv\/Calabromas",
         "total_episodes": 3,
-        "last_seen_episode": 1,
+        "last_seen_episode": 2,
         "description": "Programa comico con Juan Carlos Calabro"
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Mon"
+        ],
+        "start": 0,
+        "end": 30,
+        "duration": 30,
+        "publicity": 5,
+        "title": "Quark",
+        "resource": "https:\/\/localhost\/tv\/Quark",
+        "total_episodes": 2,
+        "last_seen_episode": 0,
+        "description": "La escoba espacial"
     }
 ]
