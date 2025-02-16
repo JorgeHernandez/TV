@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var isUniqueEpisode = false;
     var isLastEpisode = false;
     var isPublicitySlot = false;
+    var programTimeout;
 
 
     function loadContent(channel = currentChannel) {
@@ -42,6 +43,29 @@ document.addEventListener('DOMContentLoaded', function() {
                    currentTimeInMinutes < (end >= start ? end : 1440 + end); // Manejo de programas que cruzan medianoche
         });
 
+        // Limpiar el temporizador anterior si existe
+        if (programTimeout) {
+            clearTimeout(programTimeout);
+        }
+
+
+        //si no hay recurso, poner como poster la carta de ajuste
+        if(!currentProgram.resource){
+            document.getElementById('video-player').poster = config.noShowPoster;//imagen de video no disponible
+
+
+            var endTimeInMinutes = currentProgram.end;
+            var timeRemaining = endTimeInMinutes - currentTimeInMinutes;
+
+            // Si el tiempo restante es positivo, configurar un temporizador
+            if (timeRemaining > 0) {
+                programTimeout = setTimeout(() => {
+                    // Llamar a loadContent para cargar el siguiente programa
+                    loadContent(channel);
+                }, timeRemaining * 60 * 1000); // Convertir minutos a milisegundos
+            }
+            return;
+        }
 
 
 //si total episodes === 0, solo hay uno, reproducir siempre el mismo, no incrementar last_seen (siempre 0)
