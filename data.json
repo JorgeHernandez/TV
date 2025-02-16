@@ -107,7 +107,7 @@
             "Sun"
         ],
         "start": 1320,
-        "end": 13800,
+        "end": 1380,
         "duration": 60,
         "publicity": 0,
         "title": "Golf en TV",
@@ -115,5 +115,35 @@
         "total_episodes": 0,
         "last_seen_episode": 0,
         "description": "Programa sobre golf"
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1380,
+        "end": 1388,
+        "duration": 8,
+        "publicity": 0,
+        "title": "Campeones",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Programa sobre golf"
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1388,
+        "end": 1448,
+        "duration": 60,
+        "publicity": 10,
+        "title": "BJ and the bear",
+        "resource": "https:\/\/localhost\/tv\/BJ",
+        "total_episodes": 10,
+        "last_seen_episode": 1,
+        "description": "BJ and the bear"
     }
 ]
