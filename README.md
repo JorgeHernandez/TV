@@ -1,8 +1,6 @@
 # TO DO
 
 ##Mejoras:##
--hacer aleatoria la tanda publicitaria, ver que no se repita. Varias tandas para cada canal/año, todas de 20': tanda_9_1984_1.mp4
--maximizar la pantalla
 -si solo hay un archivo para un show, mostrar siempre el mismo episodio (total episodes: 1 => aunque sean 24 episodios, solo hay uno)
 -si no hay siguiente episodio, volver al primero y resetear el json. Esto podria ser agregando una key total_episodes al json
 -si el show indicado en el json no tiene resource, poner un video generico por la duracion (No video available)
@@ -23,6 +21,7 @@
 -ver si es posible iniciar la reproducción con volumen
 
 ##Implementadas:##
+    -hacer aleatoria la tanda publicitaria, ver que no se repita. Varias tandas para cada canal/año, todas de 20': tanda_9_1984_1.mp4
     -si el programa es diario, en lugar del dia de la semana, usar un array ['Mon','Tue','Wed'...]
     -saltar al minuto actual del show
     -si entra a la hora de la publi, saltar tambien al minuto actual (si 21:52 y duracion 50, ir al minuto 2 de la publi, o restarle 2 minutos)
