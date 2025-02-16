@@ -2,14 +2,14 @@
     {
         "channel": 9,
         "weekday": [
-            "Sun"
+            "Mon"
         ],
         "start": 30,
         "end": 90,
         "duration": 60,
         "publicity": 0,
         "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise2.mp4",
+        "resource": "https:\/\/localhost\/tv\/noise2",
         "total_episodes": 0,
         "last_seen_episode": 0,
         "description": ""
@@ -24,7 +24,7 @@
         "duration": 10,
         "publicity": 0,
         "title": "Adjustment signal",
-        "resource": "https:\/\/localhost\/tv\/signal2.mp4",
+        "resource": "https:\/\/localhost\/tv\/signal2",
         "total_episodes": 0,
         "last_seen_episode": 0,
         "description": ""
@@ -128,7 +128,7 @@
         "title": "Calabromas",
         "resource": "https:\/\/localhost\/tv\/Calabromas",
         "total_episodes": 3,
-        "last_seen_episode": 2,
+        "last_seen_episode": 0,
         "description": "Programa comico con Juan Carlos Calabro"
     },
     {
