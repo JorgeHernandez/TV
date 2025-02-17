@@ -40,6 +40,23 @@
 -si la duración del video es 50:42 la reproducción termina a los 50:00
 -si lo que finaliza es una tanda, hace una peticion para intentar actualizar el episodio. 
 
+##NOTES##
+Los ciclos de cine se listan con el nombre del ciclo, y cada archivo numerado corresponde a un film. En el campo description del json se enumeran los titulos separados por comas, como referencia, sin ningún otro efecto (8000 caracteres sin problema, serian unos 250 o 260 titulos) 
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1320,
+        "end": 1410,
+        "duration": 90,
+        "publicity": 15,
+        "title": "Quark",
+        "resource": "https:\/\/localhost\/tv\/ElMundoDelEspectaculo",
+        "total_episodes": 25,
+        "last_seen_episode": 0,
+        "description": "ciclo de cine: cumbres borrascosas, tora tora tora, fuga en el siglo xxv, galactica, un extraño en la casa"
+    }
 
 # TV Application
 
