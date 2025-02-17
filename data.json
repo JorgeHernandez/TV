@@ -136,8 +136,23 @@
         "weekday": [
             "Mon"
         ],
-        "start": 0,
-        "end": 30,
+        "start": 720,
+        "end": 750,
+        "duration": 30,
+        "publicity": 0,
+        "title": "Quark",
+        "resource": "https:\/\/localhost\/tv\/MrBean",
+        "total_episodes": 2,
+        "last_seen_episode": 0,
+        "description": "Mr Bean"
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Mon"
+        ],
+        "start": 750,
+        "end": 780,
         "duration": 30,
         "publicity": 5,
         "title": "Quark",
