@@ -225,6 +225,9 @@ function onVideoEnded(resource) {
                 loadContent(currentChannel);
             });
 
+        }else{
+            //si no se debe mostrar publicidad, buscar el siguiente programa
+            loadContent(currentChannel);
         }
     }
 
