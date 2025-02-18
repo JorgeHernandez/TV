@@ -39,6 +39,23 @@
 -poner en fullscreen al empezar video.mozRequestFullScreen();
 -si la duración del video es 50:42 la reproducción termina a los 50:00
 -si lo que finaliza es una tanda, hace una peticion para intentar actualizar el episodio. 
+-despues de BJ, algo fallo y data.json se pone a null (todo borrado)
+logs: 
+Nuevo valor de last_seen_episode para el recurso https://localhost/tv/BJ: 1
+Nuevo valor de last_seen_episode para el recurso https://localhost/tv/BJ: 1
+Valor de last_seen_episode actualizado en el servidor. 11 app.js:191:25
+GET https://localhost/tv/Gavilan001.mp4 [HTTP/1.1 206 Partial Content 2510027ms]
+El video ha terminado de reproducirse.
+Error al cargar el JSON o al actualizar el recurso: TypeError: data is null
+    onVideoEnded https://localhost/tv/app.js:149
+    promise callback*onVideoEnded https://localhost/tv/app.js:147
+    loadCurrentShow https://localhost/tv/app.js:122
+    loadCurrentShow https://localhost/tv/app.js:121
+    loadContent https://localhost/tv/app.js:20
+    promise callback*loadContent https://localhost/tv/app.js:18
+    <anonymous> https://localhost/tv/app.js:234
+    EventListener.handleEvent* https://localhost/tv/app.js:4
+Luego de restaurar data.json, refresh y se ve sheriff lobo sin problema
 
 ##NOTES##
 Los ciclos de cine se listan con el nombre del ciclo, y cada archivo numerado corresponde a un film. En el campo description del json se enumeran los titulos separados por comas, como referencia, sin ningún otro efecto (8000 caracteres sin problema, serian unos 250 o 260 titulos) 
