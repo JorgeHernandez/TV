@@ -1,7 +1,15 @@
 [
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 0,
         "end": 60,
         "duration": 60,
@@ -14,7 +22,15 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 60,
         "end": 120,
         "duration": 60,
@@ -27,7 +43,15 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 120,
         "end": 180,
         "duration": 60,
@@ -40,7 +64,15 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 180,
         "end": 240,
         "duration": 60,
@@ -53,20 +85,36 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 240,
         "end": 300,
         "duration": 60,
         "publicity": 0,
         "title": "Noise - transmission ended",
         "resource": "https:\/\/localhost\/tv\/noise2",
-        "total_episodes": 2,
+        "total_episodes": 0,
         "last_seen_episode": 0,
         "description": ""
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 300,
         "end": 360,
         "duration": 60,
@@ -79,7 +127,15 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 360,
         "end": 420,
         "duration": 60,
@@ -92,7 +148,15 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 420,
         "end": 480,
         "duration": 60,
@@ -105,38 +169,20 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 480,
-        "end": 540,
-        "duration": 60,
+        "end": 510,
+        "duration": 30,
         "publicity": 0,
-        "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise2",
-        "total_episodes": 0,
-        "last_seen_episode": 0,
-        "description": ""
-    },
-    {
-        "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-        "start": 540,
-        "end": 600,
-        "duration": 60,
-        "publicity": 0,
-        "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise2",
-        "total_episodes": 0,
-        "last_seen_episode": 0,
-        "description": ""
-    },
-    {
-        "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-        "start": 540,
-        "end": 600,
-        "duration": 60,
-        "publicity": 0,
-        "title": "Noise - transmission ended",
+        "title": "Jardincito",
         "resource": "",
         "total_episodes": 0,
         "last_seen_episode": 0,
@@ -144,20 +190,63 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
+        "start": 510,
+        "end": 600,
+        "duration": 90,
+        "publicity": 20,
+        "title": "Cordialmente",
+        "resource": "https://www.youtube.com/watch?v=RfCEM6JcV4E",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Programa de interés general con Juan Carlos Mareco - Empieza a "
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 600,
         "end": 660,
         "duration": 46,
         "publicity": 14,
-        "title": "Patolandia",
-        "resource": "",
-        "total_episodes": 2,
+        "title": "Dos tipos audaces",
+        "resource": [
+            "https://www.youtube.com/watch?v=9weiV227kcQ",
+            "https://www.youtube.com/watch?v=vHT8rmCnexQ",
+            "https://www.youtube.com/watch?v=UdRM941xLUo",
+            "https://www.youtube.com/watch?v=GG1EjBmTrFQ",
+            "https://www.youtube.com/watch?v=rEbU3B1tKDU"
+        ],
+        "total_episodes": 5,
         "last_seen_episode": 0,
-        "description": "Programa infantil. Conduce el Pato Carret"
+        "description": "Serie con Roger Moore y Tony Curtiss"
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 660,
         "end": 720,
         "duration": 46,
@@ -170,12 +259,20 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 720,
         "end": 780,
         "duration": 46,
         "publicity": 14,
-        "title": "Trampa para un soñador",
+        "title": "Trampa para un so\u00f1ador",
         "resource": "",
         "total_episodes": 2,
         "last_seen_episode": 0,
@@ -183,7 +280,15 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 780,
         "end": 840,
         "duration": 46,
@@ -196,7 +301,15 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 840,
         "end": 900,
         "duration": 46,
@@ -209,7 +322,15 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 900,
         "end": 960,
         "duration": 46,
@@ -222,11 +343,19 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 960,
-        "end": 1020,
-        "duration": 46,
-        "publicity": 14,
+        "end": 990,
+        "duration": 30,
+        "publicity": 6,
         "title": "Golf en TV",
         "resource": "",
         "total_episodes": 2,
@@ -235,33 +364,78 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
+        "start": 990,
+        "end": 1020,
+        "duration": 30,
+        "publicity": 0,
+        "title": "Timer de 30 minutos",
+        "resource": "timer",
+        "total_episodes": 1,
+        "last_seen_episode": 0,
+        "description": "Empieza 16:30"
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 1020,
         "end": 1140,
         "duration": 86,
         "publicity": 14,
         "title": "El Mundo del Espectaculo",
         "resource": "https:\/\/localhost\/tv\/ElMundoDelEspectaculo",
-        "total_episodes": 2,
+        "total_episodes": 1,
         "last_seen_episode": 0,
         "description": "films: Cumbres borrascosas, Tora tora tora, Fuga en el siglo xxv, Galactica, Un extra\u00f1o en la casa"
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 1140,
         "end": 1200,
         "duration": 46,
         "publicity": 14,
         "title": "SWAT",
         "resource": "https:\/\/localhost\/tv\/SWAT",
-        "total_episodes": 2,
+        "total_episodes": 1,
         "last_seen_episode": 0,
         "description": ""
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 1200,
         "end": 1230,
         "duration": 30,
@@ -274,7 +448,15 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 1230,
         "end": 1260,
         "duration": 30,
@@ -287,20 +469,36 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 1200,
         "end": 1260,
         "duration": 46,
         "publicity": 14,
         "title": "Calabromas",
         "resource": "https:\/\/localhost\/tv\/Calabromas",
-        "total_episodes": 2,
+        "total_episodes": 3,
         "last_seen_episode": 0,
         "description": "Programa comico con Juan Carlos Calabro"
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 1260,
         "end": 1320,
         "duration": 46,
@@ -313,7 +511,15 @@
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 1320,
         "end": 1380,
         "duration": 46,
@@ -321,12 +527,20 @@
         "title": "Gavilan",
         "resource": "https:\/\/localhost\/tv\/Gavilan",
         "total_episodes": 2,
-        "last_seen_episode": 0,
+        "last_seen_episode": 1,
         "description": "Serie con Robert Urich"
     },
     {
         "channel": 9,
-        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
         "start": 1380,
         "end": 1440,
         "duration": 46,
@@ -334,8 +548,7 @@
         "title": "Sheriff Lobo",
         "resource": "https:\/\/localhost\/tv\/SheriffLobo",
         "total_episodes": 2,
-        "last_seen_episode": 0,
+        "last_seen_episode": 1,
         "description": "Serie con Claude Atkins"
     }
 ]
-
