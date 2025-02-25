@@ -1,0 +1,3822 @@
+[
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 570, // 9:30
+        "end": 600, // 10:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "Telescuela tecnica",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "no disponible",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 600, // 10:00
+        "end": 660, // 11:00
+        "duration": 60,
+        "publicity": 15,
+        "title": "Buen dia, salud",
+        "description": "Programa dedicado a fomentar los beneficios de la gimnasia complementandose con consejos utiles para la salud. Conduccion Maria Amuchastegui y el Dr. Eduardo Lorenzo Borocoto (Borocoto Jr.)",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 660, // 11:00
+        "end": 690, // 11:30
+        "duration": 30,
+        "publicity": 0,
+        "title": "Jardincito",
+        "description": "con Gachi Ferrari",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 690, // 11:30
+        "end": 720, // 12:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "Primer informe",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 720, // 12:00
+        "end": 780, // 13:00
+        "duration": 60,
+        "publicity": 10,
+        "title": "El agente de Cipol",
+        "description": "",
+        "total_episodes": 105,
+        "last_seen_episode": 29,
+        "resource": "",
+        "temporada": 2
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 780, // 13:00
+        "end": 870, // 14:30
+        "duration": 90,
+        "publicity": 20,
+        "title": "Cordialmente",
+        "description": "Programa periodistico con la conduccion de Juan Carlos Mareco",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 870, // 14:30
+        "end": 930, // 15:30
+        "duration": 60,
+        "publicity": 0,
+        "title": "Café con Canela",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 930, // 15:30
+        "end": 990, // 16:30
+        "duration": 60,
+        "publicity": 12,
+        "title": "Los angeles de Charlie",
+        "description": "",
+        "total_episodes": 115,
+        "last_seen_episode": 68,
+        "resource": "",
+        "temporada": 4
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 990, // 16:30
+        "end": 1110, // 18:30
+        "duration": 120,
+        "publicity": 0,
+        "title": "Muchas cosas",
+        "description": "Dibujos animados",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 1110, // 18:30
+        "end": 1140, // 19:00
+        "duration": 30,
+        "publicity": 8,
+        "title": "Los pitufos",
+        "description": "",
+        "total_episodes": 256,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 1
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon"],
+        "start": 1140, // 19:00
+        "end": 1200, // 20:00
+        "duration": 60,
+        "publicity": 13,
+        "title": "El gran heroe americano",
+        "description": "",
+        "total_episodes": 44,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 1
+    },
+    {
+        "channel": 7,
+        "weekday": ["Tue"],
+        "start": 1140, // 19:00
+        "end": 1200, // 20:00
+        "duration": 60,
+        "publicity": 12,
+        "title": "El auto fantastico",
+        "description": "",
+        "total_episodes": 90,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 1
+    },
+    {
+        "channel": 7,
+        "weekday": ["Wed"],
+        "start": 1140, // 19:00
+        "end": 1200, // 20:00
+        "duration": 60,
+        "publicity": 13,
+        "title": "El simio de oro",
+        "description": "",
+        "total_episodes": 22,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 1
+    },
+    {
+        "channel": 7,
+        "weekday": ["Thu"],
+        "start": 1140, // 19:00
+        "end": 1200, // 20:00
+        "duration": 60,
+        "publicity": 16,
+        "title": "La pandilla de la computadora",
+        "description": "Whiz Kids (en español conocida como Richie y la pandilla de la computadora, Los chicos computarizados o Los chicos de la computadora)",
+        "total_episodes": 18,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 1
+    },
+    {
+        "channel": 7,
+        "weekday": ["Fri"],
+        "start": 1140, // 19:00
+        "end": 1200, // 20:00
+        "duration": 60,
+        "publicity": 11,
+        "title": "Los Dukes de Hazzard",
+        "description": "",
+        "total_episodes": 145,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 1
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 1200, // 20:00
+        "end": 1260, // 21:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Mesa de noticias",
+        "description": "",
+        "total_episodes": 1000,
+        "last_seen_episode": 176,
+        "resource": "",
+        "temporada": 2
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue"],
+        "start": 1260, // 21:00
+        "end": 1320, // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "30 Millones",
+        "description": "Programa periodistico conducido por Roberto Maidana con la participacion de Raul Barcelo, Monica Gutierrez, Mauro Viale, Enrique Macaya Marquez, Silvia Martinez y Alberto Muney",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon"],
+        "start": 1320, // 22:00
+        "end": 1440, // 23:00
+        "duration": 120,
+        "publicity": 0,
+        "title": "Interpelacion",
+        "description": "Periodistico con la conduccion de Hugo Gambini",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Tue"],
+        "start": 1320, // 22:00
+        "end": 1380, // 23:00
+        "duration": 60,
+        "publicity": 18,
+        "title": "Los especiales de ATC",
+        "description": "",
+        "total_episodes": 44,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Wed"],
+        "start": 1320, // 22:00
+        "end": 1380, // 23:00
+        "duration": 60,
+        "publicity": 12,
+        "title": "Los gringos",
+        "description": "",
+        "total_episodes": 19,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Thu"],
+        "start": 1320, // 22:00
+        "end": 1380, // 23:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Estudio Phillips",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Fri"],
+        "start": 1320, // 22:00
+        "end": 1440, // 0:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Cine",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon"],
+        "start": 1380, // 23:00
+        "end": 1440, // 0:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Libro abierto",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Tue"],
+        "start": 1380, // 23:00
+        "end": 1440, // 0:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Todo es historia",
+        "description": "Programa periodistico donde se analizan temas relacionados con nuestra historia. Conduce Felix Luna",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Wed"],
+        "start": 1380, // 23:00
+        "end": 1440, // 0:00
+        "duration": 60,
+        "publicity": 10,
+        "title": "Situacion limite",
+        "description": "",
+        "total_episodes": 21,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Thu"],
+        "start": 1380, // 23:00
+        "end": 1440, // 0:00
+        "duration": 60,
+        "publicity": 14,
+        "title": "Todo es historia",
+        "description": "Programa periodistico donde se analizan temas relacionados con nuestra historia. Conduce Felix Luna",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Fri"],
+        "start": 1380, // 23:00
+        "end": 1440, // 0:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Cuentos y Novelas",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 0, // 0:00
+        "end": 60, // 1:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Kenia Sharp Club",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sat", "Sun"],
+        "start": 630, // 10:30
+        "end": 660, // 11:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "La fe del hombre",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sat"],
+        "start": 660, // 11:00
+        "end": 720, // 12:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Sabado libre",
+        "description": "Conduccion Gachi Ferrari",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sat"],
+        "start": 720, // 12:00
+        "end": 780, // 13:00
+        "duration": 60,
+        "publicity": 10,
+        "title": "Que se vengan los chicos",
+        "description": "Programa especial consagrado a los chicos",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sat"],
+        "start": 780, // 13:00
+        "end": 840, // 14:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Por siempre Chaplin",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sat"],
+        "start": 840, // 14:00
+        "end": 1080, // 18:00
+        "duration": 240,
+        "publicity": 0,
+        "title": "Cine y series",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sat"],
+        "start": 1080, // 18:00
+        "end": 1140, // 19:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Dejalo ser",
+        "description": "Conducción Any Ventura",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sat"],
+        "start": 1140, // 19:00
+        "end": 1200, // 20:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Rally turismo",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sat"],
+        "start": 1200, // 20:00
+        "end": 1260, // 21:00
+        "duration": 60,
+        "publicity": 15,
+        "title": "Historias de la Argentina secreta",
+        "description": "",
+        "total_episodes": 71,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sat"],
+        "start": 1260, // 21:00
+        "end": 1320, // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "La plaza del diamante",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sat"],
+        "start": 1320, // 22:00
+        "end": 1440, // 0:00
+        "duration": 120,
+        "publicity": 0,
+        "title": "Funcion privada",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sat", "Sun"],
+        "start": 30, // 0:30
+        "end": 150, // 2:30
+        "duration": 120,
+        "publicity": 0,
+        "title": "Kenia Sharp Club",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sun"],
+        "start": 660, // 11:00
+        "end": 690, // 12:00
+        "duration": 30,
+        "publicity": 8,
+        "title": "Clasicos familiares",
+        "description": "Los importantes cuentos de la literatura en dibujos animados",
+        "total_episodes": 21,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sun"],
+        "start": 690, // 12:00
+        "end": 750, // 14:00
+        "duration": 120,
+        "publicity": 0,
+        "title": "Campeonato argentino de pilotos",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sun"],
+        "start": 750, // 14:00
+        "end": 810, // 15:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Los juegos que juega la gente",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sun"],
+        "start": 900, // 15:00
+        "end": 1080, // 18:00
+        "duration": 180,
+        "publicity": 0,
+        "title": "Cine y series",
+        "description": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sun"],
+        "start": 1080, // 18:00
+        "end": 1140, // 19:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Torneos y competencias",
+        "description": "Documentales",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sun"],
+        "start": 1140, // 19:00
+        "end": 1185, // 19:45
+        "duration": 45,
+        "publicity": 0,
+        "title": "Encuentro deportivo",
+        "description": "Todos los goles de la jornada con Oscar Gañete Blasco y Guillermo Canepa",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sun"],
+        "start": 1185, // 19:45
+        "end": 1320, // 22:00
+        "duration": 135,
+        "publicity": 0,
+        "title": "ATC deportes",
+        "description": "Campeonato metropolitano, relata Mauro Viale y Macaya Marquez",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sun"],
+        "start": 1320, // 22:00
+        "end": 1380, // 22:30
+        "duration": 60,
+        "publicity": 0,
+        "title": "Historias de la Argentina secreta",
+        "description": "",
+        "total_episodes": 71,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Sun"],
+        "start": 1380, // 22:30
+        "end": 1440, // 23:30
+        "duration": 60,
+        "publicity": 18,
+        "title": "Los especiales de ATC",
+        "description": "",
+        "total_episodes": 44,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 0, // 0:00
+        "end": 2, // 0:02
+        "duration": 2,
+        "publicity": 0,
+        "title": "Los creadores",
+        "description": "microprograma",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "resource": "",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 685, // 11:25
+        "end": 690, // 11:30
+        "duration": 5,
+        "publicity": 0,
+        "title": "Señor danos este dia",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 690, // 11:30
+        "end": 750, // 12:30
+        "duration": 60,
+        "publicity": 0,
+        "title": "La granja de Carozo y Narizota",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 750, // 12:30
+        "end": 780, // 13:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "El pais que no miramos",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 780, // 13:00
+        "end": 840, // 14:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Realidad 84",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Conduccion Ramon Andino",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 840, // 14:00
+        "end": 960, // 16:00
+        "duration": 120,
+        "publicity": 0,
+        "title": "El espejo…para que la gente se mire",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Conduccion Victor Hugo Morales y la colaboracion de Silvina Chediek",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 960, // 16:00
+        "end": 1020, // 17:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Burbujas",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 1080, // 18:00
+        "end": 1140, // 19:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Pelito",
+        "resource": "",
+        "total_episodes": 339,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 1
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 1140, // 19:00
+        "end": 1200, // 20:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Paloma hay una sola",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Telecomedia interpretada por Nora Carpena, Marty Cosens",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 1200, // 20:00
+        "end": 1260, // 21:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Buenas noches Argentina",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Programa periodistico con la conduccion de Sergio Villarruel, Carlos Asnaghi, Leo Gleizer y Oscar Otranto",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon"
+        ],
+        "start": 1260, // 21:00
+        "end": 1320, // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "La aventura del hombre",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 390,
+        "description": "Presenta Eduardo Emilio Magrassi",
+        "temporada": 1
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Tue"
+        ],
+        "start": 1260, // 21:00
+        "end": 1320, // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Profesion peligro",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 112,
+        "description": "con Lee Majors",
+        "temporada": 1
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Wed"
+        ],
+        "start": 1260, // 21:00
+        "end": 1320, // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Las 24 horas",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 44,
+        "description": "Presenta Luisa Vehil",
+        "temporada": 1
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Thu"
+        ],
+        "start": 1260, // 21:00
+        "end": 1320, // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Buscavidas",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 209,
+        "description": "Interpretes Luis Brandoni, Patricio Contreras",
+        "temporada": 1
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Fri"
+        ],
+        "start": 1260, // 21:00
+        "end": 1320, // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Calabromas",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 396,
+        "description": "",
+        "temporada": 1
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon"
+        ],
+        "start": 1320, // 22:00
+        "end": 1380, // 23:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Compromiso",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 62,
+        "description": "hoy: golpe de estado (1ra parte)",
+        "temporada": 1
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Tue"
+        ],
+        "start": 1320, // 22:00
+        "end": 1380, // 23:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Tiempo nuevo",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Conduccion Bernardo Neustadt y Mariano Grondona",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Wed"
+        ],
+        "start": 1320, // 22:00
+        "end": 1380, // 23:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Television abierta",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "hoy: La violencia en el deporte",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Thu"
+        ],
+        "start": 1320, // 22:00
+        "end": 1380, // 23:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Hotel",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 116,
+        "description": "",
+        "temporada": 1
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Thu"
+        ],
+        "start": 1380, // 23:00
+        "end": 0, // 00:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Falcon Crest",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 228,
+        "description": "Serie con Jane Wyman y Lorenzo Lamas",
+        "temporada": 1
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Fri"
+        ],
+        "start": 1320, // 22:00
+        "end": 1380, // 23:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "El mundo del espectaculo",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "hoy: El asesinato del presidente, con Burt Lancaster y Robert Ryan",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 1380, // 23:30
+        "end": 0, // 00:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "Primera hora",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 0, // 00:00
+        "end": 60, // 01:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Trasnoche primera seccion",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Miniserie El mutante, con Jacques Dacquine, Barbara Sommers. Miniserie El topo, con Alec Guiness. Serie El sexto sentido: el hombre que murio a las 3 y a las 9, con Gary Collins/He de morir antes de despertar/Los ojos que no quisieron morir",
+        "temporada": 0
+    },
+
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 60, // 01:00
+        "end": 150, // 02:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Trasnoche segunda seccion",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Film Un dia a la vez, con Nigel Havers. Documental Triangulos musicales",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 570, // 09:30
+        "end": 575, // 09:35
+        "duration": 5,
+        "publicity": 0,
+        "title": "Señor danos este dia",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 575, // 09:35
+        "end": 600, // 10:00
+        "duration": 25,
+        "publicity": 0,
+        "title": "Documental",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "ciclo de documentales. Misterios del oceano Indico",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 600, // 10:00
+        "end": 690, // 11:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Hombre mundo",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Programa informativo religioso. Conduccion Hector Lorenzo, Josefina Claria, Silvia Marangone. Espacio para la Comision de Medios de Comunicación Social del Episcopado.",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 690, // 11:30
+        "end": 720, // 12:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "Dibujos animados",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 720, // 12:00
+        "end": 780, // 13:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "El maravilloso mundo de los animales",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Documentales presentados por Francisco Erize. Hoy: La union hace la fuerza y La furia de la selva",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 780, // 13:00
+        "end": 870, // 14:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Tarzan y el safari perdido / Las peliculas de Jerry Lewis",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Hoy: Entre la espada y la pared, con Jerry Lewis y Dean Martin",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 870, // 14:30
+        "end": 1260, // 21:00
+        "duration": 210,
+        "publicity": 0,
+        "title": "Badia y compañía",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "a las 20:00 La hora especial de Badia y compañía.",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 1260, // 21:00
+        "end": 1320, // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Porcelandia",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 1320, // 22:00
+        "end": 1380, // 23:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Alguien como usted",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Ciclo de teatro unitario con Irma Roy y elenco rotativo. hoy Asalto a un colectivo, con irma Roy, victor Bruno y Guillermo Francella",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 1380, // 23:00
+        "end": 0, // 00:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Los grandes temas medicos",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "presenta Rene Favaloro. hoy La educacion sexual del adolescente - Corazones y stress",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 0, // 00:00
+        "end": 120, // 02:00
+        "duration": 120,
+        "publicity": 0,
+        "title": "Trasnoche",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "film Una cierta sonrisa. Films Un paso al infierno, con Ty Hardin y Pier Angeli. Teatro del horror, con el capitulo 'visitantes del mas alla', con Kathryn Leigh Scott y Simon Mac Corkindale",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 120, // 02:00
+        "end": 125, // 02:05
+        "duration": 5,
+        "publicity": 0,
+        "title": "Momento de meditacion",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Programa religioso",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 540, // 09:00
+        "end": 555, // 09:15
+        "duration": 15,
+        "publicity": 0,
+        "title": "El evangelio y la actualidad",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Charlas religiosas con el reverndo padre Jose Torquiaro",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 555, // 09:15
+        "end": 645, // 10:00
+        "duration": 45,
+        "publicity": 0,
+        "title": "Por amor a Dios",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Programa religios con Victor Sueiro",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 645, // 10:00
+        "end": 705, // 11:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Mirando el futuro",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "conduccion Laura Moro",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 705, // 11:00
+        "end": 765, // 12:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Misterio a la orden",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 765, // 12:00
+        "end": 825, // 13:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Polemica en el futbol",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 780, // 13:00
+        "end": 870, // 14:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Las chancletas de papa",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Telecomedia interpretada por Dario Vittori",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 870, // 14:30
+        "end": 1110, // 18:30
+        "duration": 240,
+        "publicity": 0,
+        "title": "Cine",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "hoy: Tuya en septiembre, con Rock Hudson. Luego: La reina africana, con Humphrey Bogart",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1110, // 18:30
+        "end": 1200, // 20:00
+        "duration": 90,
+        "publicity": 0,
+        "title": "El deporte y el hombre",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "conduccion Pancho Ibañez",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1200, // 20:00
+        "end": 1260, // 21:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "El show de…",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "hoy Lili Joel",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1260, // 21:00
+        "end": 1320, // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Los Hart (antes: Fama)",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 136,
+        "description": "",
+        "temporada": 1
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1320, // 22:00
+        "end": 1380, // 23:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Historia de un trepador",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 29,
+        "description": "con Claudio Garcia Satur, guillermo Francella, Mirta Busnelli",
+        "temporada": 1
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1380, // 23:00
+        "end": 60, // 00:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Falcon Crest",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 228,
+        "description": "",
+        "temporada": 1
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon"
+        ],
+        "start": 0, // 00:00
+        "end": 60, // 01:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Programa especial dedicado al Paraguay / El sexto sentido",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 13,
+        "weekday": [
+            "Mon"
+        ],
+        "start": 60, // 01:00
+        "end": 150, // 02:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Trasnoche",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "hoy: EL hombre dinamita, con James Stewart, George Kennedy",
+        "temporada": 0
+    },
+VOY POR ACA
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 630, // 11:00
+        "end": 660, // 11:30
+        "duration": 30,
+        "publicity": 0,
+        "title": "La salud de nuestros hijos",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 660, // 11:30
+        "end": 690, // 12:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "Testimonios",
+        "resource": "Ciclo noticioso",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 690, // 12:00
+        "end": 750, // 13:00
+        "duration": 60,
+        "publicity": 10,
+        "title": "SWAT",
+        "resource": "",
+        "total_episodes": 10,
+        "last_seen_episode": 37,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 750, // 13:00
+        "end": 810, // 14:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Amo y señor",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 175,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 810, // 14:00
+        "end": 870, // 15:00
+        "duration": 60,
+        "publicity": 16,
+        "title": "Dallas",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 397,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 870, // 15:00
+        "end": 930, // 16:00
+        "duration": 60,
+        "publicity": 10,
+        "title": "Ladron sin destino",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 66,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 930, // 16:00
+        "end": 990, // 17:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Dar el alma",
+        "resource": "Teleteatro con Raul Rizzo",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 990, // 17:00
+        "end": 1050, // 18:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Telejuegos",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 1050, // 18:00
+        "end": 1110, // 19:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Septimo grado, adios a la escuela",
+        "resource": "Telecomedia interpretada por Cristina Lemercier",
+        "total_episodes": 0,
+        "last_seen_episode": 100,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 1110, // 19:00
+        "end": 1155, // 20:00
+        "duration": 55,
+        "publicity": 0,
+        "title": "Nuevediario las dos caras de la verdad",
+        "resource": "Conduccion Juan Carlos Perez Loizeau y Daniel Mendoza",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 1155, // 20:00
+        "end": 1215, // 20:55
+        "duration": 60,
+        "publicity": 10,
+        "title": "El superagente 86",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 138,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon", "Tue", "Wed", "Thu", "Fri"
+        ],
+        "start": 1215, // 20:55
+        "end": 1220, // 21:00
+        "duration": 5,
+        "publicity": 0,
+        "title": "El humor de Gila",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Mon"
+        ],
+        "start": 1260, // 21:00
+        "end": 1350, // 22:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Bailando con Michael Jackson y sus amigos",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Tue"
+        ],
+        "start": 1260, // 21:00
+        "end": 1350, // 22:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Las mil y unas de Sapag",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Wed"
+        ],
+        "start": 1260, // 21:00
+        "end": 1350, // 22:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Grandes valores del tango",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": [
+            "Thu"
+        ],
+        "start": 1260, // 21:00
+        "end": 1320, // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Matt Houston",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 67,
+        "description": "",
+        "temporada": 0
+    },
+[
+    {
+        "channel": 9,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
+        "start": 0, // 00:00
+        "end": 60, // 01:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise2",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Fri"
+        ],
+        "start": 1260, // 21:00
+        "end": 1320, // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Hiperhumor",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Thu"
+        ],
+        "start": 1320, // 22:00
+        "end": 1440, // 23:30
+        "duration": 120,
+        "publicity": 0,
+        "title": "El corralon de Nazareno",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Mon"
+        ],
+        "start": 1350, // 22:30
+        "end": 1410, // 23:30
+        "duration": 60,
+        "publicity": 57,
+        "title": "Los profesionales",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Tue"
+        ],
+        "start": 1350, // 22:30
+        "end": 1410, // 23:30
+        "duration": 60,
+        "publicity": 97,
+        "title": "Brigada A",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Wed"
+        ],
+        "start": 1350, // 22:30
+        "end": 1410, // 23:30
+        "duration": 60,
+        "publicity": 94,
+        "title": "Remington Steele",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Fri"
+        ],
+        "start": 1320, // 22:00
+        "end": 1440, // 23:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Monumental Moria",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "start": 1410, // 23:30
+        "end": 1440, // 00:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "Esos increibles animales",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 630, // 10:30
+        "end": 650, // 11:00
+        "duration": 20,
+        "publicity": 0,
+        "title": "El club 700",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 650, // 11:00
+        "end": 660, // 11:10
+        "duration": 10,
+        "publicity": 0,
+        "title": "Dios en un nuevo dia",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 660, // 11:10
+        "end": 690, // 11:30
+        "duration": 30,
+        "publicity": 0,
+        "title": "Reino animal",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 690, // 11:30
+        "end": 720, // 12:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "Aprendijuegos",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 720, // 12:00
+        "end": 780, // 13:00
+        "duration": 60,
+        "publicity": 139,
+        "title": "Chips",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 780, // 13:00
+        "end": 1290, // 21:30
+        "duration": 270,
+        "publicity": 0,
+        "title": "Sabados de la bondad",
+        "resource": "conduccion Leonardo Simmons",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 1290, // 21:30
+        "end": 1410, // 23:30
+        "duration": 120,
+        "publicity": 0,
+        "title": "Sabados de comedia: un caballero sobre la almohada",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 1410, // 23:30
+        "end": 1500, // 01:00
+        "duration": 90,
+        "publicity": 0,
+        "title": "Cine",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 600, // 10:00
+        "end": 660, // 11:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Dios en mi familia",
+        "resource": "Misa y sermon dominical a cargo del rvdo. Jose Maria Lombardero",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada":""
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 660, // 11:00
+        "end": 720, // 12:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Dibujos",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 720, // 12:00
+        "end": 780, // 13:00
+        "duration": 60,
+        "publicity": 139,
+        "title": "Chips",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 780, // 13:00
+        "end": 1260, // 21:00
+        "duration": 480,
+        "publicity": 0,
+        "title": "Domingos para la juventud",
+        "resource": "Conduccion Silvio Soldan y Jorge Rossi",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1260, // 21:00
+        "end": 1320, // 22:00
+        "duration": 60,
+        "publicity": 64,
+        "title": "Alguien como vos (Q 1-2)",
+        "resource": "Ciclo unitario",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1320, // 22:00
+        "end": 1410, // 23:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Todos los goles",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1410, // 23:30
+        "end": 1500, // 01:00
+        "duration": 90,
+        "publicity": 0,
+        "title": "Cine",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+
+
+
+
+
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 630, //10:30
+        "end": 660, //11:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "Dibujos animados",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 660, //11:00
+        "end": 690, //11:30
+        "duration": 30,
+        "publicity": 50,
+        "title": "Plaza Sesamo III",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 690, //11:30
+        "end": 720, //12:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "Espiando por el mundo",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 720, //12:00
+        "end": 780, //13:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "La noticia",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 780, //13:00
+        "end": 840, //14:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "El show de la vida",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Programa periodístico con la conducción de Hector Larrea",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 840, //14:00 
+        "end": 900, //15:00
+        "duration": 60,
+        "publicity": 10,
+        "title": "Yolanda Lujan",
+        "resource": "",
+        "total_episodes": 62,
+        "last_seen_episode": 0,
+        "description": "Teleteatro",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 900, //16:00
+        "end": 960, //17:00
+        "duration": 60,
+        "publicity": 10,
+        "title": "La pobre Clara",
+        "resource": "",
+        "total_episodes": 160,
+        "last_seen_episode": 0,
+        "description": "Telenovela protagonizada por Alicia Bruzzo y Germán Krauss",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 960, //17:00
+        "end": 1080,
+        "duration": 120,
+        "publicity": 0,
+        "title": "Nuestro cine",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "film Fulmine, La tía de Carlos (con Pedro Quartucci)",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 1080,
+        "end": 1140,
+        "duration": 60,
+        "publicity": 89,
+        "title": "Daktari",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 1140,
+        "end": 1200,
+        "duration": 60,
+        "publicity": 0,
+        "title": "La noticia",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Noticiero conducido por Jorge Marchetti y Santo Biassatti",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 1140,
+        "end": 1200,
+        "duration": 60,
+        "publicity": 0,
+        "title": "La noticia",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Noticiero conducido por Jorge Marchetti y Santo Biassatti",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 1200,
+        "end": 1260,
+        "duration": 60,
+        "publicity": 251,
+        "title": "Mash",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon"],
+        "start": 1260,
+        "end": 1320,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Humor en demo gracia",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Tue"],
+        "start": 1320,
+        "end": 1410,
+        "duration": 90,
+        "publicity": 0,
+        "title": "Operación Ja Ja",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Wed"],
+        "start": 1320,
+        "end": 1410,
+        "duration": 90,
+        "publicity": 0,
+        "title": "Especiales",
+        "resource": "La novia de los forasteros, de Pedro Pico, con Soledad Silveyra",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Thu"],
+        "start": 1320,
+        "end": 1410,
+        "duration": 90,
+        "publicity": 0,
+        "title": "Botica de tango",
+        "resource": "conduccion Eduardo Bergara Leumman. Hoy: Bulin Cabaret, con sexteto mayor, Ramona Galarza, Roberto Goyeneche",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Thu"],
+        "start": 1260,
+        "end": 1320,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Tal como somos",
+        "resource": "Hoy: La tentacion de los Galeand, con Juan Carlos Dual y Stella Maris Closas",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon"],
+        "start": 1320,
+        "end": 1380,
+        "duration": 90,
+        "publicity": 0,
+        "title": "Los exclusivos del once",
+        "resource": "El paramo, de Pedro Orgambide",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Tue"],
+        "start": 1380,
+        "end": 1440,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Argentinisima",
+        "resource": "Programa dedicado a destacar a los grandes valores de la música, danza y canciones y todo el arte argentino. Hoy: A puro cuento, unico especial del año con Luis Landriscina",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Wed"],
+        "start": 1380,
+        "end": 1440,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Los grandes",
+        "resource": "Conduccion Antonio Carrizo. Hoy: Sergio Renan",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Thu"],
+        "start": 1380,
+        "end": 1440,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Periodismo por derecha",
+        "resource": "Programa periodistico conducido por Mona Moncalvillo",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Fri"],
+        "start": 1320,
+        "end": 1410,
+        "duration": 90,
+        "publicity": 59,
+        "title": "El show de Benny Hill",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Mon-Fri"],
+        "start": 1410,
+        "end": 1440,
+        "duration": 30,
+        "publicity": 0,
+        "title": "La noticia",
+        "resource": "Con Enrique Landi, Alejandro Apo, Armando Repetto, Carlos Campolongo y Carlos Mendez",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sat"],
+        "start": 645,
+        "end": 660,
+        "duration": 15,
+        "publicity": 0,
+        "title": "Musica con alma y vida",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sat"],
+        "start": 660,
+        "end": 720,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Generacion activa",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sat"],
+        "start": 720,
+        "end": 750,
+        "duration": 30,
+        "publicity": 0,
+        "title": "El niño y el deporte",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sat"],
+        "start": 750,
+        "end": 780,
+        "duration": 30,
+        "publicity": 0,
+        "title": "El pais que no miramos",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sat"],
+        "start": 780,
+        "end": 840,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Telematch",
+        "resource": "",
+        "total_episodes": 43,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sat"],
+        "start": 1200,
+        "end": 1320,
+        "duration": 120,
+        "publicity": 0,
+        "title": "Avant Premiere",
+        "resource": "film LA guerra entre hombres y mujeres, con Jack Lemmon y Barbara Harris",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sat"],
+        "start": 1320,
+        "end": 1440,
+        "duration": 120,
+        "publicity": 0,
+        "title": "Hollywood en castellano",
+        "resource": "film Lagran barricada, con Herny Fonda y Eileen Brennan",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sun"],
+        "start": 0,
+        "end": 120,
+        "duration": 120,
+        "publicity": 0,
+        "title": "Cine de trasnoche",
+        "resource": "Estacion secreta III, con George Maharis y Richard Basehart",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sun"],
+        "start": 660,
+        "end": 720,
+        "duration": 60,
+        "publicity": 0,
+        "title": "La santa misa",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sun"],
+        "start": 720,
+        "end": 780,
+        "duration": 60,
+        "publicity": 0,
+        "title": "El niño y el deporte",
+        "resource": "Programa periodistico deportivo conducido por Juan Carlos Mendizabal",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sun"],
+        "start": 780,
+        "end": 1260,
+        "duration": 480,
+        "publicity": 0,
+        "title": "Cine platea",
+        "resource": "film Los amigos de Salambo, Matemos al tio (con Nigel Grenn, Mary Bradham), Los terapeutas (con John Forsythe, Pat Harrington), El gran robo (con Stephen Collins, Jerry Ohara), Trama macabra (con Karen Black, Bruce Dern)",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sun"],
+        "start": 1260,
+        "end": 1320,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Cuatro hombres para Eva",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sun"],
+        "start": 1320,
+        "end": 1380,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Galas de teatro",
+        "resource": "Los desastres de la guerra, española, quinto capitulo",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 11,
+        "weekday": ["Sun"],
+        "start": 1380,
+        "end": 1470,
+        "duration": 90,
+        "publicity": 0,
+        "title": "Cine",
+        "resource": "La iniciacion de Sarah, con Kay Lenz, Shelly Winters",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+
+
+
+
+
+    {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 570,
+        "end": 600,
+        "duration": 30,
+        "publicity": 0,
+        "title": "Telescuela tecnica",
+        "resource": "no disponible",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 600,
+        "end": 660,
+        "duration": 60,
+        "publicity": 15,
+        "title": "Buen dia, salud",
+        "resource": "Programa dedicado a fomentar los beneficios de la gimnasia complementandose con consejos utiles para la salud. Conduccion Maria Amuchastegui y el Dr. Eduardo Lorenzo Borocoto (Borocoto Jr.)",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 660,
+        "end": 690,
+        "duration": 30,
+        "publicity": 0,
+        "title": "Jardincito",
+        "resource": "con Gachi Ferrari",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "no disponible",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 690,
+        "end": 720,
+        "duration": 30,
+        "publicity": 0,
+        "title": "Primer informe",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "no disponible",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 720,
+        "end": 780,
+        "duration": 60,
+        "publicity": 10,
+        "title": "El agente de Cipol",
+        "resource": "disponible en Internet archive https://archive.org/details/@alexander_waverly 4 episodios",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 780,
+        "end": 870,
+        "duration": 90,
+        "publicity": 20,
+        "title": "Cordialmente",
+        "resource": "Programa periodistico con la conduccion de Juan Carlos Mareco. Algunos disponibles duraciones de 50 min a 1:10 hrs: https://www.youtube.com/watch?v=RfCEM6JcV4E https://www.youtube.com/watch?v=vNrzYduKMh8 https://www.youtube.com/watch?v=QLZmiyIRQnk https://www.youtube.com/watch?v=DV0Zdp5791o",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 870,
+        "end": 930,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Café con Canela",
+        "resource": "escaso yt https://www.youtube.com/watch?v=9OBmEhDATpE",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 930,
+        "end": 990,
+        "duration": 60,
+        "publicity": 12,
+        "title": "Los angeles de Charlie",
+        "resource": "disponible yt",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+        {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 990,
+        "end": 1110,
+        "duration": 120,
+        "publicity": 0,
+        "title": "Muchas cosas",
+        "resource": "Dibujos animados",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "???",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 1110,
+        "end": 1140,
+        "duration": 30,
+        "publicity": 8,
+        "title": "Los pitufos",
+        "resource": "disponible yt",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon"],
+        "start": 1140,
+        "end": 1200,
+        "duration": 60,
+        "publicity": 13,
+        "title": "El gran heroe americano",
+        "resource": "disponible yt",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Tue"],
+        "start": 1140,
+        "end": 1200,
+        "duration": 60,
+        "publicity": 12,
+        "title": "El auto fantastico",
+        "resource": "disponible https://archive.org/search?query=Knight+Rider&and%5B%5D=subject%3A%2280s+TV+Show%22",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Wed"],
+        "start": 1140,
+        "end": 1200,
+        "duration": 60,
+        "publicity": 13,
+        "title": "El simio de oro",
+        "resource": "disponible yt",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Thu"],
+        "start": 1140,
+        "end": 1200,
+        "duration": 60,
+        "publicity": 16,
+        "title": "La pandilla de la computadora",
+        "resource": "Whiz Kids (en español conocida como Richie y la pandilla de la computadora, Los chicos computarizados o Los chicos de la computadora). Algunos en yt https://www.youtube.com/watch?v=DbWE6l9PgTk",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Fri"],
+        "start": 1140,
+        "end": 1200,
+        "duration": 60,
+        "publicity": 11,
+        "title": "Los Dukes de Hazzard",
+        "resource": "dispon en archive.org: https://archive.org/details/bitchute_-_classictelevisionseries_2020",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 1200,
+        "end": 1260,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Mesa de noticias",
+        "resource": "hay algunos en yt https://www.youtube.com/watch?v=OY2V-AcYNv8",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 1260,
+        "end": 1320,
+        "duration": 60,
+        "publicity": 0,
+        "title": "30 Millones",
+        "resource": "Programa periodistico conducido por Roberto Maidana con la participacion de Raul Barcelo, Monica Gutierrez, Mauro Viale, Enrique Macaya Marquez, Silvia Martinez
+    },
+        {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 1260,
+        "end": 1320,
+        "duration": 60,
+        "publicity": 0,
+        "title": "30 Millones",
+        "resource": "Programa periodistico conducido por Roberto Maidana con la participacion de Raul Barcelo, Monica Gutierrez, Mauro Viale, Enrique Macaya Marquez, Silvia Martinez y Alberto Muney",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "no disponible",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon"],
+        "start": 1320,
+        "end": 1440,
+        "duration": 120,
+        "publicity": 0,
+        "title": "Interpelacion",
+        "resource": "Periodistico con la conduccion de Hugo Gambini",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "no disponible",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Tue"],
+        "start": 1320,
+        "end": 1440,
+        "duration": 60,
+        "publicity": 18,
+        "title": "Los especiales de ATC",
+        "resource": "varios en Archivo Prisma. Duracion variada. reedicion de https://www.imdb.com/title/tt4840852/episodes/?year=1981 https://www.youtube.com/watch?v=woEJD8_oOaw https://www.youtube.com/watch?v=VeL9CGSUxW4 https://www.youtube.com/watch?v=n5d4ZmxAhCI",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Wed"],
+        "start": 1320,
+        "end": 1440,
+        "duration": 60,
+        "publicity": 12,
+        "title": "Los gringos",
+        "resource": "disponibles en yt archivo prisma",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Thu"],
+        "start": 1320,
+        "end": 1380,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Estudio Phillips",
+        "resource": "no disponible",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Fri"],
+        "start": 1320,
+        "end": 1440,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Cine",
+        "resource": "no hay lista de peliculas",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon"],
+        "start": 1380,
+        "end": 1440,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Libro abierto",
+        "resource": "no disponible",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Tue"],
+        "start": 1380,
+        "end": 1440,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Todo es historia",
+        "resource": "Programa periodistico donde se analizan temas relacionados con nuestra historia. Conduce Felix Luna",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Wed"],
+        "start": 1380,
+        "end": 1440,
+        "duration": 60,
+        "publicity": 10,
+        "title": "Situacion limite",
+        "resource": "varios disponibles en Archivo Prisma. https://www.youtube.com/watch?v=xTBi6fjBEf0 https://www.youtube.com/watch?v=bMF0",
+        "publicity": 10,
+        "title": "Situacion limite",
+        "resource": "varios disponibles en Archivo Prisma. https://www.youtube.com/watch?v=xTBi6fjBEf0 https://www.youtube.com/watch?v=bMF0TFUDl2U https://www.youtube.com/watch?v=PTHbx7zMPgg",
+        "total_episodes": 21,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Thu"],
+        "start": 1380,
+        "end": 1440,
+        "duration": 60,
+        "publicity": 14,
+        "title": "Todo es historia",
+        "resource": "Programa periodistico donde se analizan temas relacionados con nuestra historia. Conduce Felix Luna",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "escaso - https://www.youtube.com/watch?v=KygsmB4Y_Qk",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Fri"],
+        "start": 1380,
+        "end": 1440,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Cuentos y Novelas",
+        "resource": "no disponible",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Mon-Fri"],
+        "start": 0,
+        "end": 60,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Kenia Sharp Club",
+        "resource": "hay fragmentos (pocos)",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Sat-Sun"],
+        "start": 630,
+        "end": 660,
+        "duration": 30,
+        "publicity": 0,
+        "title": "La fe del hombre",
+        "resource": "solo un fragmento: https://www.youtube.com/watch?v=gwVPcL8H7ZY",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Sat"],
+        "start": 660,
+        "end": 720,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Sabado libre",
+        "resource": "Conduccion Gachi Ferrari",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "no disponible",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Sat"],
+        "start": 720,
+        "end": 780,
+        "duration": 60,
+        "publicity": 10,
+        "title": "Que se vengan los chicos",
+        "resource": "Programa especial consagrado a los chicos. escaso. Fragmentos. Episodio en dos partes: https://www.youtube.com/watch?v=uQ5ZVfUzJKk https://www.youtube.com/watch?v=NdNrIX0f2VM",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Sat"],
+        "start": 780,
+        "end": 840,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Por siempre Chaplin",
+        "resource": "no esta la lista, pero los film son dominio publico",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 9,
+        "weekday": ["Sat"],
+        "start": 840,
+        "end": 1200,
+        "duration": 240,
+        "publicity": 0,
+        "title": "Cine y series",
+        "resource": "las series estan, el film esta en yt https://www.youtube.com/watch?v=lz39t8VIXlY",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+
+
+
+
+
+
+
+    {
+        "channel": 2,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "start": 1020,  // 17:00
+        "end": 1080,    // 18:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Solo dibujos",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "start": 1080,  // 18:00
+        "end": 1140,    // 19:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "El gran chaparral",
+        "resource": "",
+        "total_episodes": 97,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "start": 1140,  // 19:00
+        "end": 1200,    // 20:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Musica total",
+        "resource": [
+            "https://www.youtube.com/watch?v=2fDy4ZACHrM",
+            "https://www.youtube.com/watch?v=xwc5UXMODqs"
+        ],
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Programa musical con la conduccion de Marcelo Bello y Lia Rosa Abeijon",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "start": 1200,  // 20:00
+        "end": 1260,    // 21:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "El crucero del amor",
+        "resource": "",
+        "total_episodes": 250,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "start": 1260,  // 21:00
+        "end": 1320,    // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Las calles de San Francisco",
+        "resource": "",
+        "total_episodes": 120,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "start": 1320,  // 22:00
+        "end": 1380,    // 23:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Starsky y Hutch",
+        "resource": "",
+        "total_episodes": 92,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "start": 1380,  // 23:00
+        "end": 1500,    // 0:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "A solas",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "start": 1500,  // 0:30
+        "end": 1530,    // 1:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "Sintesis",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 960,   // 16:00
+        "end": 990,     // 16:30
+        "duration": 30,
+        "publicity": 0,
+        "title": "Oeste al dia",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 990,   // 16:30
+        "end": 1050,    // 17:30
+        "duration": 60,
+        "publicity": 0,
+        "title": "Mundo turistico",
+        "resource": "Programa de divulgacion turistica conducido por Rodolfo Federico",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 1050,  // 17:30
+        "end": 1110,    // 18:30
+        "duration": 60,
+        "publicity": 0,
+        "title": "Dinamica rural",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 1110,  // 18:30
+        "end": 1140,    // 19:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "El (nuevo) show de Dick Van Dyke",
+        "resource": "",
+        "total_episodes": 72,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 1140,  // 19:00
+        "end": 1200,    // 20:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Kung Fu",
+        "resource": "",
+        "total_episodes": 63,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 1200,  // 20:00
+        "end": 1260,    // 21:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Johnny Allon Presenta",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 1260,  // 21:00
+        "end": 1320,    // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Box internacional",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sat"
+        ],
+        "start": 1320,  // 22:00
+        "end": 1440,    // 0:00
+        "duration": 120,
+        "publicity": 0,
+        "title": "Futbol de primera B",
+        "resource": "Conduccion Horacio Aiello",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 0,      // 0:00
+        "end": 90,       // 1:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Cine de trasnoche",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "hoy: El dilema de los Mulligran, con Laurence Pregman",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 960,    // 16:00
+        "end": 1080,     // 18:00
+        "duration": 120,
+        "publicity": 0,
+        "title": "Cine del domingo",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "film Bolidos en accion, con James Garner, 1975",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1080,   // 18:00
+        "end": 1110,     // 18:30
+        "duration": 30,
+        "publicity": 0,
+        "title": "Rex Humbard",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1110,   // 18:30
+        "end": 1170,     // 19:30
+        "duration": 60,
+        "publicity": 0,
+        "title": "Switch",
+        "resource": "",
+        "total_episodes": 32,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1170,   // 19:30
+        "end": 1230,     // 20:30
+        "duration": 60,
+        "publicity": 0,
+        "title": "Dos tipos audaces",
+        "resource": "",
+        "total_episodes": 24,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1230,   // 20:30
+        "end": 1260,     // 21:00
+        "duration": 30,
+        "publicity": 0,
+        "title": "Nuestro increible mundo",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1260,   // 21:00
+        "end": 1320,     // 22:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Campeones",
+        "resource": "Programa de automovilismo. Conduccion Carlos Alberto Legnani y Alberto Juarez",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1320,   // 22:00
+        "end": 1380,     // 23:00
+        "duration": 60,
+        "publicity": 0,
+        "title": "Golf en TV",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": [
+            "Sun"
+        ],
+        "start": 1380,   // 23:00
+        "end": 1500,     // 0:30
+        "duration": 90,
+        "publicity": 0,
+        "title": "Cine de domingo",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "film La esclava del paraiso",
+        "temporada": 0
+    },
+
+
+    {
+        "channel": 2,
+        "weekday": ["Sat"],
+        "start": 720,
+        "end": 780,
+        "duration": 60,
+        "publicity": 10,
+        "title": "Que se vengan los chicos",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Programa especial consagrado a los chicos",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sat"],
+        "start": 780,
+        "end": 840,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Por siempre Chaplin",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sat"],
+        "start": 840,
+        "end": 1080,
+        "duration": 240,
+        "publicity": 0,
+        "title": "Cine y series",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sat"],
+        "start": 1080,
+        "end": 1140,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Dejalo ser",
+        "resource": "conduccion Any Ventura",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sat"],
+        "start": 1140,
+        "end": 1200,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Rally turismo",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sat"],
+        "start": 1200,
+        "end": 1260,
+        "duration": 60,
+        "publicity": 15,
+        "title": "Historias de la Argentina secreta",
+        "resource": "",
+        "total_episodes": 71,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sat"],
+        "start": 1260,
+        "end": 1320,
+        "duration": 60,
+        "publicity": 0,
+        "title": "La plaza del diamante",
+        "resource": "",
+        "total_episodes": 4,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sat"],
+        "start": 1320,
+        "end": 1440,
+        "duration": 120,
+        "publicity": 0,
+        "title": "Funcion privada",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sun"],
+        "start": 30,
+        "end": 150,
+        "duration": 120,
+        "publicity": 0,
+        "title": "Kenia Sharp Club",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sun"],
+        "start": 660,
+        "end": 690,
+        "duration": 30,
+        "publicity": 8,
+        "title": "Clasicos familiares",
+        "resource": "Los importantes cuentos de la literatura en dibujos animados",
+        "total_episodes": 21,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sun"],
+        "start": 690,
+        "end": 750,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Campeonato argentino de pilotos",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sun"],
+        "start": 750,
+        "end": 810,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Los juegos que juega la gente",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sun"],
+        "start": 810,
+        "end": 990,
+        "duration": 180,
+        "publicity": 0,
+        "title": "Cine y series",
+        "resource": "",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sun"],
+        "start": 990,
+        "end": 1050,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Torneos y competencias",
+        "resource": "Documentales",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sun"],
+        "start": 1050,
+        "end": 1095,
+        "duration": 45,
+        "publicity": 0,
+        "title": "Encuentro deportivo",
+        "resource": "Todos los goles de la jornada con Oscar Gañete Blasco y Guillermo Canepa",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sun"],
+        "start": 1095,
+        "end": 1320,
+        "duration": 135,
+        "publicity": 0,
+        "title": "ATC deportes",
+        "resource": "campeonato metropolitano, relata Mauro Viale y Macaya Marquez",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sun"],
+        "start": 1320,
+        "end": 1380,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Historias de la Argentina secreta",
+        "resource": "",
+        "total_episodes": 71,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Sun"],
+        "start": 1380,
+        "end": 1440,
+        "duration": 60,
+        "publicity": 18,
+        "title": "Los especiales de ATC",
+        "resource": "",
+        "total_episodes": 44,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    },
+    {
+        "channel": 2,
+        "weekday": ["Mon-Sun"],
+        "start": null,
+        "end": null,
+        "duration": 2,
+        "publicity": 0,
+        "title": "Los creadores",
+        "resource": "microprograma",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "",
+        "temporada": 0
+    }
+]
