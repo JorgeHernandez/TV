@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -21,6 +22,7 @@
         "description": ""
     },
     {
+        "id": 2,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -42,6 +44,7 @@
         "description": ""
     },
     {
+        "id": 3,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -63,6 +66,7 @@
         "description": ""
     },
     {
+        "id": 4,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -84,6 +88,7 @@
         "description": ""
     },
     {
+        "id": 5,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -105,6 +110,7 @@
         "description": ""
     },
     {
+        "id": 6,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -126,6 +132,7 @@
         "description": ""
     },
     {
+        "id": 7,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -147,6 +154,7 @@
         "description": ""
     },
     {
+        "id": 8,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -168,6 +176,7 @@
         "description": ""
     },
     {
+        "id": 9,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -189,6 +198,7 @@
         "description": ""
     },
     {
+        "id": 10,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -210,6 +220,7 @@
         "description": "Programa de inter\u00e9s general con Juan Carlos Mareco - Empieza a "
     },
     {
+        "id": 11,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -237,6 +248,7 @@
         "description": "Serie con Roger Moore y Tony Curtiss"
     },
     {
+        "id": 12,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -258,6 +270,7 @@
         "description": "Programa educativo"
     },
     {
+        "id": 13,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -279,6 +292,7 @@
         "description": "Teleteatro con Guillermo Francella"
     },
     {
+        "id": 14,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -300,6 +314,7 @@
         "description": "Teleteatro de Alberto Migre"
     },
     {
+        "id": 15,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -321,6 +336,7 @@
         "description": "Programa infantil"
     },
     {
+        "id": 16,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -342,6 +358,7 @@
         "description": "Programa de automovilismo"
     },
     {
+        "id": 17,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -363,6 +380,7 @@
         "description": "Programa deportivo sobre golf"
     },
     {
+        "id": 18,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -384,6 +402,7 @@
         "description": "Empieza 16:30"
     },
     {
+        "id": 19,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -405,6 +424,7 @@
         "description": "films: Cumbres borrascosas, Tora tora tora, Fuga en el siglo xxv, Galactica, Un extra\u00f1o en la casa"
     },
     {
+        "id": 20,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -426,6 +446,7 @@
         "description": ""
     },
     {
+        "id": 21,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -443,10 +464,11 @@
         "title": "Danger Man",
         "resource": "https:\/\/localhost\/tv\/DangerMan",
         "total_episodes": 4,
-        "last_seen_episode": 1,
+        "last_seen_episode": 2,
         "description": "Serie de espionaje"
     },
     {
+        "id": 22,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -468,6 +490,7 @@
         "description": "La escoba espacial"
     },
     {
+        "id": 23,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -489,6 +512,7 @@
         "description": "Programa comico con Juan Carlos Calabro"
     },
     {
+        "id": 24,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -510,6 +534,7 @@
         "description": "Serie con Greg Evigan"
     },
     {
+        "id": 25,
         "channel": 9,
         "weekday": [
             "Mon",
@@ -527,10 +552,11 @@
         "title": "Gavilan",
         "resource": "https:\/\/localhost\/tv\/Gavilan",
         "total_episodes": 2,
-        "last_seen_episode": 1,
+        "last_seen_episode": 0,
         "description": "Serie con Robert Urich"
     },
     {
+        "id": 26,
         "channel": 9,
         "weekday": [
             "Mon",

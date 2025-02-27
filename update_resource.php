@@ -8,8 +8,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data = json_decode(file_get_contents('php://input'), true);
     error_log(print_r($data, true)); // Para ver qué datos se están recibiendo en el log
 
-    // Verificamos que se haya recibido el recurso y el nuevo valor
-    if (isset($data['resource']) && isset($data['last_seen_episode'])) {
+    // Verificamos que se haya recibido el id y el nuevo valor
+    if (isset($data['id']) && isset($data['last_seen_episode'])) {
         // Cargamos el contenido actual del archivo JSON
         $jsonData = json_decode(file_get_contents($jsonFile), true);
 
@@ -20,9 +20,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             exit;
         }
 
-        // Buscamos el recurso correspondiente
+        // Buscamos el recurso correspondiente por id
         foreach ($jsonData as &$program) {
-            if ($program['resource'] === $data['resource']) {
+            if ($program['id'] === $data['id']) { // Cambiado de resource a id
                 // Actualizamos el valor de last_seen_episode
                 $program['last_seen_episode'] = $data['last_seen_episode'];
                 break; // Salimos del bucle una vez que encontramos el recurso
@@ -62,4 +62,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo json_encode(['status' => 'error', 'message' => 'Método no permitido.']);
 }
 ?>
-
