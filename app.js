@@ -196,18 +196,18 @@ function onVideoEnded(resource) {
             return response.json();
         })
         .then(data => {
-            // Buscamos el programa que se corresponde con el resource de video
+            // Buscar el programa que se corresponde con el resource de video
             const recurso = data.find(r => r.resource === resource);
 
             // Si encontramos el recurso, vemos el tiempo de publicidad y luego manejamos last_seen_episode
             if (recurso) {
                 // Cargar postroll tanda publicitaria
-                if(!isPublicitySlot){
+                if (!isPublicitySlot) {
                     isPublicitySlot = true;
-                    if(recurso.publicity!==0){                        
+                    if (recurso.publicity !== 0) {
                         loadPostRoll(recurso);
-                    }else{
-                        //si no hay publicidad, cargar el siguiente programa
+                    } else {
+                        // Si no hay publicidad, cargar el siguiente programa
                         loadContent(currentChannel);
                     }
                 }
@@ -231,7 +231,7 @@ function onVideoEnded(resource) {
                             'Content-Type': 'application/json'
                         },
                         body: JSON.stringify({
-                            resource: resource,
+                            id: recurso.id, // Usar el ID en lugar del resource
                             last_seen_episode: recurso.last_seen_episode
                         })
                     });
