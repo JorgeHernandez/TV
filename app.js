@@ -203,11 +203,12 @@ function onVideoEnded(resource) {
             if (recurso) {
                 // Cargar postroll tanda publicitaria
                 if (!isPublicitySlot) {
-                    isPublicitySlot = true;
                     if (recurso.publicity !== 0) {
+                        isPublicitySlot = true;
                         loadPostRoll(recurso);
                     } else {
                         // Si no hay publicidad, cargar el siguiente programa
+                        isPublicitySlot = false;
                         loadContent(currentChannel);
                     }
                 }
@@ -256,12 +257,23 @@ function onVideoEnded(resource) {
 
     //al finalizar un video, mostrar publicidad hasta la hora de finalización del show
     //las tandas publicitarias son de 20 minutos
-    function loadPostRoll(recurso){        
-        //fuera de transmision no hay publicidad (publicity = 0 en json)
+    //Fix me!! el campo publicity vale 0 si no hay, 1 si se debe mostrar (no el tiempo de publi). Pasar a bool
+    function loadPostRoll(recurso){
+
+        // Obtener la hora actual en segundos desde la medianoche
+        const now = new Date();
+        const currentTimeInMinutes = now.getHours() * 60 + now.getMinutes(); // Convertir a minutos
+
+
+        //fuera de transmision no hay publicidad (publicity = 0 en json). Algunos shows tampoco tienen publi (ni los bumpuers)
         if(recurso.publicity !== 0){
 
+
+            // Calcular el tiempo disponible para publicidad
+            const availableTime = (recurso.end - currentTimeInMinutes)*60; // en segundos
+
             //Calcular tiempo disponible para publicidad
-            const availableTime = recurso.publicity*60;//en segundos
+            //const availableTime = recurso.publicity*60;//en segundos
 
             // Generar un número aleatorio entre 1 y 9
             const randomNumber = Math.floor(Math.random() * 9) + 1; // 1 a 9

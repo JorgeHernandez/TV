@@ -464,7 +464,7 @@
         "title": "Danger Man",
         "resource": "https:\/\/localhost\/tv\/DangerMan",
         "total_episodes": 4,
-        "last_seen_episode": 2,
+        "last_seen_episode": 3,
         "description": "Serie de espionaje"
     },
     {
@@ -552,7 +552,7 @@
         "title": "Gavilan",
         "resource": "https:\/\/localhost\/tv\/Gavilan",
         "total_episodes": 2,
-        "last_seen_episode": 1,
+        "last_seen_episode": 0,
         "description": "Serie con Robert Urich"
     },
     {
@@ -574,7 +574,7 @@
         "title": "Sheriff Lobo",
         "resource": "https:\/\/localhost\/tv\/SheriffLobo",
         "total_episodes": 2,
-        "last_seen_episode": 1,
+        "last_seen_episode": 0,
         "description": "Serie con Claude Atkins"
     }
 ]
