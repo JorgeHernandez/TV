@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                     if (event.data === YT.PlayerState.ENDED) {
                                         // Lógica para manejar el final del video
                                         console.log("El video ha terminado.");
-                                        loadPostRoll(); // Llama a tu función para cargar la publicidad
+                                        loadPostRoll(currentProgram.id); // Llama a tu función para cargar la publicidad
                                     }
                                 } // Cierre de onStateChange
                         } // Cierre de events
@@ -135,10 +135,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
                     videoPlayer.currentTime = minutesSinceStart > 0 ? minutesSinceStart * 60 : 0; // Establecer el tiempo actual del video en segundos
                     videoPlayer.play();
-
-
-
-
 
                     // Incrementar el último episodio visto
                     videoPlayer.addEventListener('ended', function() {
@@ -272,8 +268,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Función que carga el postroll cuando el video de yt cambia a estado ended
-    //FIX ME: load post roll tira del video-source
-    function onPlayerStateChange(event) {
+    //FIX ME: load post roll tira del id de video
+    function onPlayerStateChange(event, showId) {
         if (event.data === YT.PlayerState.ENDED) {
 
             // Remover el iframe de YouTube
@@ -284,7 +280,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             //FIX ME: abria que ver si puede calcular el tiempo de publicidad y meter el video-source
             // El video ha terminado, mostrar publicidad
-            loadPostRoll(); // Llama a tu función para cargar la publicidad
+            loadPostRoll(showId); // Llama a tu función para cargar la publicidad
         }
     }
 
