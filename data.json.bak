@@ -13,10 +13,9 @@
         ],
         "start": 0,
         "end": 60,
-        "duration": 60,
         "publicity": 0,
         "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise2",
+        "resource": "https:\/\/localhost\/tv\/noise60",
         "total_episodes": 0,
         "last_seen_episode": 0,
         "description": ""
@@ -35,10 +34,9 @@
         ],
         "start": 60,
         "end": 120,
-        "duration": 60,
         "publicity": 0,
         "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise2",
+        "resource": "https:\/\/localhost\/tv\/noise60",
         "total_episodes": 0,
         "last_seen_episode": 0,
         "description": ""
@@ -57,10 +55,9 @@
         ],
         "start": 120,
         "end": 180,
-        "duration": 60,
         "publicity": 0,
         "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise2",
+        "resource": "https:\/\/localhost\/tv\/noise60",
         "total_episodes": 0,
         "last_seen_episode": 0,
         "description": ""
@@ -79,10 +76,9 @@
         ],
         "start": 180,
         "end": 240,
-        "duration": 60,
         "publicity": 0,
         "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise2",
+        "resource": "https:\/\/localhost\/tv\/noise60",
         "total_episodes": 0,
         "last_seen_episode": 0,
         "description": ""
@@ -101,10 +97,9 @@
         ],
         "start": 240,
         "end": 300,
-        "duration": 60,
         "publicity": 0,
         "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise2",
+        "resource": "https:\/\/localhost\/tv\/noise60",
         "total_episodes": 0,
         "last_seen_episode": 0,
         "description": ""
@@ -123,10 +118,9 @@
         ],
         "start": 300,
         "end": 360,
-        "duration": 60,
         "publicity": 0,
         "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise2",
+        "resource": "https:\/\/localhost\/tv\/noise60",
         "total_episodes": 0,
         "last_seen_episode": 0,
         "description": ""
@@ -145,10 +139,9 @@
         ],
         "start": 360,
         "end": 420,
-        "duration": 60,
         "publicity": 0,
         "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise2",
+        "resource": "https:\/\/localhost\/tv\/noise60",
         "total_episodes": 0,
         "last_seen_episode": 0,
         "description": ""
@@ -167,10 +160,9 @@
         ],
         "start": 420,
         "end": 480,
-        "duration": 60,
         "publicity": 0,
         "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise2",
+        "resource": "https:\/\/localhost\/tv\/noise60",
         "total_episodes": 0,
         "last_seen_episode": 0,
         "description": ""
@@ -189,7 +181,6 @@
         ],
         "start": 480,
         "end": 510,
-        "duration": 30,
         "publicity": 0,
         "title": "Jardincito",
         "resource": "",
@@ -211,8 +202,7 @@
         ],
         "start": 510,
         "end": 600,
-        "duration": 90,
-        "publicity": 20,
+        "publicity": 1,
         "title": "Cordialmente",
         "resource": "https:\/\/www.youtube.com\/watch?v=RfCEM6JcV4E",
         "total_episodes": 0,
@@ -233,8 +223,7 @@
         ],
         "start": 600,
         "end": 660,
-        "duration": 46,
-        "publicity": 14,
+        "publicity": 1,
         "title": "Dos tipos audaces",
         "resource": [
             "https:\/\/www.youtube.com\/watch?v=9weiV227kcQ",
@@ -261,8 +250,7 @@
         ],
         "start": 660,
         "end": 720,
-        "duration": 46,
-        "publicity": 14,
+        "publicity": 1,
         "title": "Telescuela tecnica",
         "resource": "",
         "total_episodes": 0,
@@ -283,13 +271,12 @@
         ],
         "start": 720,
         "end": 780,
-        "duration": 46,
-        "publicity": 14,
+        "publicity": 1,
         "title": "Trampa para un so\u00f1ador",
         "resource": "",
         "total_episodes": 0,
         "last_seen_episode": 0,
-        "description": "Teleteatro con Guillermo Francella"
+        "description": "Teleteatro con Guillermo Francella 12:00 a 13:00"
     },
     {
         "id": 14,
@@ -305,13 +292,12 @@
         ],
         "start": 780,
         "end": 840,
-        "duration": 46,
-        "publicity": 14,
+        "publicity": 1,
         "title": "Un mundo de 20 asientos",
         "resource": "",
         "total_episodes": 0,
         "last_seen_episode": 0,
-        "description": "Teleteatro de Alberto Migre"
+        "description": "Teleteatro de Alberto Migre 13:00 a 14:00"
     },
     {
         "id": 15,
@@ -327,13 +313,12 @@
         ],
         "start": 840,
         "end": 900,
-        "duration": 46,
-        "publicity": 14,
+        "publicity": 1,
         "title": "La tarde de los chicos",
         "resource": "",
         "total_episodes": 0,
         "last_seen_episode": 0,
-        "description": "Programa infantil"
+        "description": "Programa infantil 14:00 a 15:00"
     },
     {
         "id": 16,
@@ -349,13 +334,12 @@
         ],
         "start": 900,
         "end": 960,
-        "duration": 46,
-        "publicity": 14,
-        "title": "Campeones",
-        "resource": "",
-        "total_episodes": 0,
+        "publicity": 1,
+        "title": "Calabromas",
+        "resource": "https:\/\/localhost\/tv\/Calabromas",
+        "total_episodes": 3,
         "last_seen_episode": 0,
-        "description": "Programa de automovilismo"
+        "description": "Programa comico con Juan Carlos Calabro 15:00 a 16:00"
     },
     {
         "id": 17,
@@ -371,13 +355,12 @@
         ],
         "start": 960,
         "end": 990,
-        "duration": 30,
-        "publicity": 6,
-        "title": "Golf en TV",
-        "resource": "",
-        "total_episodes": 0,
+        "publicity": 1,
+        "title": "Danger Man",
+        "resource": "https:\/\/localhost\/tv\/DangerMan",
+        "total_episodes": 4,
         "last_seen_episode": 0,
-        "description": "Programa deportivo sobre golf"
+        "description": "Serie de espionaje 16 a 16:30"
     },
     {
         "id": 18,
@@ -393,13 +376,12 @@
         ],
         "start": 990,
         "end": 1020,
-        "duration": 30,
         "publicity": 0,
         "title": "Timer de 30 minutos",
         "resource": "timer",
         "total_episodes": 0,
         "last_seen_episode": 0,
-        "description": "Empieza 16:30"
+        "description": "Empieza 16:30 a 17:00 - sin publi"
     },
     {
         "id": 19,
@@ -415,13 +397,12 @@
         ],
         "start": 1020,
         "end": 1140,
-        "duration": 86,
-        "publicity": 14,
+        "publicity": 1,
         "title": "El Mundo del Espectaculo",
         "resource": "https:\/\/localhost\/tv\/ElMundoDelEspectaculo",
         "total_episodes": 1,
         "last_seen_episode": 0,
-        "description": "films: Cumbres borrascosas, Tora tora tora, Fuga en el siglo xxv, Galactica, Un extra\u00f1o en la casa"
+        "description": "17:00 a 19:00 films: Cumbres borrascosas, Tora tora tora, Fuga en el siglo xxv, Galactica, Un extra\u00f1o en la casa"
     },
     {
         "id": 20,
@@ -437,13 +418,12 @@
         ],
         "start": 1140,
         "end": 1200,
-        "duration": 46,
-        "publicity": 14,
+        "publicity": 1,
         "title": "SWAT",
         "resource": "https:\/\/localhost\/tv\/SWAT",
         "total_episodes": 1,
         "last_seen_episode": 0,
-        "description": ""
+        "description": "19:00 a 20:00"
     },
     {
         "id": 21,
@@ -458,14 +438,13 @@
             "Sun"
         ],
         "start": 1200,
-        "end": 1230,
-        "duration": 30,
-        "publicity": 4,
-        "title": "Danger Man",
-        "resource": "https:\/\/localhost\/tv\/DangerMan",
-        "total_episodes": 4,
-        "last_seen_episode": 2,
-        "description": "Serie de espionaje"
+        "end": 1260,
+        "publicity": 1,
+        "title": "Quark",
+        "resource": "https:\/\/localhost\/tv\/Hart",
+        "total_episodes": 1,
+        "last_seen_episode": 0,
+        "description": "Los Hart"
     },
     {
         "id": 22,
@@ -479,59 +458,14 @@
             "Sat",
             "Sun"
         ],
-        "start": 1230,
-        "end": 1260,
-        "duration": 30,
-        "publicity": 5,
-        "title": "Quark",
-        "resource": "https:\/\/localhost\/tv\/Quark",
-        "total_episodes": 2,
-        "last_seen_episode": 1,
-        "description": "La escoba espacial"
-    },
-    {
-        "id": 23,
-        "channel": 9,
-        "weekday": [
-            "Mon",
-            "Tue",
-            "Wed",
-            "Thu",
-            "Fri",
-            "Sat",
-            "Sun"
-        ],
-        "start": 1200,
-        "end": 1260,
-        "duration": 46,
-        "publicity": 14,
-        "title": "Calabromas",
-        "resource": "https:\/\/localhost\/tv\/Calabromas",
-        "total_episodes": 3,
-        "last_seen_episode": 2,
-        "description": "Programa comico con Juan Carlos Calabro"
-    },
-    {
-        "id": 24,
-        "channel": 9,
-        "weekday": [
-            "Mon",
-            "Tue",
-            "Wed",
-            "Thu",
-            "Fri",
-            "Sat",
-            "Sun"
-        ],
         "start": 1260,
         "end": 1320,
-        "duration": 46,
-        "publicity": 14,
+        "publicity": 1,
         "title": "Las aventuras de BJ",
         "resource": "https:\/\/localhost\/tv\/BJ",
         "total_episodes": 2,
         "last_seen_episode": 0,
-        "description": "Serie con Greg Evigan"
+        "description": "Serie con Greg Evigan 21:00 a 22:00"
     },
     {
         "id": 25,
@@ -547,13 +481,12 @@
         ],
         "start": 1320,
         "end": 1380,
-        "duration": 46,
-        "publicity": 14,
+        "publicity": 1,
         "title": "Gavilan",
         "resource": "https:\/\/localhost\/tv\/Gavilan",
         "total_episodes": 2,
         "last_seen_episode": 0,
-        "description": "Serie con Robert Urich"
+        "description": "Serie con Robert Urich 22:00 a 23:00"
     },
     {
         "id": 26,
@@ -569,12 +502,11 @@
         ],
         "start": 1380,
         "end": 1440,
-        "duration": 46,
-        "publicity": 14,
+        "publicity": 1,
         "title": "Sheriff Lobo",
         "resource": "https:\/\/localhost\/tv\/SheriffLobo",
         "total_episodes": 2,
-        "last_seen_episode": 1,
-        "description": "Serie con Claude Atkins"
+        "last_seen_episode": 0,
+        "description": "Serie con Claude Atkins 23:00 a 24:00"
     }
 ]

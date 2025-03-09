@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "channel": 2,
     "weekday": [
       "Mon",
@@ -10,16 +11,16 @@
     ],
     "start": 1020,
     "end": 1080,
-    "duration": 60,
     "publicity": 0,
     "title": "Solo dibujos",
     "resource": "",
     "total_episodes": 0,
     "last_seen_episode": 0,
-    "description": "",
+    "description": "de 17:00 a 18:00",
     "temporada": 0
   },
   {
+    "id": 2,
     "channel": 2,
     "weekday": [
       "Mon",
@@ -30,7 +31,6 @@
     ],
     "start": 1080,
     "end": 1140,
-    "duration": 60,
     "publicity": 0,
     "title": "El gran chaparral",
     "resource": "",
@@ -40,6 +40,7 @@
     "temporada": 0
   },
   {
+    "id": 3,
     "channel": 2,
     "weekday": [
       "Mon",
@@ -50,7 +51,6 @@
     ],
     "start": 1140,
     "end": 1200,
-    "duration": 60,
     "publicity": 0,
     "title": "Musica total",
     "resource": [
@@ -63,6 +63,7 @@
     "temporada": 0
   },
   {
+    "id": 4,
     "channel": 2,
     "weekday": [
       "Mon",
@@ -73,7 +74,6 @@
     ],
     "start": 1200,
     "end": 1260,
-    "duration": 60,
     "publicity": 0,
     "title": "El crucero del amor",
     "resource": "",
@@ -83,6 +83,7 @@
     "temporada": 3
   },
   {
+    "id": 5,
     "channel": 2,
     "weekday": [
       "Mon",
@@ -93,7 +94,6 @@
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Las calles de San Francisco",
     "resource": "",
@@ -103,6 +103,7 @@
     "temporada": 0
   },
   {
+    "id": 6,
     "channel": 2,
     "weekday": [
       "Mon",
@@ -113,7 +114,6 @@
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 60,
     "publicity": 0,
     "title": "Starsky y Hutch",
     "resource": "",
@@ -123,6 +123,7 @@
     "temporada": 0
   },
   {
+    "id": 7,
     "channel": 2,
     "weekday": [
       "Mon",
@@ -132,44 +133,43 @@
       "Fri"
     ],
     "start": 1380,
-    "end": 1500,
-    "duration": 90,
+    "end": 30,
     "publicity": 0,
     "title": "A solas",
     "resource": "",
     "total_episodes": 0,
     "last_seen_episode": 0,
-    "description": "",
+    "description": "!!!23:00 a 0:30",
     "temporada": 0
   },
   {
+    "id": 8,
     "channel": 2,
     "weekday": [
-      "Mon",
       "Tue",
       "Wed",
       "Thu",
-      "Fri"
+      "Fri",
+      "Sat"
     ],
-    "start": 1500,
-    "end": 1530,
-    "duration": 30,
+    "start": 30,
+    "end": 60,
     "publicity": 0,
     "title": "Sintesis",
     "resource": "",
     "total_episodes": 0,
     "last_seen_episode": 0,
-    "description": "",
+    "description": "!!!de 0:30 a 1:00 lu a vie es ma a sab",
     "temporada": 0
   },
   {
+    "id": 9,
     "channel": 2,
     "weekday": [
       "Sat"
     ],
     "start": 960,
     "end": 990,
-    "duration": 30,
     "publicity": 0,
     "title": "Oeste al dia",
     "resource": "",
@@ -179,13 +179,13 @@
     "temporada": 0
   },
   {
+    "id": 10,
     "channel": 2,
     "weekday": [
       "Sat"
     ],
     "start": 990,
     "end": 1050,
-    "duration": 60,
     "publicity": 0,
     "title": "Mundo turistico",
     "resource": "",
@@ -195,13 +195,13 @@
     "temporada": 0
   },
   {
+    "id": 11,
     "channel": 2,
     "weekday": [
       "Sat"
     ],
     "start": 1050,
     "end": 1110,
-    "duration": 60,
     "publicity": 0,
     "title": "Dinamica rural",
     "resource": "",
@@ -211,13 +211,13 @@
     "temporada": 0
   },
   {
+    "id": 12,
     "channel": 2,
     "weekday": [
       "Sat"
     ],
     "start": 1110,
     "end": 1140,
-    "duration": 30,
     "publicity": 0,
     "title": "El (nuevo) show de Dick Van Dyke",
     "resource": "",
@@ -227,13 +227,13 @@
     "temporada": 0
   },
   {
+    "id": 13,
     "channel": 2,
     "weekday": [
       "Sat"
     ],
     "start": 1140,
     "end": 1200,
-    "duration": 60,
     "publicity": 0,
     "title": "Kung Fu",
     "resource": "",
@@ -243,13 +243,13 @@
     "temporada": 0
   },
   {
+    "id": 14,
     "channel": 2,
     "weekday": [
       "Sat"
     ],
     "start": 1200,
     "end": 1260,
-    "duration": 60,
     "publicity": 0,
     "title": "Johnny Allon Presenta",
     "resource": "",
@@ -259,13 +259,13 @@
     "temporada": 0
   },
   {
+    "id": 15,
     "channel": 2,
     "weekday": [
       "Sat"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Box internacional",
     "resource": "",
@@ -275,29 +275,29 @@
     "temporada": 0
   },
   {
+    "id": 16,
     "channel": 2,
     "weekday": [
       "Sat"
     ],
     "start": 1320,
     "end": 1440,
-    "duration": 120,
     "publicity": 0,
     "title": "Futbol de primera B",
     "resource": "",
     "total_episodes": 0,
     "last_seen_episode": 0,
-    "description": "Conduccion Horacio Aiello",
+    "description": "Conduccion Horacio Aiello. De 22:00 a 24:00",
     "temporada": 0
   },
   {
+    "id": 17,
     "channel": 2,
     "weekday": [
       "Sun"
     ],
     "start": 0,
     "end": 90,
-    "duration": 90,
     "publicity": 0,
     "title": "Cine de trasnoche",
     "resource": "",
@@ -307,13 +307,13 @@
     "temporada": 0
   },
   {
+    "id": 18,
     "channel": 2,
     "weekday": [
       "Sun"
     ],
     "start": 960,
     "end": 1080,
-    "duration": 120,
     "publicity": 0,
     "title": "Cine del domingo",
     "resource": "",
@@ -323,13 +323,13 @@
     "temporada": 0
   },
   {
+    "id": 19,
     "channel": 2,
     "weekday": [
       "Sun"
     ],
     "start": 1080,
     "end": 1110,
-    "duration": 30,
     "publicity": 0,
     "title": "Rex Humbard",
     "resource": "",
@@ -339,13 +339,13 @@
     "temporada": 0
   },
   {
+    "id": 20,
     "channel": 2,
     "weekday": [
       "Sun"
     ],
     "start": 1110,
     "end": 1170,
-    "duration": 60,
     "publicity": 0,
     "title": "Switch",
     "resource": "",
@@ -355,13 +355,13 @@
     "temporada": 0
   },
   {
+    "id": 21,
     "channel": 2,
     "weekday": [
       "Sun"
     ],
     "start": 1170,
     "end": 1230,
-    "duration": 60,
     "publicity": 0,
     "title": "Dos tipos audaces",
     "resource": "",
@@ -371,13 +371,13 @@
     "temporada": 0
   },
   {
+    "id": 22,
     "channel": 2,
     "weekday": [
       "Sun"
     ],
     "start": 1230,
     "end": 1260,
-    "duration": 30,
     "publicity": 0,
     "title": "Nuestro increible mundo",
     "resource": "",
@@ -387,13 +387,13 @@
     "temporada": 0
   },
   {
+    "id": 23,
     "channel": 2,
     "weekday": [
       "Sun"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Campeones",
     "resource": "",
@@ -403,13 +403,13 @@
     "temporada": 0
   },
   {
+    "id": 24,
     "channel": 2,
     "weekday": [
       "Sun"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 60,
     "publicity": 0,
     "title": "Golf en TV",
     "resource": "",
@@ -419,22 +419,23 @@
     "temporada": 0
   },
   {
+    "id": 25,
     "channel": 2,
     "weekday": [
       "Sun"
     ],
     "start": 1380,
-    "end": 1500,
-    "duration": 90,
+    "end": 60,
     "publicity": 0,
     "title": "Cine de domingo",
     "resource": "",
     "total_episodes": 0,
     "last_seen_episode": 0,
-    "description": "film La esclava del paraiso",
+    "description": "film La esclava del paraiso. !!! De 23:00 a 1:00",
     "temporada": 0
   },
   {
+    "id": 26,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -445,7 +446,6 @@
     ],
     "start": 570,
     "end": 600,
-    "duration": 30,
     "publicity": 0,
     "title": "Telescuela tecnica",
     "description": "no disponible",
@@ -455,6 +455,7 @@
     "temporada": 0
   },
   {
+    "id": 27,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -465,7 +466,6 @@
     ],
     "start": 600,
     "end": 660,
-    "duration": 60,
     "publicity": 15,
     "title": "Buen dia, salud",
     "description": "Programa dedicado a fomentar los beneficios de la gimnasia complementandose con consejos utiles para la salud. Conduccion Maria Amuchastegui y el Dr. Eduardo Lorenzo Borocoto (Borocoto Jr.)",
@@ -475,6 +475,7 @@
     "temporada": 0
   },
   {
+    "id": 28,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -485,7 +486,6 @@
     ],
     "start": 660,
     "end": 690,
-    "duration": 30,
     "publicity": 0,
     "title": "Jardincito",
     "description": "con Gachi Ferrari",
@@ -495,6 +495,7 @@
     "temporada": 0
   },
   {
+    "id": 29,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -505,7 +506,6 @@
     ],
     "start": 690,
     "end": 720,
-    "duration": 30,
     "publicity": 0,
     "title": "Primer informe",
     "description": "",
@@ -515,6 +515,7 @@
     "temporada": 0
   },
   {
+    "id": 30,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -525,7 +526,6 @@
     ],
     "start": 720,
     "end": 780,
-    "duration": 60,
     "publicity": 10,
     "title": "El agente de Cipol",
     "description": "",
@@ -535,6 +535,7 @@
     "temporada": 2
   },
   {
+    "id": 31,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -545,7 +546,6 @@
     ],
     "start": 780,
     "end": 870,
-    "duration": 90,
     "publicity": 20,
     "title": "Cordialmente",
     "description": "Programa periodistico con la conduccion de Juan Carlos Mareco",
@@ -555,6 +555,7 @@
     "temporada": 0
   },
   {
+    "id": 32,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -565,7 +566,6 @@
     ],
     "start": 870,
     "end": 930,
-    "duration": 60,
     "publicity": 0,
     "title": "Café con Canela",
     "description": "",
@@ -575,6 +575,7 @@
     "temporada": 0
   },
   {
+    "id": 33,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -585,7 +586,6 @@
     ],
     "start": 930,
     "end": 990,
-    "duration": 60,
     "publicity": 12,
     "title": "Los angeles de Charlie",
     "description": "",
@@ -595,6 +595,7 @@
     "temporada": 4
   },
   {
+    "id": 34,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -605,7 +606,6 @@
     ],
     "start": 990,
     "end": 1110,
-    "duration": 120,
     "publicity": 0,
     "title": "Muchas cosas",
     "description": "Dibujos animados",
@@ -615,6 +615,7 @@
     "temporada": 0
   },
   {
+    "id": 35,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -625,7 +626,6 @@
     ],
     "start": 1110,
     "end": 1140,
-    "duration": 30,
     "publicity": 8,
     "title": "Los pitufos",
     "description": "",
@@ -635,13 +635,13 @@
     "temporada": 1
   },
   {
+    "id": 36,
     "channel": 7,
     "weekday": [
       "Mon"
     ],
     "start": 1140,
     "end": 1200,
-    "duration": 60,
     "publicity": 13,
     "title": "El gran heroe americano",
     "description": "",
@@ -651,13 +651,13 @@
     "temporada": 1
   },
   {
+    "id": 37,
     "channel": 7,
     "weekday": [
       "Tue"
     ],
     "start": 1140,
     "end": 1200,
-    "duration": 60,
     "publicity": 12,
     "title": "El auto fantastico",
     "description": "",
@@ -667,13 +667,13 @@
     "temporada": 1
   },
   {
+    "id": 38,
     "channel": 7,
     "weekday": [
       "Wed"
     ],
     "start": 1140,
     "end": 1200,
-    "duration": 60,
     "publicity": 13,
     "title": "El simio de oro",
     "description": "",
@@ -683,13 +683,13 @@
     "temporada": 1
   },
   {
+    "id": 39,
     "channel": 7,
     "weekday": [
       "Thu"
     ],
     "start": 1140,
     "end": 1200,
-    "duration": 60,
     "publicity": 16,
     "title": "La pandilla de la computadora",
     "description": "Whiz Kids (en español conocida como Richie y la pandilla de la computadora, Los chicos computarizados o Los chicos de la computadora)",
@@ -699,13 +699,13 @@
     "temporada": 1
   },
   {
+    "id": 40,
     "channel": 7,
     "weekday": [
       "Fri"
     ],
     "start": 1140,
     "end": 1200,
-    "duration": 60,
     "publicity": 11,
     "title": "Los Dukes de Hazzard",
     "description": "",
@@ -715,6 +715,7 @@
     "temporada": 1
   },
   {
+    "id": 41,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -725,7 +726,6 @@
     ],
     "start": 1200,
     "end": 1260,
-    "duration": 60,
     "publicity": 0,
     "title": "Mesa de noticias",
     "description": "",
@@ -735,6 +735,7 @@
     "temporada": 1
   },
   {
+    "id": 42,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -742,7 +743,6 @@
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "30 Millones",
     "description": "Programa periodistico conducido por Roberto Maidana con la participacion de Raul Barcelo, Monica Gutierrez, Mauro Viale, Enrique Macaya Marquez, Silvia Martinez y Alberto Muney",
@@ -752,13 +752,13 @@
     "temporada": 0
   },
   {
+    "id": 43,
     "channel": 7,
     "weekday": [
       "Mon"
     ],
     "start": 1320,
     "end": 1440,
-    "duration": 120,
     "publicity": 0,
     "title": "Interpelacion",
     "description": "Periodistico con la conduccion de Hugo Gambini",
@@ -768,13 +768,13 @@
     "temporada": 0
   },
   {
+    "id": 44,
     "channel": 7,
     "weekday": [
       "Tue"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 60,
     "publicity": 18,
     "title": "Los especiales de ATC",
     "description": "",
@@ -784,13 +784,13 @@
     "temporada": 0
   },
   {
+    "id": 45,
     "channel": 7,
     "weekday": [
       "Wed"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 60,
     "publicity": 12,
     "title": "Los gringos",
     "description": "",
@@ -800,13 +800,13 @@
     "temporada": 0
   },
   {
+    "id": 46,
     "channel": 7,
     "weekday": [
       "Thu"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 60,
     "publicity": 0,
     "title": "Estudio Phillips",
     "description": "",
@@ -816,13 +816,13 @@
     "temporada": 0
   },
   {
+    "id": 47,
     "channel": 7,
     "weekday": [
       "Fri"
     ],
     "start": 1320,
     "end": 1440,
-    "duration": 60,
     "publicity": 0,
     "title": "Cine",
     "description": "",
@@ -832,13 +832,13 @@
     "temporada": 0
   },
   {
+    "id": 48,
     "channel": 7,
     "weekday": [
       "Mon"
     ],
     "start": 1380,
     "end": 1440,
-    "duration": 60,
     "publicity": 0,
     "title": "Libro abierto",
     "description": "",
@@ -848,13 +848,13 @@
     "temporada": 0
   },
   {
+    "id": 49,
     "channel": 7,
     "weekday": [
       "Tue"
     ],
     "start": 1380,
     "end": 1440,
-    "duration": 60,
     "publicity": 0,
     "title": "Todo es historia",
     "description": "Programa periodistico donde se analizan temas relacionados con nuestra historia. Conduce Felix Luna",
@@ -864,13 +864,13 @@
     "temporada": 0
   },
   {
+    "id": 50,
     "channel": 7,
     "weekday": [
       "Wed"
     ],
     "start": 1380,
     "end": 1440,
-    "duration": 60,
     "publicity": 10,
     "title": "Situacion limite",
     "description": "",
@@ -880,13 +880,13 @@
     "temporada": 0
   },
   {
+    "id": 51,
     "channel": 7,
     "weekday": [
       "Thu"
     ],
     "start": 1380,
     "end": 1440,
-    "duration": 60,
     "publicity": 14,
     "title": "Todo es historia",
     "description": "Programa periodistico donde se analizan temas relacionados con nuestra historia. Conduce Felix Luna",
@@ -896,13 +896,13 @@
     "temporada": 0
   },
   {
+    "id": 52,
     "channel": 7,
     "weekday": [
       "Fri"
     ],
     "start": 1380,
     "end": 1440,
-    "duration": 60,
     "publicity": 0,
     "title": "Cuentos y Novelas",
     "description": "",
@@ -912,6 +912,7 @@
     "temporada": 0
   },
   {
+    "id": 53,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -922,7 +923,6 @@
     ],
     "start": 0,
     "end": 60,
-    "duration": 60,
     "publicity": 0,
     "title": "Kenia Sharp Club",
     "description": "",
@@ -932,6 +932,7 @@
     "temporada": 0
   },
   {
+    "id": 54,
     "channel": 7,
     "weekday": [
       "Sat",
@@ -939,7 +940,6 @@
     ],
     "start": 630,
     "end": 660,
-    "duration": 30,
     "publicity": 0,
     "title": "La fe del hombre",
     "description": "",
@@ -949,13 +949,13 @@
     "temporada": 0
   },
   {
+    "id": 55,
     "channel": 7,
     "weekday": [
       "Sat"
     ],
     "start": 660,
     "end": 720,
-    "duration": 60,
     "publicity": 0,
     "title": "Sabado libre",
     "description": "Conduccion Gachi Ferrari",
@@ -965,13 +965,13 @@
     "temporada": 0
   },
   {
+    "id": 56,
     "channel": 7,
     "weekday": [
       "Sat"
     ],
     "start": 720,
     "end": 780,
-    "duration": 60,
     "publicity": 10,
     "title": "Que se vengan los chicos",
     "description": "Programa especial consagrado a los chicos",
@@ -981,13 +981,13 @@
     "temporada": 0
   },
   {
+    "id": 57,
     "channel": 7,
     "weekday": [
       "Sat"
     ],
     "start": 780,
     "end": 840,
-    "duration": 60,
     "publicity": 0,
     "title": "Por siempre Chaplin",
     "description": "",
@@ -997,13 +997,13 @@
     "temporada": 0
   },
   {
+    "id": 58,
     "channel": 7,
     "weekday": [
       "Sat"
     ],
     "start": 840,
     "end": 1080,
-    "duration": 240,
     "publicity": 0,
     "title": "Cine y series",
     "description": "",
@@ -1013,13 +1013,13 @@
     "temporada": 0
   },
   {
+    "id": 59,
     "channel": 7,
     "weekday": [
       "Sat"
     ],
     "start": 1080,
     "end": 1140,
-    "duration": 60,
     "publicity": 0,
     "title": "Dejalo ser",
     "description": "Conducción Any Ventura",
@@ -1029,13 +1029,13 @@
     "temporada": 0
   },
   {
+    "id": 60,
     "channel": 7,
     "weekday": [
       "Sat"
     ],
     "start": 1140,
     "end": 1200,
-    "duration": 60,
     "publicity": 0,
     "title": "Rally turismo",
     "description": "",
@@ -1045,13 +1045,13 @@
     "temporada": 0
   },
   {
+    "id": 61,
     "channel": 7,
     "weekday": [
       "Sat"
     ],
     "start": 1200,
     "end": 1260,
-    "duration": 60,
     "publicity": 15,
     "title": "Historias de la Argentina secreta",
     "description": "",
@@ -1061,13 +1061,13 @@
     "temporada": 0
   },
   {
+    "id": 62,
     "channel": 7,
     "weekday": [
       "Sat"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "La plaza del diamante",
     "description": "",
@@ -1077,13 +1077,13 @@
     "temporada": 0
   },
   {
+    "id": 63,
     "channel": 7,
     "weekday": [
       "Sat"
     ],
     "start": 1320,
     "end": 1440,
-    "duration": 120,
     "publicity": 0,
     "title": "Funcion privada",
     "description": "",
@@ -1093,6 +1093,7 @@
     "temporada": 0
   },
   {
+    "id": 64,
     "channel": 7,
     "weekday": [
       "Sat",
@@ -1100,7 +1101,6 @@
     ],
     "start": 30,
     "end": 150,
-    "duration": 120,
     "publicity": 0,
     "title": "Kenia Sharp Club",
     "description": "",
@@ -1110,13 +1110,13 @@
     "temporada": 0
   },
   {
+    "id": 65,
     "channel": 7,
     "weekday": [
       "Sun"
     ],
     "start": 660,
     "end": 690,
-    "duration": 30,
     "publicity": 8,
     "title": "Clasicos familiares",
     "description": "Los importantes cuentos de la literatura en dibujos animados",
@@ -1126,13 +1126,13 @@
     "temporada": 0
   },
   {
+    "id": 66,
     "channel": 7,
     "weekday": [
       "Sun"
     ],
     "start": 690,
     "end": 750,
-    "duration": 120,
     "publicity": 0,
     "title": "Campeonato argentino de pilotos",
     "description": "",
@@ -1142,13 +1142,13 @@
     "temporada": 0
   },
   {
+    "id": 67,
     "channel": 7,
     "weekday": [
       "Sun"
     ],
     "start": 750,
     "end": 810,
-    "duration": 60,
     "publicity": 0,
     "title": "Los juegos que juega la gente",
     "description": "",
@@ -1158,13 +1158,13 @@
     "temporada": 0
   },
   {
+    "id": 68,
     "channel": 7,
     "weekday": [
       "Sun"
     ],
     "start": 900,
     "end": 1080,
-    "duration": 180,
     "publicity": 0,
     "title": "Cine y series",
     "description": "",
@@ -1174,13 +1174,13 @@
     "temporada": 0
   },
   {
+    "id": 69,
     "channel": 7,
     "weekday": [
       "Sun"
     ],
     "start": 1080,
     "end": 1140,
-    "duration": 60,
     "publicity": 0,
     "title": "Torneos y competencias",
     "description": "Documentales",
@@ -1190,13 +1190,13 @@
     "temporada": 0
   },
   {
+    "id": 70,
     "channel": 7,
     "weekday": [
       "Sun"
     ],
     "start": 1140,
     "end": 1185,
-    "duration": 45,
     "publicity": 0,
     "title": "Encuentro deportivo",
     "description": "Todos los goles de la jornada con Oscar Gañete Blasco y Guillermo Canepa",
@@ -1206,13 +1206,13 @@
     "temporada": 0
   },
   {
+    "id": 71,
     "channel": 7,
     "weekday": [
       "Sun"
     ],
     "start": 1185,
     "end": 1320,
-    "duration": 135,
     "publicity": 0,
     "title": "ATC deportes",
     "description": "Campeonato metropolitano, relata Mauro Viale y Macaya Marquez",
@@ -1222,13 +1222,13 @@
     "temporada": 0
   },
   {
+    "id": 72,
     "channel": 7,
     "weekday": [
       "Sun"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 60,
     "publicity": 0,
     "title": "Historias de la Argentina secreta",
     "description": "",
@@ -1238,13 +1238,13 @@
     "temporada": 0
   },
   {
+    "id": 73,
     "channel": 7,
     "weekday": [
       "Sun"
     ],
     "start": 1380,
     "end": 1440,
-    "duration": 60,
     "publicity": 18,
     "title": "Los especiales de ATC",
     "description": "",
@@ -1254,6 +1254,7 @@
     "temporada": 0
   },
   {
+    "id": 74,
     "channel": 7,
     "weekday": [
       "Mon",
@@ -1264,7 +1265,6 @@
     ],
     "start": 0,
     "end": 2,
-    "duration": 2,
     "publicity": 0,
     "title": "Los creadores",
     "description": "microprograma",
@@ -1274,6 +1274,7 @@
     "temporada": 0
   },
   {
+    "id": 75,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1284,7 +1285,6 @@
     ],
     "start": 630,
     "end": 660,
-    "duration": 30,
     "publicity": 0,
     "title": "La salud de nuestros hijos",
     "resource": "",
@@ -1294,6 +1294,7 @@
     "temporada": 0
   },
   {
+    "id": 76,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1304,7 +1305,6 @@
     ],
     "start": 660,
     "end": 690,
-    "duration": 30,
     "publicity": 0,
     "title": "Testimonios",
     "resource": "",
@@ -1314,6 +1314,7 @@
     "temporada": 0
   },
   {
+    "id": 77,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1324,7 +1325,6 @@
     ],
     "start": 690,
     "end": 750,
-    "duration": 60,
     "publicity": 0,
     "title": "SWAT",
     "resource": "",
@@ -1334,6 +1334,7 @@
     "temporada": 0
   },
   {
+    "id": 78,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1344,7 +1345,6 @@
     ],
     "start": 750,
     "end": 810,
-    "duration": 60,
     "publicity": 0,
     "title": "Amo y señor",
     "resource": "",
@@ -1354,6 +1354,7 @@
     "temporada": 0
   },
   {
+    "id": 79,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1364,7 +1365,6 @@
     ],
     "start": 810,
     "end": 870,
-    "duration": 60,
     "publicity": 16,
     "title": "Dallas",
     "resource": "",
@@ -1374,6 +1374,7 @@
     "temporada": 1
   },
   {
+    "id": 80,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1384,7 +1385,6 @@
     ],
     "start": 870,
     "end": 930,
-    "duration": 60,
     "publicity": 10,
     "title": "Ladron sin destino",
     "resource": "",
@@ -1394,6 +1394,7 @@
     "temporada": 1
   },
   {
+    "id": 81,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1404,7 +1405,6 @@
     ],
     "start": 930,
     "end": 990,
-    "duration": 60,
     "publicity": 0,
     "title": "Dar el alma",
     "resource": "",
@@ -1414,6 +1414,7 @@
     "temporada": 0
   },
   {
+    "id": 82,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1424,7 +1425,6 @@
     ],
     "start": 990,
     "end": 1050,
-    "duration": 60,
     "publicity": 0,
     "title": "Telejuegos",
     "resource": "",
@@ -1434,6 +1434,7 @@
     "temporada": 0
   },
   {
+    "id": 83,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1444,7 +1445,6 @@
     ],
     "start": 1050,
     "end": 1110,
-    "duration": 60,
     "publicity": 0,
     "title": "Septimo grado, adios a la escuela",
     "resource": "",
@@ -1454,6 +1454,7 @@
     "temporada": 0
   },
   {
+    "id": 84,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1464,7 +1465,6 @@
     ],
     "start": 1110,
     "end": 1155,
-    "duration": 55,
     "publicity": 0,
     "title": "Nuevediario las dos caras de la verdad",
     "resource": "",
@@ -1474,6 +1474,7 @@
     "temporada": 0
   },
   {
+    "id": 85,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1484,7 +1485,6 @@
     ],
     "start": 1155,
     "end": 1215,
-    "duration": 60,
     "publicity": 10,
     "title": "El superagente 86",
     "resource": "",
@@ -1494,6 +1494,7 @@
     "temporada": 0
   },
   {
+    "id": 86,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1504,7 +1505,6 @@
     ],
     "start": 1215,
     "end": 1220,
-    "duration": 5,
     "publicity": 0,
     "title": "El humor de Gila",
     "resource": "",
@@ -1514,13 +1514,13 @@
     "temporada": 0
   },
   {
+    "id": 87,
     "channel": 9,
     "weekday": [
       "Mon"
     ],
     "start": 1260,
     "end": 1350,
-    "duration": 90,
     "publicity": 0,
     "title": "Bailando con Michael Jackson y sus amigos",
     "resource": "",
@@ -1530,13 +1530,13 @@
     "temporada": 0
   },
   {
+    "id": 88,
     "channel": 9,
     "weekday": [
       "Tue"
     ],
     "start": 1260,
     "end": 1350,
-    "duration": 90,
     "publicity": 0,
     "title": "Las mil y unas de Sapag",
     "resource": "",
@@ -1546,13 +1546,13 @@
     "temporada": 0
   },
   {
+    "id": 89,
     "channel": 9,
     "weekday": [
       "Wed"
     ],
     "start": 1260,
     "end": 1350,
-    "duration": 90,
     "publicity": 0,
     "title": "Grandes valores del tango",
     "resource": "",
@@ -1562,13 +1562,13 @@
     "temporada": 0
   },
   {
+    "id": 90,
     "channel": 9,
     "weekday": [
       "Thu"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Matt Houston",
     "resource": "",
@@ -1578,13 +1578,13 @@
     "temporada": 1
   },
   {
+    "id": 91,
     "channel": 9,
     "weekday": [
       "Fri"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Hiperhumor",
     "resource": "",
@@ -1594,13 +1594,13 @@
     "temporada": 0
   },
   {
+    "id": 92,
     "channel": 9,
     "weekday": [
       "Thu"
     ],
     "start": 1320,
     "end": 1440,
-    "duration": 120,
     "publicity": 0,
     "title": "El corralon de Nazareno",
     "resource": "",
@@ -1610,13 +1610,13 @@
     "temporada": 0
   },
   {
+    "id": 93,
     "channel": 9,
     "weekday": [
       "Mon"
     ],
     "start": 1350,
     "end": 1410,
-    "duration": 60,
     "publicity": 0,
     "title": "Los profesionales",
     "resource": "",
@@ -1626,13 +1626,13 @@
     "temporada": 0
   },
   {
+    "id": 94,
     "channel": 9,
     "weekday": [
       "Tue"
     ],
     "start": 1350,
     "end": 1410,
-    "duration": 60,
     "publicity": 0,
     "title": "Brigada A",
     "resource": "",
@@ -1642,13 +1642,13 @@
     "temporada": 0
   },
   {
+    "id": 95,
     "channel": 9,
     "weekday": [
       "Wed"
     ],
     "start": 1350,
     "end": 1410,
-    "duration": 60,
     "publicity": 94,
     "title": "Remington Steele",
     "resource": "",
@@ -1658,13 +1658,13 @@
     "temporada": 0
   },
   {
+    "id": 96,
     "channel": 9,
     "weekday": [
       "Fri"
     ],
     "start": 1320,
     "end": 1440,
-    "duration": 90,
     "publicity": 0,
     "title": "Monumental Moria",
     "resource": "",
@@ -1674,6 +1674,7 @@
     "temporada": 0
   },
   {
+    "id": 97,
     "channel": 9,
     "weekday": [
       "Mon",
@@ -1684,7 +1685,6 @@
     ],
     "start": 1410,
     "end": 1440,
-    "duration": 30,
     "publicity": 0,
     "title": "Esos increibles animales",
     "resource": "",
@@ -1694,13 +1694,13 @@
     "temporada": 0
   },
   {
+    "id": 98,
     "channel": 9,
     "weekday": [
       "Sat"
     ],
     "start": 630,
     "end": 650,
-    "duration": 20,
     "publicity": 0,
     "title": "El club 700",
     "resource": "",
@@ -1710,13 +1710,13 @@
     "temporada": 0
   },
   {
+    "id": 99,
     "channel": 9,
     "weekday": [
       "Sat"
     ],
     "start": 650,
     "end": 660,
-    "duration": 10,
     "publicity": 0,
     "title": "Dios en un nuevo dia",
     "resource": "",
@@ -1726,13 +1726,13 @@
     "temporada": 0
   },
   {
+    "id": 100,
     "channel": 9,
     "weekday": [
       "Sat"
     ],
     "start": 660,
     "end": 690,
-    "duration": 30,
     "publicity": 0,
     "title": "Reino animal",
     "resource": "",
@@ -1742,13 +1742,13 @@
     "temporada": 0
   },
   {
+    "id": 101,
     "channel": 9,
     "weekday": [
       "Sat"
     ],
     "start": 690,
     "end": 720,
-    "duration": 30,
     "publicity": 0,
     "title": "Aprendijuegos",
     "resource": "",
@@ -1758,13 +1758,13 @@
     "temporada": 0
   },
   {
+    "id": 102,
     "channel": 9,
     "weekday": [
       "Sat"
     ],
     "start": 720,
     "end": 780,
-    "duration": 60,
     "publicity": 0,
     "title": "Chips",
     "resource": "",
@@ -1774,13 +1774,13 @@
     "temporada": 0
   },
   {
+    "id": 103,
     "channel": 9,
     "weekday": [
       "Sat"
     ],
     "start": 780,
     "end": 1290,
-    "duration": 270,
     "publicity": 0,
     "title": "Sabados de la bondad",
     "resource": "",
@@ -1790,13 +1790,13 @@
     "temporada": 0
   },
   {
+    "id": 104,
     "channel": 9,
     "weekday": [
       "Sat"
     ],
     "start": 1290,
     "end": 1410,
-    "duration": 120,
     "publicity": 0,
     "title": "Sabados de comedia: un caballero sobre la almohada",
     "resource": "",
@@ -1806,13 +1806,13 @@
     "temporada": 0
   },
   {
+    "id": 105,
     "channel": 9,
     "weekday": [
       "Sat"
     ],
     "start": 1410,
     "end": 1500,
-    "duration": 90,
     "publicity": 0,
     "title": "Cine",
     "resource": "",
@@ -1822,13 +1822,13 @@
     "temporada": 0
   },
   {
+    "id": 106,
     "channel": 9,
     "weekday": [
       "Sun"
     ],
     "start": 600,
     "end": 660,
-    "duration": 60,
     "publicity": 0,
     "title": "Dios en mi familia",
     "resource": "",
@@ -1838,13 +1838,13 @@
     "temporada": 0
   },
   {
+    "id": 107,
     "channel": 9,
     "weekday": [
       "Sun"
     ],
     "start": 660,
     "end": 720,
-    "duration": 60,
     "publicity": 0,
     "title": "Dibujos",
     "resource": "",
@@ -1854,13 +1854,13 @@
     "temporada": 0
   },
   {
+    "id": 108,
     "channel": 9,
     "weekday": [
       "Sun"
     ],
     "start": 720,
     "end": 780,
-    "duration": 60,
     "publicity": 0,
     "title": "Chips",
     "resource": "",
@@ -1870,13 +1870,13 @@
     "temporada": 0
   },
   {
+    "id": 109,
     "channel": 9,
     "weekday": [
       "Sun"
     ],
     "start": 780,
     "end": 1260,
-    "duration": 480,
     "publicity": 0,
     "title": "Domingos para la juventud",
     "resource": "",
@@ -1886,13 +1886,13 @@
     "temporada": 0
   },
   {
+    "id": 110,
     "channel": 9,
     "weekday": [
       "Sun"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 64,
     "title": "Alguien como vos (Q 1-2)",
     "resource": "",
@@ -1902,13 +1902,13 @@
     "temporada": 0
   },
   {
+    "id": 111,
     "channel": 9,
     "weekday": [
       "Sun"
     ],
     "start": 1320,
     "end": 1410,
-    "duration": 90,
     "publicity": 0,
     "title": "Todos los goles",
     "resource": "",
@@ -1918,13 +1918,13 @@
     "temporada": 0
   },
   {
+    "id": 112,
     "channel": 9,
     "weekday": [
       "Sun"
     ],
     "start": 1410,
     "end": 1500,
-    "duration": 90,
     "publicity": 0,
     "title": "Cine",
     "resource": "",
@@ -1934,6 +1934,7 @@
     "temporada": 0
   },
   {
+    "id": 113,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -1944,7 +1945,6 @@
     ],
     "start": 630,
     "end": 660,
-    "duration": 30,
     "publicity": 0,
     "title": "Dibujos animados",
     "resource": "",
@@ -1954,6 +1954,7 @@
     "temporada": 0
   },
   {
+    "id": 114,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -1964,7 +1965,6 @@
     ],
     "start": 660,
     "end": 690,
-    "duration": 30,
     "publicity": 50,
     "title": "Plaza Sesamo III",
     "resource": "",
@@ -1974,6 +1974,7 @@
     "temporada": 0
   },
   {
+    "id": 115,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -1984,7 +1985,6 @@
     ],
     "start": 690,
     "end": 720,
-    "duration": 30,
     "publicity": 0,
     "title": "Espiando por el mundo",
     "resource": "",
@@ -1994,6 +1994,7 @@
     "temporada": 0
   },
   {
+    "id": 116,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -2004,7 +2005,6 @@
     ],
     "start": 720,
     "end": 780,
-    "duration": 60,
     "publicity": 0,
     "title": "La noticia",
     "resource": "",
@@ -2014,6 +2014,7 @@
     "temporada": 0
   },
   {
+    "id": 117,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -2024,7 +2025,6 @@
     ],
     "start": 780,
     "end": 840,
-    "duration": 60,
     "publicity": 0,
     "title": "El show de la vida",
     "resource": "",
@@ -2034,6 +2034,7 @@
     "temporada": 0
   },
   {
+    "id": 118,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -2044,7 +2045,6 @@
     ],
     "start": 840,
     "end": 900,
-    "duration": 60,
     "publicity": 10,
     "title": "Yolanda Lujan",
     "resource": "",
@@ -2054,6 +2054,7 @@
     "temporada": 0
   },
   {
+    "id": 119,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -2064,7 +2065,6 @@
     ],
     "start": 900,
     "end": 960,
-    "duration": 60,
     "publicity": 10,
     "title": "La pobre Clara",
     "resource": "",
@@ -2074,6 +2074,7 @@
     "temporada": 0
   },
   {
+    "id": 120,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -2084,7 +2085,6 @@
     ],
     "start": 960,
     "end": 1080,
-    "duration": 120,
     "publicity": 0,
     "title": "Nuestro cine",
     "resource": "",
@@ -2094,6 +2094,7 @@
     "temporada": 0
   },
   {
+    "id": 121,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -2104,7 +2105,6 @@
     ],
     "start": 1080,
     "end": 1140,
-    "duration": 60,
     "publicity": 89,
     "title": "Daktari",
     "resource": "",
@@ -2114,6 +2114,7 @@
     "temporada": 0
   },
   {
+    "id": 122,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -2124,7 +2125,6 @@
     ],
     "start": 1140,
     "end": 1200,
-    "duration": 60,
     "publicity": 0,
     "title": "La noticia",
     "resource": "",
@@ -2134,6 +2134,7 @@
     "temporada": 0
   },
   {
+    "id": 123,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -2144,7 +2145,6 @@
     ],
     "start": 1140,
     "end": 1200,
-    "duration": 60,
     "publicity": 0,
     "title": "La noticia",
     "resource": "",
@@ -2154,6 +2154,7 @@
     "temporada": 0
   },
   {
+    "id": 124,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -2164,7 +2165,6 @@
     ],
     "start": 1200,
     "end": 1260,
-    "duration": 60,
     "publicity": 251,
     "title": "Mash",
     "resource": "",
@@ -2174,13 +2174,13 @@
     "temporada": 0
   },
   {
+    "id": 125,
     "channel": 11,
     "weekday": [
       "Mon"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Humor en demo gracia",
     "resource": "",
@@ -2190,13 +2190,13 @@
     "temporada": 0
   },
   {
+    "id": 126,
     "channel": 11,
     "weekday": [
       "Tue"
     ],
     "start": 1320,
     "end": 1410,
-    "duration": 90,
     "publicity": 0,
     "title": "Operación Ja Ja",
     "resource": "",
@@ -2206,13 +2206,13 @@
     "temporada": 0
   },
   {
+    "id": 127,
     "channel": 11,
     "weekday": [
       "Wed"
     ],
     "start": 1320,
     "end": 1410,
-    "duration": 90,
     "publicity": 0,
     "title": "Especiales",
     "resource": "",
@@ -2222,13 +2222,13 @@
     "temporada": 0
   },
   {
+    "id": 128,
     "channel": 11,
     "weekday": [
       "Thu"
     ],
     "start": 1320,
     "end": 1410,
-    "duration": 90,
     "publicity": 0,
     "title": "Botica de tango",
     "resource": "",
@@ -2238,13 +2238,13 @@
     "temporada": 0
   },
   {
+    "id": 129,
     "channel": 11,
     "weekday": [
       "Thu"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Tal como somos",
     "resource": "",
@@ -2254,13 +2254,13 @@
     "temporada": 0
   },
   {
+    "id": 130,
     "channel": 11,
     "weekday": [
       "Mon"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 90,
     "publicity": 0,
     "title": "Los exclusivos del once",
     "resource": "",
@@ -2270,13 +2270,13 @@
     "temporada": 0
   },
   {
+    "id": 131,
     "channel": 11,
     "weekday": [
       "Tue"
     ],
     "start": 1380,
     "end": 1440,
-    "duration": 60,
     "publicity": 0,
     "title": "Argentinisima",
     "resource": "",
@@ -2286,13 +2286,13 @@
     "temporada": 0
   },
   {
+    "id": 132,
     "channel": 11,
     "weekday": [
       "Wed"
     ],
     "start": 1380,
     "end": 1440,
-    "duration": 60,
     "publicity": 0,
     "title": "Los grandes",
     "resource": "",
@@ -2302,13 +2302,13 @@
     "temporada": 0
   },
   {
+    "id": 133,
     "channel": 11,
     "weekday": [
       "Thu"
     ],
     "start": 1380,
     "end": 1440,
-    "duration": 60,
     "publicity": 0,
     "title": "Periodismo por derecha",
     "resource": "",
@@ -2318,13 +2318,13 @@
     "temporada": 0
   },
   {
+    "id": 134,
     "channel": 11,
     "weekday": [
       "Fri"
     ],
     "start": 1320,
     "end": 1410,
-    "duration": 90,
     "publicity": 0,
     "title": "El show de Benny Hill",
     "resource": "",
@@ -2334,6 +2334,7 @@
     "temporada": 0
   },
   {
+    "id": 135,
     "channel": 11,
     "weekday": [
       "Mon",
@@ -2344,7 +2345,6 @@
     ],
     "start": 1410,
     "end": 1440,
-    "duration": 30,
     "publicity": 0,
     "title": "La noticia",
     "resource": "",
@@ -2354,13 +2354,13 @@
     "temporada": 0
   },
   {
+    "id": 136,
     "channel": 11,
     "weekday": [
       "Sat"
     ],
     "start": 645,
     "end": 660,
-    "duration": 15,
     "publicity": 0,
     "title": "Musica con alma y vida",
     "resource": "",
@@ -2370,13 +2370,13 @@
     "temporada": 0
   },
   {
+    "id": 137,
     "channel": 11,
     "weekday": [
       "Sat"
     ],
     "start": 660,
     "end": 720,
-    "duration": 60,
     "publicity": 0,
     "title": "Generacion activa",
     "resource": "",
@@ -2386,13 +2386,13 @@
     "temporada": 0
   },
   {
+    "id": 138,
     "channel": 11,
     "weekday": [
       "Sat"
     ],
     "start": 720,
     "end": 750,
-    "duration": 30,
     "publicity": 0,
     "title": "El niño y el deporte",
     "resource": "",
@@ -2402,13 +2402,13 @@
     "temporada": 0
   },
   {
+    "id": 139,
     "channel": 11,
     "weekday": [
       "Sat"
     ],
     "start": 750,
     "end": 780,
-    "duration": 30,
     "publicity": 0,
     "title": "El pais que no miramos",
     "resource": "",
@@ -2418,13 +2418,13 @@
     "temporada": 0
   },
   {
+    "id": 140,
     "channel": 11,
     "weekday": [
       "Sat"
     ],
     "start": 780,
     "end": 840,
-    "duration": 60,
     "publicity": 0,
     "title": "Telematch",
     "resource": "",
@@ -2434,13 +2434,13 @@
     "temporada": 0
   },
   {
+    "id": 141,
     "channel": 11,
     "weekday": [
       "Sat"
     ],
     "start": 1200,
     "end": 1320,
-    "duration": 120,
     "publicity": 0,
     "title": "Avant Premiere",
     "resource": "",
@@ -2450,13 +2450,13 @@
     "temporada": 0
   },
   {
+    "id": 142,
     "channel": 11,
     "weekday": [
       "Sat"
     ],
     "start": 1320,
     "end": 1440,
-    "duration": 120,
     "publicity": 0,
     "title": "Hollywood en castellano",
     "resource": "",
@@ -2466,13 +2466,13 @@
     "temporada": 0
   },
   {
+    "id": 143,
     "channel": 11,
     "weekday": [
       "Sun"
     ],
     "start": 0,
     "end": 120,
-    "duration": 120,
     "publicity": 0,
     "title": "Cine de trasnoche",
     "resource": "",
@@ -2482,13 +2482,13 @@
     "temporada": 0
   },
   {
+    "id": 144,
     "channel": 11,
     "weekday": [
       "Sun"
     ],
     "start": 660,
     "end": 720,
-    "duration": 60,
     "publicity": 0,
     "title": "La santa misa",
     "resource": "",
@@ -2498,13 +2498,13 @@
     "temporada": 0
   },
   {
+    "id": 145,
     "channel": 11,
     "weekday": [
       "Sun"
     ],
     "start": 720,
     "end": 780,
-    "duration": 60,
     "publicity": 0,
     "title": "El niño y el deporte",
     "resource": "",
@@ -2514,13 +2514,13 @@
     "temporada": 0
   },
   {
+    "id": 146,
     "channel": 11,
     "weekday": [
       "Sun"
     ],
     "start": 780,
     "end": 1260,
-    "duration": 480,
     "publicity": 0,
     "title": "Cine platea",
     "resource": "",
@@ -2530,13 +2530,13 @@
     "temporada": 0
   },
   {
+    "id": 147,
     "channel": 11,
     "weekday": [
       "Sun"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Cuatro hombres para Eva",
     "resource": "",
@@ -2546,13 +2546,13 @@
     "temporada": 0
   },
   {
+    "id": 148,
     "channel": 11,
     "weekday": [
       "Sun"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 60,
     "publicity": 0,
     "title": "Galas de teatro",
     "resource": "",
@@ -2562,13 +2562,13 @@
     "temporada": 0
   },
   {
+    "id": 149,
     "channel": 11,
     "weekday": [
       "Sun"
     ],
     "start": 1380,
     "end": 1470,
-    "duration": 90,
     "publicity": 0,
     "title": "Cine",
     "resource": "",
@@ -2578,6 +2578,7 @@
     "temporada": 0
   },
   {
+    "id": 150,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -2588,7 +2589,6 @@
     ],
     "start": 685,
     "end": 690,
-    "duration": 5,
     "publicity": 0,
     "title": "Señor danos este dia",
     "resource": "",
@@ -2598,6 +2598,7 @@
     "temporada": 0
   },
   {
+    "id": 151,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -2608,7 +2609,6 @@
     ],
     "start": 690,
     "end": 750,
-    "duration": 60,
     "publicity": 0,
     "title": "La granja de Carozo y Narizota",
     "resource": "",
@@ -2618,6 +2618,7 @@
     "temporada": 0
   },
   {
+    "id": 152,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -2628,7 +2629,6 @@
     ],
     "start": 750,
     "end": 780,
-    "duration": 30,
     "publicity": 0,
     "title": "El pais que no miramos",
     "resource": "",
@@ -2638,6 +2638,7 @@
     "temporada": 0
   },
   {
+    "id": 153,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -2648,7 +2649,6 @@
     ],
     "start": 780,
     "end": 840,
-    "duration": 60,
     "publicity": 0,
     "title": "Realidad 84",
     "resource": "",
@@ -2658,6 +2658,7 @@
     "temporada": 0
   },
   {
+    "id": 154,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -2668,7 +2669,6 @@
     ],
     "start": 840,
     "end": 960,
-    "duration": 120,
     "publicity": 0,
     "title": "El espejo…para que la gente se mire",
     "resource": "",
@@ -2678,6 +2678,7 @@
     "temporada": 0
   },
   {
+    "id": 155,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -2688,7 +2689,6 @@
     ],
     "start": 960,
     "end": 1020,
-    "duration": 60,
     "publicity": 0,
     "title": "Burbujas",
     "resource": "",
@@ -2698,6 +2698,7 @@
     "temporada": 0
   },
   {
+    "id": 156,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -2708,7 +2709,6 @@
     ],
     "start": 1020,
     "end": 1080,
-    "duration": 60,
     "publicity": 0,
     "title": "Los dibujos de Pelito",
     "resource": "",
@@ -2718,6 +2718,7 @@
     "temporada": 0
   },
   {
+    "id": 157,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -2728,7 +2729,6 @@
     ],
     "start": 1080,
     "end": 1140,
-    "duration": 60,
     "publicity": 0,
     "title": "Pelito",
     "resource": "",
@@ -2738,6 +2738,7 @@
     "temporada": 1
   },
   {
+    "id": 158,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -2748,7 +2749,6 @@
     ],
     "start": 1140,
     "end": 1200,
-    "duration": 60,
     "publicity": 0,
     "title": "Paloma hay una sola",
     "resource": "",
@@ -2758,6 +2758,7 @@
     "temporada": 0
   },
   {
+    "id": 159,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -2768,7 +2769,6 @@
     ],
     "start": 1200,
     "end": 1260,
-    "duration": 60,
     "publicity": 0,
     "title": "Buenas noches Argentina",
     "resource": "",
@@ -2778,13 +2778,13 @@
     "temporada": 0
   },
   {
+    "id": 160,
     "channel": 13,
     "weekday": [
       "Mon"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "La aventura del hombre",
     "resource": "",
@@ -2794,13 +2794,13 @@
     "temporada": 1
   },
   {
+    "id": 161,
     "channel": 13,
     "weekday": [
       "Tue"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Profesion peligro",
     "resource": "",
@@ -2810,13 +2810,13 @@
     "temporada": 1
   },
   {
+    "id": 162,
     "channel": 13,
     "weekday": [
       "Wed"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Las 24 horas",
     "resource": "",
@@ -2826,13 +2826,13 @@
     "temporada": 1
   },
   {
+    "id": 163,
     "channel": 13,
     "weekday": [
       "Thu"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Buscavidas",
     "resource": "",
@@ -2842,13 +2842,13 @@
     "temporada": 1
   },
   {
+    "id": 164,
     "channel": 13,
     "weekday": [
       "Fri"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Calabromas",
     "resource": "",
@@ -2858,13 +2858,13 @@
     "temporada": 1
   },
   {
+    "id": 165,
     "channel": 13,
     "weekday": [
       "Mon"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 90,
     "publicity": 0,
     "title": "Compromiso",
     "resource": "",
@@ -2874,13 +2874,13 @@
     "temporada": 1
   },
   {
+    "id": 166,
     "channel": 13,
     "weekday": [
       "Tue"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 90,
     "publicity": 0,
     "title": "Tiempo nuevo",
     "resource": "",
@@ -2890,13 +2890,13 @@
     "temporada": 0
   },
   {
+    "id": 167,
     "channel": 13,
     "weekday": [
       "Wed"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 90,
     "publicity": 0,
     "title": "Television abierta",
     "resource": "",
@@ -2906,13 +2906,13 @@
     "temporada": 0
   },
   {
+    "id": 168,
     "channel": 13,
     "weekday": [
       "Thu"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 60,
     "publicity": 0,
     "title": "Hotel",
     "resource": "",
@@ -2922,13 +2922,13 @@
     "temporada": 1
   },
   {
+    "id": 169,
     "channel": 13,
     "weekday": [
       "Thu"
     ],
     "start": 1380,
     "end": 0,
-    "duration": 60,
     "publicity": 0,
     "title": "Falcon Crest",
     "resource": "",
@@ -2938,13 +2938,13 @@
     "temporada": 1
   },
   {
+    "id": 170,
     "channel": 13,
     "weekday": [
       "Fri"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 90,
     "publicity": 0,
     "title": "El mundo del espectaculo",
     "resource": "",
@@ -2954,6 +2954,7 @@
     "temporada": 0
   },
   {
+    "id": 171,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -2964,7 +2965,6 @@
     ],
     "start": 1380,
     "end": 0,
-    "duration": 30,
     "publicity": 0,
     "title": "Primera hora",
     "resource": "",
@@ -2974,6 +2974,7 @@
     "temporada": 0
   },
   {
+    "id": 172,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -2984,7 +2985,6 @@
     ],
     "start": 0,
     "end": 60,
-    "duration": 60,
     "publicity": 0,
     "title": "Trasnoche primera seccion",
     "resource": "",
@@ -2994,6 +2994,7 @@
     "temporada": 0
   },
   {
+    "id": 173,
     "channel": 13,
     "weekday": [
       "Mon",
@@ -3004,7 +3005,6 @@
     ],
     "start": 60,
     "end": 150,
-    "duration": 90,
     "publicity": 0,
     "title": "Trasnoche segunda seccion",
     "resource": "",
@@ -3014,13 +3014,13 @@
     "temporada": 0
   },
   {
+    "id": 174,
     "channel": 13,
     "weekday": [
       "Sat"
     ],
     "start": 570,
     "end": 575,
-    "duration": 5,
     "publicity": 0,
     "title": "Señor danos este dia",
     "resource": "",
@@ -3030,13 +3030,13 @@
     "temporada": 0
   },
   {
+    "id": 175,
     "channel": 13,
     "weekday": [
       "Sat"
     ],
     "start": 575,
     "end": 600,
-    "duration": 25,
     "publicity": 0,
     "title": "Documental",
     "resource": "",
@@ -3046,13 +3046,13 @@
     "temporada": 0
   },
   {
+    "id": 176,
     "channel": 13,
     "weekday": [
       "Sat"
     ],
     "start": 600,
     "end": 690,
-    "duration": 90,
     "publicity": 0,
     "title": "Hombre mundo",
     "resource": "",
@@ -3062,13 +3062,13 @@
     "temporada": 0
   },
   {
+    "id": 177,
     "channel": 13,
     "weekday": [
       "Sat"
     ],
     "start": 690,
     "end": 720,
-    "duration": 30,
     "publicity": 0,
     "title": "Dibujos animados",
     "resource": "",
@@ -3078,13 +3078,13 @@
     "temporada": 0
   },
   {
+    "id": 178,
     "channel": 13,
     "weekday": [
       "Sat"
     ],
     "start": 720,
     "end": 780,
-    "duration": 60,
     "publicity": 0,
     "title": "El maravilloso mundo de los animales",
     "resource": "",
@@ -3094,13 +3094,13 @@
     "temporada": 0
   },
   {
+    "id": 179,
     "channel": 13,
     "weekday": [
       "Sat"
     ],
     "start": 780,
     "end": 870,
-    "duration": 90,
     "publicity": 0,
     "title": "Tarzan y el safari perdido / Las peliculas de Jerry Lewis",
     "resource": "",
@@ -3110,13 +3110,13 @@
     "temporada": 0
   },
   {
+    "id": 180,
     "channel": 13,
     "weekday": [
       "Sat"
     ],
     "start": 870,
     "end": 1260,
-    "duration": 210,
     "publicity": 0,
     "title": "Badia y compañía",
     "resource": "",
@@ -3126,13 +3126,13 @@
     "temporada": 0
   },
   {
+    "id": 181,
     "channel": 13,
     "weekday": [
       "Sat"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Porcelandia",
     "resource": "",
@@ -3142,13 +3142,13 @@
     "temporada": 0
   },
   {
+    "id": 182,
     "channel": 13,
     "weekday": [
       "Sat"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 60,
     "publicity": 0,
     "title": "Alguien como usted",
     "resource": "",
@@ -3158,13 +3158,13 @@
     "temporada": 0
   },
   {
+    "id": 183,
     "channel": 13,
     "weekday": [
       "Sat"
     ],
     "start": 1380,
     "end": 0,
-    "duration": 60,
     "publicity": 0,
     "title": "Los grandes temas medicos",
     "resource": "",
@@ -3174,13 +3174,13 @@
     "temporada": 0
   },
   {
+    "id": 184,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 0,
     "end": 120,
-    "duration": 120,
     "publicity": 0,
     "title": "Trasnoche",
     "resource": "",
@@ -3190,13 +3190,13 @@
     "temporada": 0
   },
   {
+    "id": 185,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 120,
     "end": 125,
-    "duration": 5,
     "publicity": 0,
     "title": "Momento de meditacion",
     "resource": "",
@@ -3206,13 +3206,13 @@
     "temporada": 0
   },
   {
+    "id": 186,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 540,
     "end": 555,
-    "duration": 15,
     "publicity": 0,
     "title": "El evangelio y la actualidad",
     "resource": "",
@@ -3222,13 +3222,13 @@
     "temporada": 0
   },
   {
+    "id": 187,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 555,
     "end": 645,
-    "duration": 45,
     "publicity": 0,
     "title": "Por amor a Dios",
     "resource": "",
@@ -3238,13 +3238,13 @@
     "temporada": 0
   },
   {
+    "id": 188,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 645,
     "end": 705,
-    "duration": 60,
     "publicity": 0,
     "title": "Mirando el futuro",
     "resource": "",
@@ -3254,13 +3254,13 @@
     "temporada": 0
   },
   {
+    "id": 189,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 705,
     "end": 765,
-    "duration": 60,
     "publicity": 0,
     "title": "Misterio a la orden",
     "resource": "",
@@ -3270,13 +3270,13 @@
     "temporada": 0
   },
   {
+    "id": 190,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 765,
     "end": 825,
-    "duration": 60,
     "publicity": 0,
     "title": "Polemica en el futbol",
     "resource": "",
@@ -3286,13 +3286,13 @@
     "temporada": 0
   },
   {
+    "id": 191,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 780,
     "end": 870,
-    "duration": 90,
     "publicity": 0,
     "title": "Las chancletas de papa",
     "resource": "",
@@ -3302,13 +3302,13 @@
     "temporada": 0
   },
   {
+    "id": 192,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 870,
     "end": 1110,
-    "duration": 240,
     "publicity": 0,
     "title": "Cine",
     "resource": "",
@@ -3318,13 +3318,13 @@
     "temporada": 0
   },
   {
+    "id": 193,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 1110,
     "end": 1200,
-    "duration": 90,
     "publicity": 0,
     "title": "El deporte y el hombre",
     "resource": "",
@@ -3334,13 +3334,13 @@
     "temporada": 0
   },
   {
+    "id": 194,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 1200,
     "end": 1260,
-    "duration": 60,
     "publicity": 0,
     "title": "El show de…",
     "resource": "",
@@ -3350,13 +3350,13 @@
     "temporada": 0
   },
   {
+    "id": 195,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 1260,
     "end": 1320,
-    "duration": 60,
     "publicity": 0,
     "title": "Los Hart (antes: Fama)",
     "resource": "",
@@ -3366,13 +3366,13 @@
     "temporada": 1
   },
   {
+    "id": 196,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 1320,
     "end": 1380,
-    "duration": 60,
     "publicity": 0,
     "title": "Historia de un trepador",
     "resource": "",
@@ -3382,13 +3382,13 @@
     "temporada": 1
   },
   {
+    "id": 197,
     "channel": 13,
     "weekday": [
       "Sun"
     ],
     "start": 1380,
     "end": 60,
-    "duration": 60,
     "publicity": 0,
     "title": "Falcon Crest",
     "resource": "",
@@ -3398,13 +3398,13 @@
     "temporada": 1
   },
   {
+    "id": 198,
     "channel": 13,
     "weekday": [
       "Mon"
     ],
     "start": 0,
     "end": 60,
-    "duration": 60,
     "publicity": 0,
     "title": "Programa especial dedicado al Paraguay / El sexto sentido",
     "resource": "",
@@ -3414,13 +3414,13 @@
     "temporada": 0
   },
   {
+    "id": 199,
     "channel": 13,
     "weekday": [
       "Mon"
     ],
     "start": 60,
     "end": 150,
-    "duration": 90,
     "publicity": 0,
     "title": "Trasnoche",
     "resource": "",
@@ -3428,5 +3428,434 @@
     "last_seen_episode": 0,
     "description": "hoy: EL hombre dinamita, con James Stewart, George Kennedy",
     "temporada": 0
-  }
+  },
+  {
+        "id": 200,
+        "channel": 2,
+        "weekday": ["Mon"],
+        "start": 30,
+        "end": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise30",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Lu 0:30 a 1:00 !!!"
+    },
+    {
+        "id": 201,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+        "start": 60,
+        "end": 120,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Ma a Sab 1:00 a 2:00"
+    },
+    {
+        "id": 202,
+        "channel": 2,
+        "weekday": ["Sun"],
+        "start": 90,
+        "end": 120,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise30",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "Dom 1:30 a 2:00 !!!"
+    },
+    {
+        "id": 203,
+        "channel": 2,
+        "weekday": ["Tue", "Wed", "Thu", "Fri", "Sat"],
+        "start": 120,
+        "end": 180,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "2:00 a 3:00"
+    },
+    {
+        "id": 204,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 180,
+        "end": 240,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "3:00 a 4:00"
+    },
+    {
+        "id": 205,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 240,
+        "end": 300,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "4:00 a 5:00"
+    },
+    {
+        "id": 206,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 300,
+        "end": 360,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "5:00 a 6:00"
+    },
+    {
+        "id": 207,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 360,
+        "end": 420,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "6:00 a 7:00"
+    },
+    {
+        "id": 208,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 420,
+        "end": 480,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "7:00 a 8:00"
+    },
+    {
+        "id": 209,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 480,
+        "end": 540,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "8:00 a 9:00"
+    },
+    {
+        "id": 210,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 540,
+        "end": 600,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "9:00 a 10:00"
+    },
+    {
+        "id": 211,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 600,
+        "end": 660,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "10:00 a 11:00"
+    },
+    {
+        "id": 212,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 660,
+        "end": 720,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "11:00 a 12:00"
+    },
+    {
+        "id": 213,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 720,
+        "end": 780,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "12:00 a 13:00"
+    },
+    {
+        "id": 214,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 780,
+        "end": 840,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "13:00 a 14:00"
+    },
+    {
+        "id": 215,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 840,
+        "end": 900,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "14:00 a 15:00"
+    },
+    {
+        "id": 216,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 900,
+        "end": 960,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "15:00 a 16:00"
+    },
+    {
+        "id": 217,
+        "channel": 2,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 960,
+        "end": 1020,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "16:00 a 17:00"
+    },
+    {
+        "id": 218,
+        "channel": 2,
+        "weekday": ["Sat"],
+        "start": 960,
+        "end": 990,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise30",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "16:00 a 16:30 !!! Solo 30 min"
+    },
+    {
+        "id": 219,
+        "channel": 7,
+        "weekday": ["Tue", "Wed", "Thu", "Fri", "Sat"],
+        "start": 60,
+        "end": 120,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "1:00 a 2:00"
+    },
+    {
+        "id": 220,
+        "channel": 7,
+        "weekday": ["Tue", "Wed", "Thu", "Fri", "Sat"],
+        "start": 120,
+        "end": 180,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "2:00 a 3:00"
+    },
+    {
+        "id": 221,
+        "channel": 7,
+        "weekday": ["Sun", "Mon"],
+        "start": 150,
+        "end": 180,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise30",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "2:30 a 3:00"
+    },
+    {
+        "id": 222,
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 180,
+        "end": 240,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "3:00 a 4:00"
+    },
+    {
+        "id": 223,
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 240,
+        "end": 300,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "4:00 a 5:00"
+    },
+    {
+        "id": 224,
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 300,
+        "end": 360,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "5:00 a 6:00"
+    },
+    {
+        "id": 225,
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 360,
+        "end": 420,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "6:00 a 7:00"
+    },
+    {
+        "id": 226,
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 420,
+        "end": 480,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "7:00 a 8:00"
+    },
+    {
+        "id": 227,
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "start": 480,
+        "end": 540,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "8:00 a 9:00"
+    },
+    {
+        "id": 228,
+        "channel": 7,
+        "weekday": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+        "start": 540,
+        "end": 570,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise30",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "9:00 a 9:30"
+    },
+    {
+        "id": 228,
+        "channel": 7,
+        "weekday": ["Sat", "Sun"],
+        "start": 540,
+        "end": 600,
+        "duration": 60,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise60",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "9:00 a 10:00"
+    },
+    {
+        "id": 229,
+        "channel": 7,
+        "weekday": ["Sat", "Sun"],
+        "start": 600,
+        "end": 630,
+        "duration": 30,
+        "publicity": 0,
+        "title": "Noise - transmission ended",
+        "resource": "https://localhost/tv/noise30",
+        "total_episodes": 0,
+        "last_seen_episode": 0,
+        "description": "10:00 a 10:30"
+    }
 ]
