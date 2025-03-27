@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de YouTube</title>
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+    <div id="youtubeContainer"></div>
+
+    <script>
+        let player;
+
+        // Esta función se llama cuando la API de YouTube está lista
+        function onYouTubeIframeAPIReady() {
+            console.log("API de YouTube lista");
+            player = new YT.Player('youtubeContainer', {
+                height: '390',
+                width: '640',
+                videoId: 'nuDKz7EaHNE', // Reemplaza con el ID de tu video
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            console.log("Reproductor de YouTube listo");
+            const duration = Math.floor(event.target.getDuration() / 60);
+            console.log('duracion: ',duration);
+            // Adelantar al minuto 10 (600 segundos)
+            event.target.seekTo(600, true); // 10 minutos en segundos
+            event.target.playVideo(); // Iniciar la reproducción
+        }
+
+        function onPlayerStateChange(event) {
+            if (event.data === YT.PlayerState.ENDED) {
+                console.log("El video ha terminado.");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+// This is a QBasic simulation of the Hagelin cryptographer C-35.
+//
+//      Programmed 1997-06-04 by
+//      ------------------------
+//      Torbjoern Andersson            e-mail: tan@gotland.mail.telia.com
+//      Oestervaeg 18
+//      S-621 45  VISBY
+//      SWEDEN
+//
+CLS
+PRINT "C-35 SIMULATION"
+PRINT
+GOSUB initialization
+
+   ck = 0
+   DO WHILE ck = 0
+      INPUT "Enter first letter of message key  (ABCDEFGHIJKLMNOPQRSTUVXY or Z)        "; m$
+      ck = INSTR(m$(1), m$)
+   LOOP
+   msgky$ = m$
+   widx(1) = ck
+   ck = 0
+   DO WHILE ck = 0
+      INPUT "Enter second letter of message key (ABCDEFGHIJKLMNOPQRSTUV or X)      "; m$
+      ck = INSTR(m$(2), m$)
+   LOOP
+   msgky$ = msgky$ + m$
+   widx(2) = ck
+   ck = 0
+   DO WHILE ck = 0
+      INPUT "Enter third letter of message key  (ABCDEFGHIJKLMNOPQRST or U)    "; m$
+      ck = INSTR(m$(3), m$)
+   LOOP
+   msgky$ = msgky$ + m$
+   widx(3) = ck
+   ck = 0
+   DO WHILE ck = 0
+      INPUT "Enter fourth letter of message key (ABCDEFGHIJKLMNOPQR or S)  "; m$
+      ck = INSTR(m$(4), m$)
+   LOOP
+   msgky$ = msgky$ + m$
+   widx(4) = ck
+   ck = 0
+   DO WHILE ck = 0
+      INPUT "Enter last letter of message key   (ABCDEFGHIJKLMNOP or Q)"; m$
+      ck = INSTR(m$(5), m$)
+   LOOP
+   msgky$ = msgky$ + m$
+   widx(5) = ck
+   PRINT
+   PRINT "Message Key set. Enter 'E' to Encrypt or 'D' to Decrypt..."
+   INPUT ed$
+   ed$ = UCASE$(ed$)
+   IF ed$ = "E" THEN
+      PRINT
+      PRINT "Type in your cleartext. The letter 'Z' may be used for 'space'."
+      PRINT "Type backslash (\) to finish entering text."
+      PRINT
+beg.encrypt:
+      DO
+         a$ = INKEY$
+      LOOP WHILE a$ = ""
+      IF a$ <> "\" THEN
+         a = INSTR(alphabet$, UCASE$(a$))
+         IF a > 0 THEN
+            GOSUB crypto
+            PRINT CHR$(a + 65);
+            count = count + 1
+            IF count = 5 THEN
+               count = 0
+               PRINT " ";
+               group = group + 1
+               IF group = 10 THEN
+                  group = 0
+                  PRINT
+               END IF
+            END IF
+         END IF
+         GOTO beg.encrypt
+      ELSE
+         PRINT
+         INPUT "Hit RETURN to quit program..."; dummy$
+         END
+      END IF
+   ELSE
+      IF ed$ = "D" THEN
+         PRINT
+         PRINT "Type in your cryptogram."
+         PRINT "Type backslash (\) to finish entering text."
+         PRINT
+beg.decrypt:
+         DO
+            a$ = INKEY$
+         LOOP WHILE a$ = ""
+         IF a$ <> "\" THEN
+            a = INSTR(alphabet$, UCASE$(a$))
+            IF a > 0 THEN
+               GOSUB crypto
+               IF a = 25 THEN
+                  PRINT "z";
+               ELSE
+                  PRINT CHR$(a + 65);
+               END IF
+            END IF
+         ELSE
+            PRINT
+            INPUT "Hit RETURN to quit program..."; dummy$
+            END
+         END IF
+      END IF
+GOTO beg.decrypt
+   END IF
+END
+
+crypto:
+   x = 0
+   FOR i = 1 TO 5
+      widx(i) = widx(i) + 1
+      IF widx(i) > LEN(m$(i)) THEN widx(i) = 1
+      IF MID$(w$(i), widx(i), 1) = "1" THEN x = x + lug(i)
+   NEXT i
+   a = a - 1
+   a = (27 - a + x) MOD 26
+RETURN
+
+
+initialization:
+   alphabet$ = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+   m$(1) = "ABCDEFGHIJKLMNOPQRSTUVXYZ"
+   m$(2) = "ABCDEFGHIJKLMNOPQRSTUVX"
+   m$(3) = "ABCDEFGHIJKLMNOPQRSTU"
+   m$(4) = "ABCDEFGHIJKLMNOPQRS"
+   m$(5) = "ABCDEFGHIJKLMNOPQ"
+   // This is a sample Base Key
+   //
+   // Pin settings for wheels 1 - 5
+   w$(1) = "1100110001010101010110100"
+   w$(2) = "00100011100110111001101"
+   w$(3) = "101001101101010100100"
+   w$(4) = "1001101111010100111"
+   w$(5) = "00010101110100100"
+   //
+   // The lug settings used by the C-35 were not changable and
+   // consisted of the numbers 1, 2, 4, 8 and 10 divided on 25
+   // lugs.
+   lug(1) = 1: lug(2) = 2: lug(3) = 4: lug(4) = 8: lug(5) = 10
+RETURN
+
+
+</script>
+</body>
+</html>

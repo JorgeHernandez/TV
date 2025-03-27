@@ -13,10 +13,10 @@
         ],
         "start": 0,
         "end": 60,
-        "publicity": 0,
-        "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise60",
-        "total_episodes": 0,
+        "publicity": 1,
+        "title": "SWAT",
+        "resource": "https:\/\/localhost\/tv\/Fame",
+        "total_episodes": 1,
         "last_seen_episode": 0,
         "description": ""
     },
@@ -34,12 +34,18 @@
         ],
         "start": 60,
         "end": 120,
-        "publicity": 0,
-        "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise60",
-        "total_episodes": 0,
-        "last_seen_episode": 0,
-        "description": ""
+        "publicity": 1,
+        "title": "Dos tipos audaces",
+        "resource": [
+            "https:\/\/www.youtube.com\/watch?v=9weiV227kcQ",
+            "https:\/\/www.youtube.com\/watch?v=vHT8rmCnexQ",
+            "https:\/\/www.youtube.com\/watch?v=UdRM941xLUo",
+            "https:\/\/www.youtube.com\/watch?v=GG1EjBmTrFQ",
+            "https:\/\/www.youtube.com\/watch?v=rEbU3B1tKDU"
+        ],
+        "total_episodes": 5,
+        "last_seen_episode": 2,
+        "description": "Serie con Roger Moore y Tony Curtiss"
     },
     {
         "id": 3,
@@ -55,10 +61,12 @@
         ],
         "start": 120,
         "end": 180,
-        "publicity": 0,
-        "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise60",
-        "total_episodes": 0,
+        "publicity": 1,
+        "title": "Los Hart",
+        "resource": [
+            "https:\/\/www.youtube.com\/watch?v=nuDKz7EaHNE"
+        ],
+        "total_episodes": 1,
         "last_seen_episode": 0,
         "description": ""
     },
@@ -76,10 +84,31 @@
         ],
         "start": 180,
         "end": 240,
-        "publicity": 0,
-        "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise60",
-        "total_episodes": 0,
+        "publicity": 1,
+        "title": "Gavilan",
+        "resource": "https:\/\/localhost\/tv\/Gavilan",
+        "total_episodes": 2,
+        "last_seen_episode": 0,
+        "description": ""
+    },
+    {
+        "id": 999,
+        "channel": 7,
+        "weekday": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+        ],
+        "start": 180,
+        "end": 240,
+        "publicity": 1,
+        "title": "SWAT",
+        "resource": "https:\/\/localhost\/tv\/SWAT",
+        "total_episodes": 1,
         "last_seen_episode": 0,
         "description": ""
     },
@@ -97,12 +126,12 @@
         ],
         "start": 240,
         "end": 300,
-        "publicity": 0,
-        "title": "Noise - transmission ended",
-        "resource": "https:\/\/localhost\/tv\/noise60",
-        "total_episodes": 0,
-        "last_seen_episode": 0,
-        "description": ""
+        "publicity": 1,
+        "title": "Sheriff Lobo",
+        "resource": "https:\/\/localhost\/tv\/SheriffLobo",
+        "total_episodes": 2,
+        "last_seen_episode": 1,
+        "description": "Serie con Claude Atkins"
     },
     {
         "id": 6,
@@ -204,10 +233,12 @@
         "end": 600,
         "publicity": 1,
         "title": "Cordialmente",
-        "resource": "https:\/\/www.youtube.com\/watch?v=RfCEM6JcV4E",
+        "resource": [
+            "https:\/\/www.youtube.com\/watch?v=RfCEM6JcV4E"
+        ],
         "total_episodes": 0,
         "last_seen_episode": 0,
-        "description": "Programa de inter\u00e9s general con Juan Carlos Mareco - Empieza a "
+        "description": "Programa de interes general con Juan Carlos Mareco"
     },
     {
         "id": 11,
@@ -359,7 +390,7 @@
         "title": "Danger Man",
         "resource": "https:\/\/localhost\/tv\/DangerMan",
         "total_episodes": 4,
-        "last_seen_episode": 0,
+        "last_seen_episode": 1,
         "description": "Serie de espionaje 16 a 16:30"
     },
     {
@@ -464,7 +495,7 @@
         "title": "Las aventuras de BJ",
         "resource": "https:\/\/localhost\/tv\/BJ",
         "total_episodes": 2,
-        "last_seen_episode": 0,
+        "last_seen_episode": 1,
         "description": "Serie con Greg Evigan 21:00 a 22:00"
     },
     {
@@ -485,7 +516,7 @@
         "title": "Gavilan",
         "resource": "https:\/\/localhost\/tv\/Gavilan",
         "total_episodes": 2,
-        "last_seen_episode": 0,
+        "last_seen_episode": 1,
         "description": "Serie con Robert Urich 22:00 a 23:00"
     },
     {
@@ -506,7 +537,7 @@
         "title": "Sheriff Lobo",
         "resource": "https:\/\/localhost\/tv\/SheriffLobo",
         "total_episodes": 2,
-        "last_seen_episode": 0,
+        "last_seen_episode": 1,
         "description": "Serie con Claude Atkins 23:00 a 24:00"
     }
 ]
