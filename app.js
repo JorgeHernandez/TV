@@ -273,7 +273,6 @@
         init(currentProgram, currentTime) {
             //si last_seen_episode = 0, reproducir el primer url del array
             const videoId = YouTubePlayer.extractYouTubeID(currentProgram.resource[currentProgram.last_seen_episode]);
-            //const videoId = YouTubePlayer.extractYouTubeID(currentProgram.resource);
             const iframeHTML = `<iframe id="youtube-player" width="600" height="400" src="https://www.youtube.com/embed/${videoId}?enablejsapi=1&origin=http://localhost&start=${currentTime}" frameborder="0" allowfullscreen></iframe>`;
             const container = document.getElementById(this.containerId);
             container.innerHTML = iframeHTML;
@@ -318,7 +317,6 @@
         //inicializar un timer del tiempo de reproduccion (duracion menos minutos transcurridos desde el inicio del slot)
         //cuando finaliza el show, cambiar el display, destruir el iframe y llamar a la publicidad
         callPublicityFromYT(currentProgram, durationInSeconds, currentTime){
-            //FIX ME: calcular el valor del timeOut. 2940000 millisec son 49 min de los Hart
             console.log('setting timeout for publicity');
 
             // Limpiar el temporizador anterior si existe
@@ -343,7 +341,7 @@
                 // Actualizar el último episodio visto
                 this.updateLastSeenEpisodeFunc(currentProgram);
 
-            }, 2940000); // Convertir minutos a milisegundos
+            }, 2940000); // Convertir minutos a milisegundos: FIX ME!!!! falta calcular esto!!!!
         }
     }
 

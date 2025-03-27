@@ -9,7 +9,7 @@ function getVideoDuration($videoUrl, $apiKey) {
     $videoId = $query['v'] ?? null;
 
     if (!$videoId) {
-        return 'dddd'; // Regresar 0 en caso de error
+        return 0; // Regresar 0 en caso de error
     }
 
     // Construir la URL de la API
@@ -67,7 +67,7 @@ function convertDurationToSeconds($duration) {
 // Obtener la URL del video desde la solicitud GET
 if (isset($_GET['url'])) {
     $videoUrl = $_GET['url'];
-    $apiKey = 'AIzaSyDeyUInaQjw6zV2N3IvL753CkU3Wr7jUhA'; // Reemplaza con tu API Key
+    $apiKey = ''; // Reemplaza con tu API Key
     $durationInSeconds = getVideoDuration($videoUrl, $apiKey);
     
     // Devolver la duración en segundos
